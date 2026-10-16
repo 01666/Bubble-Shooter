@@ -1,0 +1,21 @@
+{
+    "name": "CandySmith.Ads",
+    "references": [
+        "GUID:ff6de30450f3748908ff580f6ec64d9a",
+        "IronsourceAssembly"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.ads",
+            "expression": "",
+            "define": "UNITY_ADS"
+        }
+    ]
+}

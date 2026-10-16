@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>双彩助攻与遗迹导电网 · 表现预览</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./preview.css" />
+  </head>
+  <body>
+    <main>
+      <section id="cabinet">
+        <canvas id="scene"></canvas><canvas id="effects" aria-label="机制演出"></canvas>
+      </section>
+      <aside>
+        <p class="eyebrow">ART PREVIEW / INTERFACE V1</p>
+        <h1>双彩助攻 × 遗迹导电网</h1>
+        <p class="notice">
+          独立模拟演出，无投币、存档、开奖或出票。沿用1.2场景与角色，未接入正式游戏。
+        </p>
+        <div class="controls">
+          <button id="charge">成功蓄一格</button><button id="launch">双色＋导电＋宝箱</button
+          ><button id="one">仅蓝色成立</button><button id="miss">双色失败吸附</button
+          ><button id="dropped">节点仅掉落</button><button id="restore">恢复就绪快照</button
+          ><button id="reset">重置预览</button><button id="low">最后两球目标登场</button>
+        </div>
+        <label><input type="checkbox" id="pause" />暂停演出</label
+        ><label><input type="checkbox" id="reduced" />减少动态</label
+        ><label><input type="checkbox" id="off" />关闭新增特效</label>
+        <p>
+          <label
+            >演出时间 <input id="scrub" type="range" min="0" max="7" step="0.01" value="0"
+          /></label>
+        </p>
+        <label
+          >质量档位
+          <select id="quality">
+            <option value="low">低</option>
+            <option value="medium" selected>中</option>
+            <option value="high">高</option>
+          </select></label
+        >
+        <label><input type="checkbox" id="original" />对比原光影（关闭本轮升级）</label>
+        <label><input type="checkbox" id="background-run" />允许后台预览／录制（仅此模拟页）</label>
+        <div class="controls">
+          <button id="sound">开启BGM／音效试听</button
+          ><button id="record">录制7秒含音轨演示</button>
+        </div>
+        <label><input type="checkbox" id="mute" />静音（仍显示奖励文字）</label>
+        <label><input type="checkbox" id="legacy" />旧系统合成稿对照（不代表真人感达标）</label>
+        <output id="audio-status">自然中文配音资源待补；未使用系统TTS冒充真人。</output>
+        <div id="auditions"></div>
+        <a id="download" hidden download="stage-polish-demo.webm">保存含音轨演示</a>
+        <output id="status" role="status">加载认可场景…</output>
+        <p>
+          三格嵌入萌宠项圈。双彩跟随炮口和在途球；导电符号保留球的主色，连接来自显式路径。宝箱演出期间让出就绪提示。
+        </p>
+        <details>
+          <summary>输入与对象诊断</summary>
+          <pre id="diagnostics"></pre>
+        </details>
+        <p><a href="/">返回正式1.2游戏</a></p>
+      </aside>
+    </main>
+    <script src="/vendor/babylon/babylon.js"></script>
+    <script type="module" src="./preview.mjs"></script>
+  </body>
+</html>

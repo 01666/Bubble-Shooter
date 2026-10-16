@@ -1,0 +1,3560 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34837bbe8cbc404b9b56e66cd597ce19, type: 3}
+  m_Name: Level_4
+  m_EditorClassIdentifier: 
+  moves: 29
+  stars: e8030000d0070000b80b0000
+  levelType: 0
+  levelMode: 0
+  targets:
+  - target: {fileID: 11400000, guid: 66fc24e5f97848546a93b192f04550f6, type: 2}
+    count: 0
+  - target: {fileID: 11400000, guid: 4cc11f9f6e0d16d4f8df379b7a8754d4, type: 2}
+    count: 0
+  holes: 1
+  levelTypeSave: 0
+  sizeX: 10
+  sizeY: 10
+  Blocks:
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 695eafb12f71440459e261615523ce99, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 3e543c8ab1e3c4be4839ee9820c683cc, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 7466443142426348849, guid: 9887fccf4a0a74091aa572c3f11d1ecb, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: b83a13393391345a8ac6e809022bb0b6, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 695eafb12f71440459e261615523ce99, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 3e543c8ab1e3c4be4839ee9820c683cc, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 7466443142426348849, guid: 9887fccf4a0a74091aa572c3f11d1ecb, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: b83a13393391345a8ac6e809022bb0b6, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 7466443142426348849, guid: 9887fccf4a0a74091aa572c3f11d1ecb, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: b83a13393391345a8ac6e809022bb0b6, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 7466443142426348849, guid: 9887fccf4a0a74091aa572c3f11d1ecb, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: b83a13393391345a8ac6e809022bb0b6, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 7466443142426348849, guid: ea2124a1925884dd69ab5a76c4ea2f7a, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: f799011e1c6d943ef999584b53d9595d, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 7466443142426348849, guid: 975b170e03009440db291df95fdc798d, type: 3}
+      sprite: {fileID: 21300000, guid: 6cdb337c5234342c79d68ffc063bcb6e, type: 3}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 7466443142426348849, guid: 69aa411b2e1d9408a88ea07d480139d7, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 70f5ac23b21144ca2b0c87f8990f522e, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 7466443142426348849, guid: 69aa411b2e1d9408a88ea07d480139d7, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 70f5ac23b21144ca2b0c87f8990f522e, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 695eafb12f71440459e261615523ce99, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 3e543c8ab1e3c4be4839ee9820c683cc, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 695eafb12f71440459e261615523ce99, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 3e543c8ab1e3c4be4839ee9820c683cc, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 7466443142426348849, guid: 975b170e03009440db291df95fdc798d, type: 3}
+      sprite: {fileID: 21300000, guid: 6cdb337c5234342c79d68ffc063bcb6e, type: 3}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 86f820f8c5a17468e8bd7d82f9bfdaab, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 9fe96076922d541baaa0dcc76da7f203, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 695eafb12f71440459e261615523ce99, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 3e543c8ab1e3c4be4839ee9820c683cc, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 695eafb12f71440459e261615523ce99, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 3e543c8ab1e3c4be4839ee9820c683cc, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 7466443142426348849, guid: ea2124a1925884dd69ab5a76c4ea2f7a, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: f799011e1c6d943ef999584b53d9595d, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 86f820f8c5a17468e8bd7d82f9bfdaab, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 9fe96076922d541baaa0dcc76da7f203, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 7466443142426348849, guid: ea2124a1925884dd69ab5a76c4ea2f7a, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: f799011e1c6d943ef999584b53d9595d, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 7466443142426348849, guid: 9887fccf4a0a74091aa572c3f11d1ecb, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: b83a13393391345a8ac6e809022bb0b6, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 7466443142426348849, guid: ea2124a1925884dd69ab5a76c4ea2f7a, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: f799011e1c6d943ef999584b53d9595d, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 7466443142426348849, guid: 69aa411b2e1d9408a88ea07d480139d7, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 70f5ac23b21144ca2b0c87f8990f522e, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 7466443142426348849, guid: 69aa411b2e1d9408a88ea07d480139d7, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 70f5ac23b21144ca2b0c87f8990f522e, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 86f820f8c5a17468e8bd7d82f9bfdaab, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 9fe96076922d541baaa0dcc76da7f203, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 7466443142426348849, guid: 9887fccf4a0a74091aa572c3f11d1ecb, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: b83a13393391345a8ac6e809022bb0b6, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.34, y: 0.345, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 86f820f8c5a17468e8bd7d82f9bfdaab, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 9fe96076922d541baaa0dcc76da7f203, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 86f820f8c5a17468e8bd7d82f9bfdaab, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 9fe96076922d541baaa0dcc76da7f203, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 86f820f8c5a17468e8bd7d82f9bfdaab, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 9fe96076922d541baaa0dcc76da7f203, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 7466443142426348849, guid: 975b170e03009440db291df95fdc798d, type: 3}
+      sprite: {fileID: 21300000, guid: 6cdb337c5234342c79d68ffc063bcb6e, type: 3}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 86f820f8c5a17468e8bd7d82f9bfdaab, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 9fe96076922d541baaa0dcc76da7f203, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 695eafb12f71440459e261615523ce99, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 3e543c8ab1e3c4be4839ee9820c683cc, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 695eafb12f71440459e261615523ce99, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 3e543c8ab1e3c4be4839ee9820c683cc, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 7466443142426348849, guid: 975b170e03009440db291df95fdc798d, type: 3}
+      sprite: {fileID: 21300000, guid: 6cdb337c5234342c79d68ffc063bcb6e, type: 3}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 695eafb12f71440459e261615523ce99, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 3e543c8ab1e3c4be4839ee9820c683cc, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 6504844624775813053, guid: 548cb250df3474733b6c85b45fafb4a8, type: 3}
+      sprite: {fileID: 0}
+      spriteStructs:
+      - sprite: {fileID: 21300000, guid: 7df09eb25a10341f5b400389837b94b3, type: 3}
+        localPos: {x: 0, y: 0, z: 0}
+        localScale: {x: 1, y: 1, z: 1}
+        localBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        spriteBounds:
+          m_Center: {x: 0, y: 0, z: 0}
+          m_Extent: {x: 0.7, y: 0.7, z: 0.1}
+        eulerAnglesZ: 0
+        globalScale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  - levelElement:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    cover:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    hidden:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    label:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+    holding:
+      Prefab: {fileID: 0}
+      sprite: {fileID: 0}
+      spriteStructs: []
+      rotation: {x: 0, y: 0, z: 0, w: 0}
+      brushType: 0
+  targetsIndeces: 
+  tutorial: {fileID: 0}
+  background: {fileID: 21300000, guid: 2ab390ea8f634f84fa5586043ad637af, type: 3}
+  randomBallColors: 010101010000

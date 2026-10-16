@@ -1,0 +1,3781 @@
+{
+  "version": "1.8.0",
+  "date": "2026-10-14",
+  "files": [
+    {
+      "path": "docs/01-运行与操作.md",
+      "bytes": 3759,
+      "sha256": "83825f33b348d140430fd75a2137ab22658863cf9c00fe8e73f2816290c49a85"
+    },
+    {
+      "path": "docs/02-文件与代码结构.md",
+      "bytes": 6748,
+      "sha256": "b0913265b0463e62516e8d29b9eb96221a48bf676e33b5638a9d77d12c81e3a5"
+    },
+    {
+      "path": "docs/03-玩法与数值现状.md",
+      "bytes": 7118,
+      "sha256": "653f4c4800167c9fd4231af1b7e7a91d57a297368c4998abad10a4f16915254d"
+    },
+    {
+      "path": "docs/04-状态账务与设备.md",
+      "bytes": 4676,
+      "sha256": "0883fbcf153d0eef81d649eaf9035e6e38178ab1c7195e18c46ec2c4e4b19e4f"
+    },
+    {
+      "path": "docs/05-美术声音与资源.md",
+      "bytes": 4401,
+      "sha256": "6fb72deaa3a02f6e3d7b55fc1bc17c55840065fe50c788184d05ebefa3f063b9"
+    },
+    {
+      "path": "docs/06-验证与发布.md",
+      "bytes": 4631,
+      "sha256": "7a34179a74b19aac14690928511a7e2c92ee629ed871b27e6917f3f8758a0b4d"
+    },
+    {
+      "path": "docs/07-后续迭代规划.md",
+      "bytes": 7810,
+      "sha256": "2b7794e1e9e5ef6f82c786de42b917d44d57920074de0582fb768ce868b98cb0"
+    },
+    {
+      "path": "docs/08-协作与接手规范.md",
+      "bytes": 2246,
+      "sha256": "f816f96a20a2243690630ed16c664eadbd6b3483221a6efbdd09fb9adfeed023"
+    },
+    {
+      "path": "docs/09-整理记录与已知限制.md",
+      "bytes": 3534,
+      "sha256": "6737633794697a888fd7f91750558db00025fe2acb329d34bf4304b5ca2cab3e"
+    },
+    {
+      "path": "docs/1.5.1-project-inventory.json",
+      "bytes": 24631,
+      "sha256": "d793eac275d7ec17c7e1e326795c40c4e3a5f10d4587db758cd53e9d4b9af21b"
+    },
+    {
+      "path": "docs/1.6.0-project-inventory.json",
+      "bytes": 25609,
+      "sha256": "5bf96ff35c80efcec1d5704aa4b251f60d28d4d47b97a23cfb7c2390de6c7b5d"
+    },
+    {
+      "path": "docs/1.8.0-project-inventory.json",
+      "bytes": 34064,
+      "sha256": "d7dd2cceb63addd05ca82c0366a606f21f9e209627b65b2bc92e0bb68a239ed1"
+    },
+    {
+      "path": "docs/10-1.1萌宠寻宝.md",
+      "bytes": 8985,
+      "sha256": "469a20da09a4e6d5a791199401ca0ab6729ec07b0bd256a1745faa12b08e3170"
+    },
+    {
+      "path": "docs/11-下一轮机制建议.md",
+      "bytes": 29958,
+      "sha256": "ec57be0525031314d8a9cde235aed106ce662e9d3fba5e2a673436e57b29ee14"
+    },
+    {
+      "path": "docs/12-双彩与导电网接口.md",
+      "bytes": 28927,
+      "sha256": "371320101f4c0196f8e203b5e75f3de2123d403109f6e123215a98408fa99a7e"
+    },
+    {
+      "path": "docs/13-双彩与导电网表现接入.md",
+      "bytes": 8987,
+      "sha256": "ec659ced593a755102e1c56a8afcde955ca41ffdea65a7afb30036a4166405d3"
+    },
+    {
+      "path": "docs/14-1.3整合交付.md",
+      "bytes": 6381,
+      "sha256": "1278b745ba996cd882c0f94a000b26c6699aec9e8d2449c4a2b29b7e4f8d0f7a"
+    },
+    {
+      "path": "docs/15-1.3.1密集盘面与机制可读性.md",
+      "bytes": 4543,
+      "sha256": "fa5a0b3af882fa696d04525e48e27a058de65a499105a244c4b3fa052566c67c"
+    },
+    {
+      "path": "docs/16-1.3.2实际盘面与动态修正.md",
+      "bytes": 4160,
+      "sha256": "f4b1012e61669100415581443171b6bcfbc5ef433524f2166333f84a24e43099"
+    },
+    {
+      "path": "docs/17-1.4.0顶部波次与随机闪电.md",
+      "bytes": 5698,
+      "sha256": "1f133defce5945428fc550be56fbaed82430757de214f810bf512fa613671581"
+    },
+    {
+      "path": "docs/18-1.4.1盘面节奏与演出升级.md",
+      "bytes": 4170,
+      "sha256": "e754423c487fa9949feb061b05cd8b4893ef1a50b1ae7449f05ab533b07abcd6"
+    },
+    {
+      "path": "docs/19-1.4.2配色与连续得分音效.md",
+      "bytes": 3052,
+      "sha256": "65787cf26071ec486970d2ef953402448be48fda12be1516eb245f798b963d03"
+    },
+    {
+      "path": "docs/20-1.5完整产品规格与决策记录.md",
+      "bytes": 65445,
+      "sha256": "ea6e8d1b1241e05f7c386bea3f88b51ef1915f5b424cc07b5f7b7eb15f27833b"
+    },
+    {
+      "path": "docs/21-1.5.1工程结构与整理验收.md",
+      "bytes": 12575,
+      "sha256": "28022c8a82f13ff76af847d80760989f6d2ffea7d08a07e99b7145aceab28b26"
+    },
+    {
+      "path": "docs/22-1.5.2低余球登场位置与节奏.md",
+      "bytes": 2137,
+      "sha256": "ead6c513a291a49474ccf28faaa2ad68f1a0c5f6efb762a58999cc462e55c4ac"
+    },
+    {
+      "path": "docs/23-1.5.3低余球特殊球数量.md",
+      "bytes": 1700,
+      "sha256": "79e7bbab240f56d97eaa2629d176e15faddfff08fa978074133853485dabbcbe"
+    },
+    {
+      "path": "docs/24-1.5.4完整特殊球批次与表现.md",
+      "bytes": 2612,
+      "sha256": "96a1ca0480daea05877b323c9508596af7fe3ffd2bcdec324c82e45b01a8442c"
+    },
+    {
+      "path": "docs/25-1.5.5分散机会球与消除赠球.md",
+      "bytes": 3196,
+      "sha256": "a95acb50953e9226b8d93b373695a0d8b09886d5c0178b9e02e6c89513fe92cc"
+    },
+    {
+      "path": "docs/26-1.6.0完整产品规格与决策记录.md",
+      "bytes": 72467,
+      "sha256": "e774558206be7fdff625389d194e8f36fd744995215d8a761e88da9acb908228"
+    },
+    {
+      "path": "docs/27-1.6.0封版与交付记录.md",
+      "bytes": 3593,
+      "sha256": "d9fb8ac1574768de7dd12c1447f3845797c3c0fbb45b0452b714cca2ca4e882c"
+    },
+    {
+      "path": "docs/28-1.6.0-IP服务器部署.md",
+      "bytes": 3803,
+      "sha256": "eadeb97ea6f0ede3beb5cc1289972d609af909a7dcd8d49d63e4e3e43c07c712"
+    },
+    {
+      "path": "docs/29-1.6.1特殊球分布与自然生成.md",
+      "bytes": 2917,
+      "sha256": "cb324790f1cce20885cab033194bba2587c963e0f44a276ef2d9532de7ab3b52"
+    },
+    {
+      "path": "docs/30-宠物摇奖玩法交付.md",
+      "bytes": 7202,
+      "sha256": "e0d939bf3cc0ed217478e53069013ca0591512b30d0b0f07da18ef6427bbd4a9"
+    },
+    {
+      "path": "docs/31-宠物摇奖美术交付.md",
+      "bytes": 6361,
+      "sha256": "b2788eeaaa188e7207d6ef110f170dc501e1cdf7489f3eb697eada20e9c941f3"
+    },
+    {
+      "path": "docs/32-宠物摇奖验收报告.md",
+      "bytes": 7180,
+      "sha256": "3c4707fbedcaa14b8fa916b0f9650b14c1e374d1ac5cc7106f67fa849bddf1e6"
+    },
+    {
+      "path": "docs/33-1.7.0宠物摇奖整合说明.md",
+      "bytes": 4056,
+      "sha256": "25d343bff9a43f17adba2ca8f1581018569a09456f11f9b4850c14f3f23f0c86"
+    },
+    {
+      "path": "docs/34-1.7.1街机演出与常驻装置.md",
+      "bytes": 5204,
+      "sha256": "853069ede37e2296865a63ec66b15047a0b05fd65a58ec6d5d050009bcf71786"
+    },
+    {
+      "path": "docs/35-1.7.2宠物装置女声与并行摇奖.md",
+      "bytes": 5440,
+      "sha256": "10e227d9819b02ecbbff983df35b830a358e46b4c9df91513a4e3c6c2537883e"
+    },
+    {
+      "path": "docs/36-1.7.3清屏补球与限时连消.md",
+      "bytes": 4289,
+      "sha256": "340b29c0fa027f0cea887be8bb72a44117ef5cf08f8001077db5fa44139e726c"
+    },
+    {
+      "path": "docs/37-1.8.0完整产品规格与决策记录.md",
+      "bytes": 84518,
+      "sha256": "7e0e7f87765bfcd6dde95c17f24a6f370d02713859d5c93a325fe8f3f4a93807"
+    },
+    {
+      "path": "docs/38-1.8.0工程结构与封版验收.md",
+      "bytes": 12101,
+      "sha256": "3485b51ee814cf5f0c5bfafbf51460c0e17a21401e41be8d7f389706f2880b3d"
+    },
+    {
+      "path": "docs/archive-map.json",
+      "bytes": 3386,
+      "sha256": "279fb862cbdfd0e2b53eccce0b4878a1ec345a49ab3d1c5659344efba83bb246"
+    },
+    {
+      "path": "docs/assets-manifest.json",
+      "bytes": 8020,
+      "sha256": "c15a1632340a8d96a97bc8fbc7b3139c599605194194e972394e0189d8d78cdc"
+    },
+    {
+      "path": "docs/media/1.5.0-clear-reward.png",
+      "bytes": 904479,
+      "sha256": "86603c0404b40739a7d9102768d971520cebed04dc787af496adbe0f5a18e3c0"
+    },
+    {
+      "path": "docs/media/1.5.0-free.png",
+      "bytes": 884405,
+      "sha256": "2ae58dde2afd4d026bc22712b2f8a5cc9584253cd2b27828cfe4e843109cc2f2"
+    },
+    {
+      "path": "docs/media/1.5.0-paid.png",
+      "bytes": 885677,
+      "sha256": "59ebec9e0b93a7d80b3d67630f34b0417bda1e8f352a00438666870548328ebe"
+    },
+    {
+      "path": "docs/media/1.6.0-free.png",
+      "bytes": 884037,
+      "sha256": "20fbe9e3a2e4049a7d59aebebb83c03f917dfdcafd45f0c371489b251e3d6492"
+    },
+    {
+      "path": "docs/media/1.6.0-gift-award.png",
+      "bytes": 732922,
+      "sha256": "fd91b4c392700e4e6196caa7d6885637f5d257a6e7b48e667c9bb00fed8c9a9c"
+    },
+    {
+      "path": "docs/media/1.6.0-paid.png",
+      "bytes": 885290,
+      "sha256": "d4c524c1b687f3f931bd3e3326eda91a472d95ff3b57d5ef401521ae388819b1"
+    },
+    {
+      "path": "docs/media/1.8.0-free.png",
+      "bytes": 907817,
+      "sha256": "9537a8474bd4b7678b5af49ea47424a7c5d9a6e016c763733dfbb47c9c2de2ed"
+    },
+    {
+      "path": "docs/media/1.8.0-paid.png",
+      "bytes": 913722,
+      "sha256": "eb5299bd06bc4fc4bb719f8a9b7e5b5e5ed22c0cd08027b6fb128af06bdaaedd"
+    },
+    {
+      "path": "game/.prettierrc.json",
+      "bytes": 73,
+      "sha256": "d7fa1c1dee12b930b45e1f8c465b07da95fa519cfd9e3e503c76dc762617b1fb"
+    },
+    {
+      "path": "game/assets/audio/announcer/aimee-clear.wav",
+      "bytes": 63370,
+      "sha256": "8687f99f8050bb5ec358a5be2a1c3b37b4fcccab5bef28d4995996a68fe5b72c"
+    },
+    {
+      "path": "game/assets/audio/announcer/aimee-congratulations.wav",
+      "bytes": 137716,
+      "sha256": "12ec8b488f435b31f6a7510a289fa1a51754e94bf92fd021605258aad3125eb9"
+    },
+    {
+      "path": "game/assets/audio/announcer/aimee-win.wav",
+      "bytes": 68330,
+      "sha256": "c6d031561adc03183d4dc02c1b924ddeb1c64acbdcef3a598b4bf22cfef87569"
+    },
+    {
+      "path": "game/assets/audio/announcer/awesome.wav",
+      "bytes": 198970,
+      "sha256": "69fb2195546d2647882918d610b281802fc4d78374d77c94574185e4046ac7e3"
+    },
+    {
+      "path": "game/assets/audio/announcer/congratulations.wav",
+      "bytes": 420226,
+      "sha256": "5d498a0cfd7d7fd9f0f6a8474433064de8475ad74e79081ec306adc0701775e1"
+    },
+    {
+      "path": "game/assets/audio/announcer/female-wow.mp3",
+      "bytes": 18480,
+      "sha256": "4c34449cd6b75088c219f6a3caab6761f0f955feb7240df51ed26927fdc2ba1c"
+    },
+    {
+      "path": "game/assets/audio/announcer/kenney-congratulations.ogg",
+      "bytes": 13609,
+      "sha256": "a2a09925af456d0b20c017cf57d217a18ccf4d6c95beed245acc54aa63c92c98"
+    },
+    {
+      "path": "game/assets/audio/announcer/kenney-correct.ogg",
+      "bytes": 8642,
+      "sha256": "1b365bf8b42c2ab6d1ba9baae123964cdc18661025734628432f59ea1d4e7c1d"
+    },
+    {
+      "path": "game/assets/audio/announcer/kenney-power-up.ogg",
+      "bytes": 9356,
+      "sha256": "badaeb219467b3ffadcd6a8a20761e81613820c16432813a38468488a14c4fe3"
+    },
+    {
+      "path": "game/assets/audio/announcer/nice.wav",
+      "bytes": 378906,
+      "sha256": "0862072edee0fe91043f7f25e65c9e6e8b0e054ec435bf4c4f6b4b7e9368bba8"
+    },
+    {
+      "path": "game/assets/audio/announcer/wow.mp3",
+      "bytes": 22127,
+      "sha256": "165a92e0dac6d5ca1893adc87770ea5f618c1a54e236cee7c378b869605be7cd"
+    },
+    {
+      "path": "game/assets/audio/attach.wav",
+      "bytes": 30764,
+      "sha256": "12bee2b10825ea07ca5068f018e79d83a6cb2b9c3abf3325a4861f2a522d5748"
+    },
+    {
+      "path": "game/assets/audio/bgm_base.wav",
+      "bytes": 3614160,
+      "sha256": "12ef39b6bf8be9fff7fbcadaec1b61a615f6382919086d962954cfbbe0dfe26e"
+    },
+    {
+      "path": "game/assets/audio/bgm_drive.wav",
+      "bytes": 3614160,
+      "sha256": "d88600b29a811091c753cab97f7bba366473676a925b6a503e7388acda7d8a8e"
+    },
+    {
+      "path": "game/assets/audio/bgm_goal.wav",
+      "bytes": 3614160,
+      "sha256": "fbb006abd29eca66b0a2764b739ec49acbbfcb387596863231d626982a8f7794"
+    },
+    {
+      "path": "game/assets/audio/bounce.wav",
+      "bytes": 16684,
+      "sha256": "94ac75b671366690284c1abe17c604d5a22ca123bca0175b2f6ade88bb7fdfaf"
+    },
+    {
+      "path": "game/assets/audio/chain.wav",
+      "bytes": 61484,
+      "sha256": "ef292e427c0aa9a608ba783a505ccdfb86c0141cc724050645aa507f92ea5516"
+    },
+    {
+      "path": "game/assets/audio/clear.wav",
+      "bytes": 70444,
+      "sha256": "277815998c6c9e11251155a7c9bb65a1603cd3e03774a325514bbad7b5b5a97a"
+    },
+    {
+      "path": "game/assets/audio/coin.wav",
+      "bytes": 64044,
+      "sha256": "44a2531aa5020a8a13349a2445cb80c0e0536f2ae81c4c43aaec5674300e0e9d"
+    },
+    {
+      "path": "game/assets/audio/confirmed.wav",
+      "bytes": 11564,
+      "sha256": "e6d67c186d77c8a2f67fb972dc2a521ada5cca181ff9012d0e893b95e87b7f37"
+    },
+    {
+      "path": "game/assets/audio/drop.wav",
+      "bytes": 153644,
+      "sha256": "1b7ded1b7c943daf682ee822dbd2c6cf23261998d04b94ab1f48793291a82bb3"
+    },
+    {
+      "path": "game/assets/audio/earned.wav",
+      "bytes": 38444,
+      "sha256": "bbd424d78305f0052f69ad6b00174d58e46fb9116687de2526001b68bbf325f3"
+    },
+    {
+      "path": "game/assets/audio/explosion.wav",
+      "bytes": 147244,
+      "sha256": "7f5be9d80195774c3d58453f7b343cf8ce1c62212900780dffae8d92ac7f7da5"
+    },
+    {
+      "path": "game/assets/audio/fire.wav",
+      "bytes": 25644,
+      "sha256": "2d486eff74b2236d94a613f61abe160f402cef63f39aa14c8fbde1e1eb9591f8"
+    },
+    {
+      "path": "game/assets/audio/free_swap.wav",
+      "bytes": 38444,
+      "sha256": "59f6f2e79eb46d9fb35f0f2b80c456fe76cdda93be8d2720a5434f17e656e6e1"
+    },
+    {
+      "path": "game/assets/audio/maintenance.wav",
+      "bytes": 89644,
+      "sha256": "af2d859296b212a6a8705159e827b9718ab3b1239ecf1ef0170cf1a09aef9bdb"
+    },
+    {
+      "path": "game/assets/audio/refill.wav",
+      "bytes": 83244,
+      "sha256": "3176c30ed2739e057818f4078504545e7f4178936f0ab1fd7efb0de62c216c70"
+    },
+    {
+      "path": "game/assets/audio/reposition.wav",
+      "bytes": 51244,
+      "sha256": "0376bfc80ef3bfcb3b0c623a4b0ae1a5460a25dce66a0a9715ee365dfb6b7b5c"
+    },
+    {
+      "path": "game/assets/audio/stage_complete.wav",
+      "bytes": 153644,
+      "sha256": "384d6bab3c785c0f4dfd596fbd4d953711129a1679a0137ef9ec17d58299365b"
+    },
+    {
+      "path": "game/assets/audio/stage_reward.wav",
+      "bytes": 211244,
+      "sha256": "9a02552a3f3fa30697c988239c9599597f45293f304f7cbc9485edf8f6a85c2d"
+    },
+    {
+      "path": "game/assets/audio/target_1.wav",
+      "bytes": 70444,
+      "sha256": "18762aa7351f4e715d14192485e1ad5fba7724dbf75fac389273ab489b118d24"
+    },
+    {
+      "path": "game/assets/audio/target_2.wav",
+      "bytes": 89644,
+      "sha256": "6e9ff380ffb28a0d7e24b269deca2849bd2e4edf21cd1da6bf9c82b35c33eee7"
+    },
+    {
+      "path": "game/assets/audio/target_3.wav",
+      "bytes": 108844,
+      "sha256": "9bd8ef38e0378641ca2cbffab4924c084ecd0aff8a17fad42baa075ccac178e6"
+    },
+    {
+      "path": "game/assets/audio/voice-big_drop.wav",
+      "bytes": 291648,
+      "sha256": "960405ec6ea2de5f280ed478d7e21e27b77d885bd4205d82eb5b256d79959e1d"
+    },
+    {
+      "path": "game/assets/audio/voice-dispenser_fault.wav",
+      "bytes": 123228,
+      "sha256": "25ba2c2d950b1d4fe839775792e01dc3e98652125a2481b9b8de206b6323cba3"
+    },
+    {
+      "path": "game/assets/audio/voice-explosion.wav",
+      "bytes": 102152,
+      "sha256": "6e0bd5df5dbd53527cce7c2c46bc7cbb6e4c8096fedb1817c7b4aeb6ab65b89f"
+    },
+    {
+      "path": "game/assets/audio/voice-free_swap.wav",
+      "bytes": 112912,
+      "sha256": "24b988b33177bec749bce812948c9cf2d99525fc6a19d88a414c65d902b9b66a"
+    },
+    {
+      "path": "game/assets/audio/voice-maintenance.wav",
+      "bytes": 244876,
+      "sha256": "dfcb8caee361e45b989353c7eb8d82f9e71d9f9c2e78a7b9aedd4238a72a4792"
+    },
+    {
+      "path": "game/assets/audio/voice-new_bubbles.wav",
+      "bytes": 152532,
+      "sha256": "dd7bf0ad5851120ad091a878e171463f425db9578a249908fbe71f8e001b0590"
+    },
+    {
+      "path": "game/assets/audio/voice-nice_clear.wav",
+      "bytes": 68668,
+      "sha256": "ae9eb22ecca61d5004a591d6e5c0a239a617d0a9ef3a223a97828e5080da699c"
+    },
+    {
+      "path": "game/assets/audio/voice-one_target_left.wav",
+      "bytes": 172568,
+      "sha256": "8f05a168d47e95eecf20f51d7840d5f1681dd61745686f3e507ebb7ad96b5721"
+    },
+    {
+      "path": "game/assets/audio/voice-stage_bonus.wav",
+      "bytes": 306592,
+      "sha256": "e0982249fabd917121d26d82981581018955a5ba9d79e91f9fb03498dd56204b"
+    },
+    {
+      "path": "game/assets/audio/voice-target_received.wav",
+      "bytes": 74430,
+      "sha256": "fdd23664db594aa9a791cd6db5e353a5d690e7592ad03a1224836ef65f616236"
+    },
+    {
+      "path": "game/assets/fonts/ArcadeDisplay.ttf",
+      "bytes": 1514968,
+      "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d"
+    },
+    {
+      "path": "game/assets/fonts/OFL.txt",
+      "bytes": 4398,
+      "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
+    },
+    {
+      "path": "game/assets/fonts/SOURCE.txt",
+      "bytes": 387,
+      "sha256": "78a8e35c4059d2613848fac84fe925c0784ede2f194cda3b9e789bb10da105a6"
+    },
+    {
+      "path": "game/assets/images/apparatus.png",
+      "bytes": 1300909,
+      "sha256": "1d58b3df69c9912174361093cc4788803eda25d283b10822c38a9becae577d63"
+    },
+    {
+      "path": "game/assets/images/dragon-parts.png",
+      "bytes": 1152918,
+      "sha256": "82374f3f2bc9b2687552f891d6d7ddae76391ce842c4fe7cae86152cb054c64a"
+    },
+    {
+      "path": "game/assets/images/mechanics.png",
+      "bytes": 1472249,
+      "sha256": "2654b7c758d76d3c71452afa62a64b3e6ab030e2a7bb2ddbe7946af5645b9477"
+    },
+    {
+      "path": "game/assets/images/neck-shoulders.png",
+      "bytes": 804240,
+      "sha256": "55cff1d8ec308f1105b56a4409733739900fc170b94ed31577a64cf4e77c4caa"
+    },
+    {
+      "path": "game/assets/images/orbs-refined.png",
+      "bytes": 1861652,
+      "sha256": "77e323dd77d8f36cae434a4050652714be11f9577c8d6693003a72e6966d2334"
+    },
+    {
+      "path": "game/assets/images/orbs.png",
+      "bytes": 1722394,
+      "sha256": "e8dc74a38cee67bb622bea5178cb2b07223c430a5891fc0ae6d3b50929414893"
+    },
+    {
+      "path": "game/assets/images/room-clean.png",
+      "bytes": 1973709,
+      "sha256": "f734826910268ac5353ec78cfb8e7a99f7ccb58279c024eee5e9779ca482cb30"
+    },
+    {
+      "path": "game/assets/licenses/arcade-announcer.txt",
+      "bytes": 1934,
+      "sha256": "d98aee5750252530713f56d85518c5406f283e8a9153cb9ea57204405c333591"
+    },
+    {
+      "path": "game/assets/licenses/audio-original-sources.json",
+      "bytes": 9013,
+      "sha256": "237030ab29381bf36b9a460387e0a93f8fc144ff6e9a112d21b26d79899e46f3"
+    },
+    {
+      "path": "game/assets/licenses/pet-speech-original-manifest.json",
+      "bytes": 1751,
+      "sha256": "55144984ecebec0b7628de2c551a9a4717de395106771c641a0b956a9fdc7bb8"
+    },
+    {
+      "path": "game/dev/mechanisms/mock-fixtures.mjs",
+      "bytes": 4293,
+      "sha256": "44452976e7f369011823246a1a0b37ed7ebcaf1297cf49bc81092dda84145e9d"
+    },
+    {
+      "path": "game/dev/mechanisms/preview.css",
+      "bytes": 1714,
+      "sha256": "23171c5c9082d34a19dfc3cbd2b2ef7208e31b50f680493e3e0c986314cb8e08"
+    },
+    {
+      "path": "game/dev/mechanisms/preview.html",
+      "bytes": 3288,
+      "sha256": "a6ab4713a7155724ae482f130ccabbc34faa0769fb7a8cb507b72ad9af44939a"
+    },
+    {
+      "path": "game/dev/mechanisms/preview.mjs",
+      "bytes": 17121,
+      "sha256": "19e7ba489ca89f0a2b49ecef23413872f4919f496fbb04c5011eeca06d81acee"
+    },
+    {
+      "path": "game/dev/mechanisms/recorder.mjs",
+      "bytes": 2467,
+      "sha256": "b52772ccf72b7a9ee68df3568a350103b8d5aba14d93fdb0b8bdbfe4d636bd36"
+    },
+    {
+      "path": "game/index.html",
+      "bytes": 5934,
+      "sha256": "6621e64645797b5a51e75a8b6641f0127ef12c2bfa5818199b941eb057892f6f"
+    },
+    {
+      "path": "game/package-lock.json",
+      "bytes": 1259,
+      "sha256": "5f4fec66de645f9d54410b16e118b943879a35c8828150096daa3391ade6cdfb"
+    },
+    {
+      "path": "game/package.json",
+      "bytes": 905,
+      "sha256": "9e45e85723ae25ffd40988ff160cadf51a23fbb63787fad2b31eefc02cd89931"
+    },
+    {
+      "path": "game/README.md",
+      "bytes": 1150,
+      "sha256": "efc0a099c1df6014471bbf6567fa8f4f95ec7b9eae441026bca714cadd4e9cda"
+    },
+    {
+      "path": "game/src/client/aim-input.mjs",
+      "bytes": 776,
+      "sha256": "20b835075eabdb962e25abbcc61aaf35ca319744d7753744807782d7f31d4a3d"
+    },
+    {
+      "path": "game/src/client/app.mjs",
+      "bytes": 15551,
+      "sha256": "294a9ccdf7f5fc7ccf60a554d4df932178aded856c785019565a3a219527b8e3"
+    },
+    {
+      "path": "game/src/client/debug-api.mjs",
+      "bytes": 3986,
+      "sha256": "622f73e8efc2d6f23be8fe52c87937301acfaf93d44c7de9f6a65f15fadca978"
+    },
+    {
+      "path": "game/src/client/presentation-upgrade.mjs",
+      "bytes": 7732,
+      "sha256": "a072cb1dce93281891d35f06f63a5783c8bd4d30ef3bbcc537a2d8638f64caf4"
+    },
+    {
+      "path": "game/src/client/storage-keys.mjs",
+      "bytes": 294,
+      "sha256": "7c3bf88d8dbe07cae80370c0d4dca69c4787560bb2594dddc80e56f33e5cb6f8"
+    },
+    {
+      "path": "game/src/core/ammo-bonus.mjs",
+      "bytes": 2279,
+      "sha256": "4eae45db3fa20f86501971b28a758e9e14cebcaee5d16269342637c52499b41a"
+    },
+    {
+      "path": "game/src/core/board-colors.mjs",
+      "bytes": 1490,
+      "sha256": "a49ebf227aa2c036add21c7845ab46b57586720801d4593fe3498200be951c67"
+    },
+    {
+      "path": "game/src/core/board-policy.mjs",
+      "bytes": 11079,
+      "sha256": "e94c13aec0c879383cc23a548ecda46b57f44d38da5ba61c8227f90f2971f9fe"
+    },
+    {
+      "path": "game/src/core/combo.mjs",
+      "bytes": 914,
+      "sha256": "649a24e93154a4619d17079b4372313c7d85a53d2833ab6eef8d05565a8aad99"
+    },
+    {
+      "path": "game/src/core/config.mjs",
+      "bytes": 4227,
+      "sha256": "a52f43992751d86d717afcf2c712fc9312fc6d408de1921ac68ff66405fda28a"
+    },
+    {
+      "path": "game/src/core/core.mjs",
+      "bytes": 13697,
+      "sha256": "38df43fc842e3b5a99226cf1214bef6b0e39350b683e22832a76d73dab6a060d"
+    },
+    {
+      "path": "game/src/core/endless-flow.mjs",
+      "bytes": 5559,
+      "sha256": "c15fbe64e161ee31081579d5a28746d16fa5e0bcfe550078d1d12b2a05156834"
+    },
+    {
+      "path": "game/src/core/geometry.mjs",
+      "bytes": 6376,
+      "sha256": "7a5a044599dfe0d5f14f237683ebada8a687db483385f37b9c69b7b2af7777d7"
+    },
+    {
+      "path": "game/src/core/index.mjs",
+      "bytes": 279,
+      "sha256": "6fe2a4a22e6ad11f2fc9d82fe75892343fa00820b41d7b5dbf202e9c26aa153c"
+    },
+    {
+      "path": "game/src/core/ledger.mjs",
+      "bytes": 3902,
+      "sha256": "48c037918ecfe0f91138775f599803db93ee2fa7ab4e74b953dbfee0d25bcc91"
+    },
+    {
+      "path": "game/src/core/low-opportunity.mjs",
+      "bytes": 12992,
+      "sha256": "26046f48bf622252fd9f2260caf7b3b04df477a9649e31868c0693073a1dd042"
+    },
+    {
+      "path": "game/src/core/mechanics.mjs",
+      "bytes": 13020,
+      "sha256": "9934bd581bd468e9ee75106bb0640d6f7a7b46cd76b339e58a91a3b4b0bf5703"
+    },
+    {
+      "path": "game/src/core/migration.mjs",
+      "bytes": 1922,
+      "sha256": "344112f4e6a6fd0b2985c08af8cf154584c66460172129c3e8a9fc2caedfbae7"
+    },
+    {
+      "path": "game/src/core/pet-chain.mjs",
+      "bytes": 2416,
+      "sha256": "20b20439c9836be2bdac06078126a2a417ccf87f50f19b4bc949ba95779f7ed9"
+    },
+    {
+      "path": "game/src/core/pet-slots/live-targets.mjs",
+      "bytes": 2510,
+      "sha256": "e7fa681a89bbda827218b4e631d1b3f0f369fd2e5636e61b67b39c6dbcb65462"
+    },
+    {
+      "path": "game/src/core/pet-slots/plan.mjs",
+      "bytes": 3347,
+      "sha256": "82b397b234a2035b672a4f778b11790a9d7c980323fcb4c5f9e0e9aaff95aa23"
+    },
+    {
+      "path": "game/src/core/pet-slots/rewards.mjs",
+      "bytes": 793,
+      "sha256": "22cfb6478104d4267d3142fb4310b46637c126a3215e37ab785d16d6ad6502dd"
+    },
+    {
+      "path": "game/src/core/pet-slots/settlement.mjs",
+      "bytes": 5044,
+      "sha256": "fc2ea8abcba3895276d64c7b945cbcf1324a46e1c636be6717b889e81adf3d42"
+    },
+    {
+      "path": "game/src/core/pet-slots/validation.mjs",
+      "bytes": 2605,
+      "sha256": "c03c8f6d3f55e8d2e4cb10ca2aef69f24185b2d9e7340e66e4417ab9ca3e0deb"
+    },
+    {
+      "path": "game/src/core/pet-slots.mjs",
+      "bytes": 3931,
+      "sha256": "62df386e9e4d165a29dd33e4e10b9e671e2a8b4362c1f3155a0afe193a5604af"
+    },
+    {
+      "path": "game/src/core/protection.mjs",
+      "bytes": 802,
+      "sha256": "e95f8eec364470b908fa4c65012e9ca34576d0c4219fc3b7178007e503f2927d"
+    },
+    {
+      "path": "game/src/core/settlement.mjs",
+      "bytes": 7115,
+      "sha256": "e3965b68d664f40470da98d8eccdf3efb5f92a758279a5e5312ab690cab7ed70"
+    },
+    {
+      "path": "game/src/core/simulator.mjs",
+      "bytes": 2146,
+      "sha256": "7f4005f72cdfd6558d3adfed6dae0e92d07d26576f48bcda76357bd1a7535009"
+    },
+    {
+      "path": "game/src/core/special-placement.mjs",
+      "bytes": 1451,
+      "sha256": "390b264a95c46bcc56e6c4fe874f6c108a298b5845adb57d502406e388386c6d"
+    },
+    {
+      "path": "game/src/core/special.mjs",
+      "bytes": 1880,
+      "sha256": "9d21524122a271bf9d2b0656bc042be2d5e6404f31e499b390bd2693a4053ff0"
+    },
+    {
+      "path": "game/src/core/state-validation.mjs",
+      "bytes": 3945,
+      "sha256": "6ac7598b53b6b09de14941726590a23d38efa43f383b349fae022744e21a9a33"
+    },
+    {
+      "path": "game/src/core/storage.mjs",
+      "bytes": 798,
+      "sha256": "6bf64772310794a770a39ce0cfe2d50fe59a618c52080cd26c6a2609547e6dc8"
+    },
+    {
+      "path": "game/src/feedback/arcade/prize-burst.mjs",
+      "bytes": 3096,
+      "sha256": "a736b8ad8701400c240e2f35f5ec1b689595238667bbcc1b21611e9b35417233"
+    },
+    {
+      "path": "game/src/feedback/audio/announcer-profiles.mjs",
+      "bytes": 1018,
+      "sha256": "ed671ff024029e302ca240e846a38bcadc517e48f189252331d3d1b4d576aa2f"
+    },
+    {
+      "path": "game/src/feedback/audio/arcade-announcer.mjs",
+      "bytes": 5840,
+      "sha256": "3ce53e5ee50948c2c6acf0ecee6d54de0520b3a60c33866342a2db3177c98e26"
+    },
+    {
+      "path": "game/src/feedback/audio/audio.mjs",
+      "bytes": 14405,
+      "sha256": "c8b06f236fc6a2c52a8ee8bc84ed0d58dbe349c10cc1562be6f4351a95794c8d"
+    },
+    {
+      "path": "game/src/feedback/audio/character.mjs",
+      "bytes": 1289,
+      "sha256": "0ad06f548408a134944041011c5162f4eb856d74f23422d189c468830fe15912"
+    },
+    {
+      "path": "game/src/feedback/audio/cues.mjs",
+      "bytes": 3634,
+      "sha256": "a5db60337a06aba8b186c1f7283ab59f316c1d7f908b0e44da47540a28747923"
+    },
+    {
+      "path": "game/src/feedback/audio/presentation-cues.mjs",
+      "bytes": 1482,
+      "sha256": "a96200b2dd4970b9da4688e85aaad221cab3c331cf1daa7d577873cd962faf3a"
+    },
+    {
+      "path": "game/src/feedback/audio/score-tick.mjs",
+      "bytes": 1495,
+      "sha256": "46cb653182176b4359c6324d5dcbeca8b50dc5be59dee59f1f5ec97dfa8bd916"
+    },
+    {
+      "path": "game/src/feedback/effects-ui/effects-ui.mjs",
+      "bytes": 35843,
+      "sha256": "b813a2262e51f7cc0709d0a8459375b11d08e948c1e1ed5582fa8f75ec3a362f"
+    },
+    {
+      "path": "game/src/feedback/effects-ui/reward-counter.mjs",
+      "bytes": 961,
+      "sha256": "4ad4ba78a0137f7776ff793d1033add7caf212034db8b7d00e23ac6f855fadce"
+    },
+    {
+      "path": "game/src/feedback/effects-ui/reward-flights.mjs",
+      "bytes": 4932,
+      "sha256": "9b2466a73be3c23de4ebebebf7b4df242dbad7254b3b2b37c10d7e60af33d5aa"
+    },
+    {
+      "path": "game/src/feedback/effects-ui/treasure.mjs",
+      "bytes": 3461,
+      "sha256": "09fc2735b5565532e1775cd6117145ea4a49002c45edfce8703cd0958949e183"
+    },
+    {
+      "path": "game/src/feedback/environment/background.mjs",
+      "bytes": 7258,
+      "sha256": "4dd9d4aa1967b41ab97d77ee343b17cdf31e6cfa165fbb1b8c61e5d5fff13dad"
+    },
+    {
+      "path": "game/src/feedback/environment/room-layer.mjs",
+      "bytes": 1863,
+      "sha256": "c4f592b0fcb5d9759ef671e64660b34e3611dc3f247240b56486ec98f51608eb"
+    },
+    {
+      "path": "game/src/feedback/impact-vfx.mjs",
+      "bytes": 2169,
+      "sha256": "56489591c8ebae7a95f66a7c4c0279b56063af10aea41d253a64933ce46b7844"
+    },
+    {
+      "path": "game/src/feedback/mechanisms/art.mjs",
+      "bytes": 3757,
+      "sha256": "413c55a4d5b6edb41307af20f7321f333013f4ff38cbddc25b97ad3bd64f6aac"
+    },
+    {
+      "path": "game/src/feedback/mechanisms/core-bridge.mjs",
+      "bytes": 6803,
+      "sha256": "b80858ffd3a70af988071b21103af29ecc42154cf6cb5fdf0ed6656d3f919c05"
+    },
+    {
+      "path": "game/src/feedback/mechanisms/director.mjs",
+      "bytes": 8745,
+      "sha256": "524877847542ee28094604d9495197511f53c510b1d6d0be66e14516bc756136"
+    },
+    {
+      "path": "game/src/feedback/mechanisms/integration.mjs",
+      "bytes": 2660,
+      "sha256": "a22873c8f6a5e61c87c66de6cb8c09513af34d7f01cc22539efa3ebe7c33c63e"
+    },
+    {
+      "path": "game/src/feedback/mechanisms/renderer.mjs",
+      "bytes": 8573,
+      "sha256": "ce85404fec7d214acead540416e5a4079ad5d89243062bc175d99b03e8057a60"
+    },
+    {
+      "path": "game/src/feedback/orbs/opportunity-arrival.mjs",
+      "bytes": 2092,
+      "sha256": "190e8b53729bfcd7ba7899f09812990fc584e089b87ce6ed4054e5f06239e8f2"
+    },
+    {
+      "path": "game/src/feedback/orbs/orb-material.mjs",
+      "bytes": 4273,
+      "sha256": "d687941063385363f170f98a0d438bb19d44307a489f78972533a5e96bf3baea"
+    },
+    {
+      "path": "game/src/feedback/orbs/special-orbs.mjs",
+      "bytes": 3015,
+      "sha256": "cd43e8ee6439a3685e7f40352e4e68d744aca55bc1d8574b7ca0395bc60ee6d8"
+    },
+    {
+      "path": "game/src/feedback/pet/babylon-adapter.mjs",
+      "bytes": 1933,
+      "sha256": "c1580bc2eef6251aba94aef20ebab0ca9d036fa13ac96434a76f3fdb429f202f"
+    },
+    {
+      "path": "game/src/feedback/pet/controller.mjs",
+      "bytes": 8837,
+      "sha256": "5892d690ff11d309d59270fa526787ce150d61cd89414dd0b1b82ffdaa5eb9cc"
+    },
+    {
+      "path": "game/src/feedback/pet/dragon.mjs",
+      "bytes": 9534,
+      "sha256": "a28f9cea7d6ec5243dd9af340aca621c3ff937404fedc1d93e5547acdb1a1478"
+    },
+    {
+      "path": "game/src/feedback/pet/lines.mjs",
+      "bytes": 2319,
+      "sha256": "f845d0612207cb47840f598717de87ebbda471db83b50b4b08be2c4cb2b5b0d1"
+    },
+    {
+      "path": "game/src/feedback/pet-slots/art.mjs",
+      "bytes": 4337,
+      "sha256": "c685584a70191fe672a1e58d4497f7d1b443b0fec71d2bbd5b60633d1f37c808"
+    },
+    {
+      "path": "game/src/feedback/pet-slots/combo.mjs",
+      "bytes": 962,
+      "sha256": "a039e49aff98d0abdac92ede563352bab98ca7aeb9d772073ee9d8bdffa39eb8"
+    },
+    {
+      "path": "game/src/feedback/pet-slots/effects.mjs",
+      "bytes": 1997,
+      "sha256": "24103ec9286e226b4190fd5fa7f20a5cde63fb9b09b438ec0ced8e0196f81539"
+    },
+    {
+      "path": "game/src/feedback/pet-slots/feedback.mjs",
+      "bytes": 8399,
+      "sha256": "208b0e9f8f9e57fc26e75adeb6897db541b402b45635aecd98c3310ffbada5f0"
+    },
+    {
+      "path": "game/src/feedback/pet-slots/index.mjs",
+      "bytes": 50,
+      "sha256": "79c84a93e35932880e99a785976199ad65e57d890bc397ffbc3c479cecde1e56"
+    },
+    {
+      "path": "game/src/feedback/pet-slots/layout.mjs",
+      "bytes": 381,
+      "sha256": "6c69e35c914710eaba372f832c1411ffc304fc6818aa60b896f399be8ffa4987"
+    },
+    {
+      "path": "game/src/feedback/pet-slots/machine.mjs",
+      "bytes": 5116,
+      "sha256": "3f87562c059676e5ed0241e738f589480b62b0d5a09feada4e3e6955a8ef0cb2"
+    },
+    {
+      "path": "game/src/feedback/rewards/progress-bridge.mjs",
+      "bytes": 5141,
+      "sha256": "e1bceaed3e05d4ee54899dacf5279aa39f2e0cfef9eee2462f8d8f5bf623c565"
+    },
+    {
+      "path": "game/src/feedback/rewards/reward-voice.mjs",
+      "bytes": 5435,
+      "sha256": "66afffe55ed720a2e8cdd0598f720c1d3d85260324f5b82c1f02aef7e76fe0df"
+    },
+    {
+      "path": "game/src/feedback/rewards/reward-words.mjs",
+      "bytes": 884,
+      "sha256": "3f87062ce50fb5d25f279098728f62f095164a779d83b851bc0ec4338f7265b0"
+    },
+    {
+      "path": "game/src/feedback/rewards/voice-library.mjs",
+      "bytes": 1812,
+      "sha256": "41b586e597baabfc9e9164f57ac032c2c2788bdbb1741143a3d14a6dfa9f7aec"
+    },
+    {
+      "path": "game/src/presentation/event-view.mjs",
+      "bytes": 1155,
+      "sha256": "210cb530c8de73cbf743bb369e6134d57abee113f627c1539f2bd1c0d227aae6"
+    },
+    {
+      "path": "game/src/presentation/guide.mjs",
+      "bytes": 6202,
+      "sha256": "37bb9386b021b93b104a8e675bf1353e3abb49dd8a69bee21e3a9ad908d51c2d"
+    },
+    {
+      "path": "game/src/presentation/scene-base.mjs",
+      "bytes": 19748,
+      "sha256": "2137917ada63dd0f0fb2056c218dc9bd6bc90d5190b88369278746c452b3ca9c"
+    },
+    {
+      "path": "game/src/presentation/scene.mjs",
+      "bytes": 14491,
+      "sha256": "584876e2a475dd8219c15e6fdb1a13f0ebf3cc89ef6097f232e41ecd79caec1e"
+    },
+    {
+      "path": "game/src/presentation/sprite-layer.mjs",
+      "bytes": 21186,
+      "sha256": "4f4f69b771455882d8eb74697b911b4a54a8b36a1f6b7980f3abc52b62636c67"
+    },
+    {
+      "path": "game/style.css",
+      "bytes": 5995,
+      "sha256": "75efd04372438d2dc7e12d82bbe743a6a146a901cd81bab4b27ebf734e7652a5"
+    },
+    {
+      "path": "game/tests/browser/ammo-bonus.cjs",
+      "bytes": 4179,
+      "sha256": "4d4fff9b865fb80c5e2115fae8c6340e8fd932704aa4093edec207b5c7a06125"
+    },
+    {
+      "path": "game/tests/browser/baseline.cjs",
+      "bytes": 5984,
+      "sha256": "ef9078ccc425fa9c327aa690ab8d1a9edc78d5e8fa49f7012c5765b265ada8a6"
+    },
+    {
+      "path": "game/tests/browser/board-motion.cjs",
+      "bytes": 7982,
+      "sha256": "c46e3bce57e4570beae7255eaabac09fff1f01692d43bbcac7fee0bc00391acf"
+    },
+    {
+      "path": "game/tests/browser/density.cjs",
+      "bytes": 7112,
+      "sha256": "dd2ecd6a2f97daee3bc01e4d386afa1522b7642069997d0f471908dd05c3c4f9"
+    },
+    {
+      "path": "game/tests/browser/guide.cjs",
+      "bytes": 1821,
+      "sha256": "11c71185366dbac5026c6e3cb098fe247cc43b078392763da1b117d6fdfb050f"
+    },
+    {
+      "path": "game/tests/browser/integration.cjs",
+      "bytes": 8949,
+      "sha256": "cbad147a6470604d7207d219f77359df407a84aa00d0bf1ea137ba6fc879e2fa"
+    },
+    {
+      "path": "game/tests/browser/lightning.cjs",
+      "bytes": 4744,
+      "sha256": "347274315c4fed597cb43c9550ee1240384de5d0d3360adc06b74a061ee62b11"
+    },
+    {
+      "path": "game/tests/browser/loader.cjs",
+      "bytes": 3862,
+      "sha256": "a21a052e91349d8a06a181b42aa03f5b36a875b64d4ba61191fede83bbbdbfda"
+    },
+    {
+      "path": "game/tests/browser/opportunity-burst.cjs",
+      "bytes": 4096,
+      "sha256": "c9319a80498b84e6a5758856bb2e172b55de3c78dd34f60abd08a9bd4a57c08a"
+    },
+    {
+      "path": "game/tests/browser/pet-slots.cjs",
+      "bytes": 12034,
+      "sha256": "076c873b1924a6f344baefeb6c49216748001b2da9aa7bc096e4e5c0980f3e0e"
+    },
+    {
+      "path": "game/tests/browser/rhythm.cjs",
+      "bytes": 8201,
+      "sha256": "4d423a81b8e50fa6608fed7058769d1817f2177834c795cc2a664052e48f253d"
+    },
+    {
+      "path": "game/tests/browser/treasure.cjs",
+      "bytes": 8448,
+      "sha256": "f0122ed7c76f7279002a2a4fb337e3460ef8b3c1d23fc99e808aa5169e2c1598"
+    },
+    {
+      "path": "game/tests/browser/upgrade.cjs",
+      "bytes": 12497,
+      "sha256": "33ba884df7bbad224ddfef3887945df1695a86713ff696c17ee080253cf0deab"
+    },
+    {
+      "path": "game/tests/browser/vfx.cjs",
+      "bytes": 3113,
+      "sha256": "d47d64af4e4e09b97109d5745fd701743309400c0c58d850820b34c690178755"
+    },
+    {
+      "path": "game/tests/core/ammo-bonus.test.mjs",
+      "bytes": 2720,
+      "sha256": "168e29b8719fd563ccffcd78ffa98969cd1497ee49d563baf9f49ed3e9500d69"
+    },
+    {
+      "path": "game/tests/core/board-colors.test.mjs",
+      "bytes": 2402,
+      "sha256": "64e43ff25bc3aabb54de17e4ac6017ab80b3fb24767cf30d4d2ebf2c7383db03"
+    },
+    {
+      "path": "game/tests/core/clearance.test.mjs",
+      "bytes": 706,
+      "sha256": "c1c414f3571a0763ea7a554e2093a342b36c717fe2a575671bd5ff41b92bf4f5"
+    },
+    {
+      "path": "game/tests/core/density.test.mjs",
+      "bytes": 6572,
+      "sha256": "282d8ed5e9f00468e0a8d0c461c083a45d2d7d7ff816ba6f588bac165c0e33e7"
+    },
+    {
+      "path": "game/tests/core/ledger.test.mjs",
+      "bytes": 1766,
+      "sha256": "d6116e8f63e515ad8ab932ace87c356e866bfc6b96d401d5a01b77a7d910fe30"
+    },
+    {
+      "path": "game/tests/core/lightning.test.mjs",
+      "bytes": 2065,
+      "sha256": "d55156b22e9a42071dc83089f967eeb0823ba3880472676f24932818a2623caa"
+    },
+    {
+      "path": "game/tests/core/low-opportunity.test.mjs",
+      "bytes": 21765,
+      "sha256": "adc0dcf11e27ae68440e148cfa63669d541bf21c1615c162cc7086349a8ecd40"
+    },
+    {
+      "path": "game/tests/core/mechanics.test.mjs",
+      "bytes": 18692,
+      "sha256": "30504fc77e735e4e60f468c9a9e822a013766079c4f8200db8f30df704c0d2ea"
+    },
+    {
+      "path": "game/tests/core/opportunity-placement.test.mjs",
+      "bytes": 6292,
+      "sha256": "7d3e55d54370bd0b5d60e30d3c398443e1fea46159565f715f18dbc61ccbc5d8"
+    },
+    {
+      "path": "game/tests/core/pet-chain.test.mjs",
+      "bytes": 4092,
+      "sha256": "550a1c2ca3f551ef37889fc08f9c94413f40ab8f3d8d232ff0fd3776bb77ed92"
+    },
+    {
+      "path": "game/tests/core/pet-slots-concurrent.test.mjs",
+      "bytes": 4520,
+      "sha256": "f7742e248294cc02348eb5c0494b9509b96b70d5fb2ee905d08eb7742cde7fda"
+    },
+    {
+      "path": "game/tests/core/pet-slots.test.mjs",
+      "bytes": 8656,
+      "sha256": "dbb51be47a8dc62e926ce93c13848b5b1db75634c0c1d38e277437aeba07f6fa"
+    },
+    {
+      "path": "game/tests/core/random.test.mjs",
+      "bytes": 854,
+      "sha256": "154bde3c996faf08c66b431730a82fd2d9f0224ce2380a64a59c2ba98ccdc46b"
+    },
+    {
+      "path": "game/tests/core/reward-counter.test.mjs",
+      "bytes": 1297,
+      "sha256": "4ce61f5a9e08f4d2d9c262b3c9b7dc272227aef7cbe7e8a6a031ff7aab061cad"
+    },
+    {
+      "path": "game/tests/core/reward-flights.test.mjs",
+      "bytes": 1533,
+      "sha256": "d52d4d1249f75ad60380bdd2effdb01dbba58312f0c30ffc861cffe2cff28c64"
+    },
+    {
+      "path": "game/tests/core/special-generation.test.mjs",
+      "bytes": 1937,
+      "sha256": "b2d14330ccbf8e8238b55b6047d48bfdeff512a0916b0606630421ca058582b2"
+    },
+    {
+      "path": "game/tests/core/special.test.mjs",
+      "bytes": 5091,
+      "sha256": "beb01ff199edd2e13c447b72c06ea02d562cd5f35ec130a29798df96f404599b"
+    },
+    {
+      "path": "game/tests/feedback/arcade-announcer.test.mjs",
+      "bytes": 2341,
+      "sha256": "03f77f4f3260569d69756a8feef88ccb7ba1ef58ac62ee785812392c85c0111b"
+    },
+    {
+      "path": "game/tests/feedback/assist-network.test.mjs",
+      "bytes": 7114,
+      "sha256": "70be5031e61f1cb1a136bf33d3c17eb8ba0a2f97287bbb98213f7c8841167f80"
+    },
+    {
+      "path": "game/tests/feedback/pet-slot-ticket-flights.test.mjs",
+      "bytes": 1786,
+      "sha256": "06220dabee3dab550e5fab4a762aff2a2581695e61d6c91de53b9413684c9531"
+    },
+    {
+      "path": "game/tests/feedback/pet-slots.test.mjs",
+      "bytes": 4862,
+      "sha256": "16d9c85345da0dc5b525bc117d26b617ff6a52ec4ed8e90091f8de89072c615e"
+    },
+    {
+      "path": "game/tests/feedback/score-tick.test.mjs",
+      "bytes": 1927,
+      "sha256": "37e004ef652de18f1a3b8114b20926cfee51853bb301e20e0f9e544ab2ce3a38"
+    },
+    {
+      "path": "game/tests/feedback/stage-polish.test.mjs",
+      "bytes": 5252,
+      "sha256": "8b2ae94adf5868c8cd872ecf61398e309b9813ac4b4a66b693c38500e6d0f234"
+    },
+    {
+      "path": "game/tests/fixtures/low-opportunity-comparison.json",
+      "bytes": 22681,
+      "sha256": "d74d32487dc9b4b6010e5a9dcda510e244e86139840ea30530808340db8d09c8"
+    },
+    {
+      "path": "game/tests/fixtures/low-opportunity-events.json",
+      "bytes": 5429852,
+      "sha256": "3ebccd89f1339633b9b8f620313d488d3a1c0d5afeb5cf5fdda3edda8441b872"
+    },
+    {
+      "path": "game/tests/fixtures/low-opportunity-example.json",
+      "bytes": 30192,
+      "sha256": "92818644af116d046a3bc6a2fcea1dd28c2404a38f33685f78fcca90a30ff58b"
+    },
+    {
+      "path": "game/tests/fixtures/low-opportunity-regression.txt",
+      "bytes": 3694,
+      "sha256": "ed508cfb9d1d29b074362f6531981832ec6b048cc6be8f9fc6a72ec2ca334acc"
+    },
+    {
+      "path": "game/tests/fixtures/low-opportunity-tests.txt",
+      "bytes": 6120,
+      "sha256": "d4e4a1809bff4efef32d43e0ed7acef132dd692238b224b07c8c764530ecf476"
+    },
+    {
+      "path": "game/tests/fixtures/mechanics-comparison.json",
+      "bytes": 8155,
+      "sha256": "7eaf0b5e110a9aeebaaa78ccef601ba1d02ac7e5815c647a26dcfd22a31834f0"
+    },
+    {
+      "path": "game/tests/fixtures/mechanics-events.json",
+      "bytes": 932272,
+      "sha256": "c188579d23f755d84544e14198e552cee6ac7d355ed08e89210167b10bce69ad"
+    },
+    {
+      "path": "game/tests/fixtures/mechanics-tests.txt",
+      "bytes": 3695,
+      "sha256": "3986d608e4e20511aa5f089037b3f9f73ac0bc690b3474283320fc413ad591d6"
+    },
+    {
+      "path": "game/tests/helpers/browser.cjs",
+      "bytes": 1145,
+      "sha256": "d3d7d505181b240ede4adaa5a01e42dd15f8f5419727439150f9b00d407579f7"
+    },
+    {
+      "path": "game/tests/helpers/low-opportunity-compare.mjs",
+      "bytes": 6041,
+      "sha256": "974800cae00fada3bf0878d405c5a7d0c187900401f3900249ee42fd912cdb4d"
+    },
+    {
+      "path": "game/tests/helpers/low-opportunity-example.mjs",
+      "bytes": 1420,
+      "sha256": "a1c1221be5e452930228645309ac2307e6fb02d9395c7ed4de45f26244963f8d"
+    },
+    {
+      "path": "game/tests/helpers/mechanics-compare.mjs",
+      "bytes": 3019,
+      "sha256": "76a070a75575dc44181b6cd7511d9184a04018e4d7b101335bcd7f67da7df819"
+    },
+    {
+      "path": "game/tests/helpers/mechanics-sample.mjs",
+      "bytes": 1722,
+      "sha256": "20de243e03ec55ff9a8f4c0868ea778e1b86629f7545d6eef18133cdbbb39042"
+    },
+    {
+      "path": "game/tests/helpers/strategies.mjs",
+      "bytes": 2791,
+      "sha256": "ca3b2b22d1a6cd5ce09016c21b679f6a0f8c7d8b06e637e5718a16f6e68aa355"
+    },
+    {
+      "path": "game/tools/audit-project.mjs",
+      "bytes": 2461,
+      "sha256": "72ddc64f189c263de0cb399b0d607756d9da8c3deb39e94d663d439145f15e77"
+    },
+    {
+      "path": "game/tools/check-release.mjs",
+      "bytes": 1388,
+      "sha256": "c55c52db5fc659fb4a5d6fabc5794fb689553928269dd8e7353e769bec68b8e7"
+    },
+    {
+      "path": "game/tools/check.mjs",
+      "bytes": 1766,
+      "sha256": "06e9d227eb115f13e2949621f9954a51a3283cb3427a48f1e33df185fdb3821c"
+    },
+    {
+      "path": "game/tools/package-release.ps1",
+      "bytes": 2512,
+      "sha256": "dd7201b61278fcadb5635743d0d3b0b82d089b82494f22c75974350683a29d9b"
+    },
+    {
+      "path": "game/tools/prepare-deployment.mjs",
+      "bytes": 3527,
+      "sha256": "e032b8013d9095bb02a1d83063f3a450d9f01c9901ee4cae59a6fed43cb52164"
+    },
+    {
+      "path": "game/tools/server.mjs",
+      "bytes": 2208,
+      "sha256": "1f4eece2b3ac4c3628ac239dbe5f69fc9253ee4a98ab6a02c07e33d6d6c58a6c"
+    },
+    {
+      "path": "game/tools/start.ps1",
+      "bytes": 1760,
+      "sha256": "b937b85c406dd79cc3aab61de4435159a3d477663bf1b3772671f02c7509d6d4"
+    },
+    {
+      "path": "game/tools/test-browser.cjs",
+      "bytes": 816,
+      "sha256": "851596727a7004496b46bf50dcc37a94a2fad84e631ac789ef66124eb95cad25"
+    },
+    {
+      "path": "game/tools/verify-baseline.mjs",
+      "bytes": 4064,
+      "sha256": "639afe00473494fc310cbb5f04500b4851f3cd8ee2915c5fef7f868e0d771574"
+    },
+    {
+      "path": "game/tools/verify-slot-baseline.mjs",
+      "bytes": 2872,
+      "sha256": "e0c79c621a4ff353a0dfe266400b2f76c6a86ccd8126ad88944b7bb64a89a4cf"
+    },
+    {
+      "path": "game/vendor/babylon/babylon.js",
+      "bytes": 8619713,
+      "sha256": "ff331103574d58a94e68353087721260628a4a6dd5521aa98949127bde73bbff"
+    },
+    {
+      "path": "game/vendor/babylon/LICENSE.txt",
+      "bytes": 9226,
+      "sha256": "9362ea9ea17cb221a20cbbd63f404710834cc273d2a9a7b60314fd68ab702cd6"
+    },
+    {
+      "path": "game/vendor/babylon/version.txt",
+      "bytes": 8,
+      "sha256": "cf28489769e9b2eb00171d4a669a28b20e19d40b75d33067df6e6bafe38605be"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/.prettierrc.json",
+      "bytes": 73,
+      "sha256": "d7fa1c1dee12b930b45e1f8c465b07da95fa519cfd9e3e503c76dc762617b1fb"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/aimee-clear.wav",
+      "bytes": 63370,
+      "sha256": "8687f99f8050bb5ec358a5be2a1c3b37b4fcccab5bef28d4995996a68fe5b72c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/aimee-congratulations.wav",
+      "bytes": 137716,
+      "sha256": "12ec8b488f435b31f6a7510a289fa1a51754e94bf92fd021605258aad3125eb9"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/aimee-win.wav",
+      "bytes": 68330,
+      "sha256": "c6d031561adc03183d4dc02c1b924ddeb1c64acbdcef3a598b4bf22cfef87569"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/awesome.wav",
+      "bytes": 198970,
+      "sha256": "69fb2195546d2647882918d610b281802fc4d78374d77c94574185e4046ac7e3"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/congratulations.wav",
+      "bytes": 420226,
+      "sha256": "5d498a0cfd7d7fd9f0f6a8474433064de8475ad74e79081ec306adc0701775e1"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/female-wow.mp3",
+      "bytes": 18480,
+      "sha256": "4c34449cd6b75088c219f6a3caab6761f0f955feb7240df51ed26927fdc2ba1c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/kenney-congratulations.ogg",
+      "bytes": 13609,
+      "sha256": "a2a09925af456d0b20c017cf57d217a18ccf4d6c95beed245acc54aa63c92c98"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/kenney-correct.ogg",
+      "bytes": 8642,
+      "sha256": "1b365bf8b42c2ab6d1ba9baae123964cdc18661025734628432f59ea1d4e7c1d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/kenney-power-up.ogg",
+      "bytes": 9356,
+      "sha256": "badaeb219467b3ffadcd6a8a20761e81613820c16432813a38468488a14c4fe3"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/nice.wav",
+      "bytes": 378906,
+      "sha256": "0862072edee0fe91043f7f25e65c9e6e8b0e054ec435bf4c4f6b4b7e9368bba8"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/announcer/wow.mp3",
+      "bytes": 22127,
+      "sha256": "165a92e0dac6d5ca1893adc87770ea5f618c1a54e236cee7c378b869605be7cd"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/attach.wav",
+      "bytes": 30764,
+      "sha256": "12bee2b10825ea07ca5068f018e79d83a6cb2b9c3abf3325a4861f2a522d5748"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/bgm_base.wav",
+      "bytes": 3614160,
+      "sha256": "12ef39b6bf8be9fff7fbcadaec1b61a615f6382919086d962954cfbbe0dfe26e"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/bgm_drive.wav",
+      "bytes": 3614160,
+      "sha256": "d88600b29a811091c753cab97f7bba366473676a925b6a503e7388acda7d8a8e"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/bgm_goal.wav",
+      "bytes": 3614160,
+      "sha256": "fbb006abd29eca66b0a2764b739ec49acbbfcb387596863231d626982a8f7794"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/bounce.wav",
+      "bytes": 16684,
+      "sha256": "94ac75b671366690284c1abe17c604d5a22ca123bca0175b2f6ade88bb7fdfaf"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/chain.wav",
+      "bytes": 61484,
+      "sha256": "ef292e427c0aa9a608ba783a505ccdfb86c0141cc724050645aa507f92ea5516"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/clear.wav",
+      "bytes": 70444,
+      "sha256": "277815998c6c9e11251155a7c9bb65a1603cd3e03774a325514bbad7b5b5a97a"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/coin.wav",
+      "bytes": 64044,
+      "sha256": "44a2531aa5020a8a13349a2445cb80c0e0536f2ae81c4c43aaec5674300e0e9d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/confirmed.wav",
+      "bytes": 11564,
+      "sha256": "e6d67c186d77c8a2f67fb972dc2a521ada5cca181ff9012d0e893b95e87b7f37"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/drop.wav",
+      "bytes": 153644,
+      "sha256": "1b7ded1b7c943daf682ee822dbd2c6cf23261998d04b94ab1f48793291a82bb3"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/earned.wav",
+      "bytes": 38444,
+      "sha256": "bbd424d78305f0052f69ad6b00174d58e46fb9116687de2526001b68bbf325f3"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/explosion.wav",
+      "bytes": 147244,
+      "sha256": "7f5be9d80195774c3d58453f7b343cf8ce1c62212900780dffae8d92ac7f7da5"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/fire.wav",
+      "bytes": 25644,
+      "sha256": "2d486eff74b2236d94a613f61abe160f402cef63f39aa14c8fbde1e1eb9591f8"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/free_swap.wav",
+      "bytes": 38444,
+      "sha256": "59f6f2e79eb46d9fb35f0f2b80c456fe76cdda93be8d2720a5434f17e656e6e1"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/maintenance.wav",
+      "bytes": 89644,
+      "sha256": "af2d859296b212a6a8705159e827b9718ab3b1239ecf1ef0170cf1a09aef9bdb"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/refill.wav",
+      "bytes": 83244,
+      "sha256": "3176c30ed2739e057818f4078504545e7f4178936f0ab1fd7efb0de62c216c70"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/reposition.wav",
+      "bytes": 51244,
+      "sha256": "0376bfc80ef3bfcb3b0c623a4b0ae1a5460a25dce66a0a9715ee365dfb6b7b5c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/stage_complete.wav",
+      "bytes": 153644,
+      "sha256": "384d6bab3c785c0f4dfd596fbd4d953711129a1679a0137ef9ec17d58299365b"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/stage_reward.wav",
+      "bytes": 211244,
+      "sha256": "9a02552a3f3fa30697c988239c9599597f45293f304f7cbc9485edf8f6a85c2d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/target_1.wav",
+      "bytes": 70444,
+      "sha256": "18762aa7351f4e715d14192485e1ad5fba7724dbf75fac389273ab489b118d24"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/target_2.wav",
+      "bytes": 89644,
+      "sha256": "6e9ff380ffb28a0d7e24b269deca2849bd2e4edf21cd1da6bf9c82b35c33eee7"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/target_3.wav",
+      "bytes": 108844,
+      "sha256": "9bd8ef38e0378641ca2cbffab4924c084ecd0aff8a17fad42baa075ccac178e6"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/voice-big_drop.wav",
+      "bytes": 291648,
+      "sha256": "960405ec6ea2de5f280ed478d7e21e27b77d885bd4205d82eb5b256d79959e1d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/voice-dispenser_fault.wav",
+      "bytes": 123228,
+      "sha256": "25ba2c2d950b1d4fe839775792e01dc3e98652125a2481b9b8de206b6323cba3"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/voice-explosion.wav",
+      "bytes": 102152,
+      "sha256": "6e0bd5df5dbd53527cce7c2c46bc7cbb6e4c8096fedb1817c7b4aeb6ab65b89f"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/voice-free_swap.wav",
+      "bytes": 112912,
+      "sha256": "24b988b33177bec749bce812948c9cf2d99525fc6a19d88a414c65d902b9b66a"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/voice-maintenance.wav",
+      "bytes": 244876,
+      "sha256": "dfcb8caee361e45b989353c7eb8d82f9e71d9f9c2e78a7b9aedd4238a72a4792"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/voice-new_bubbles.wav",
+      "bytes": 152532,
+      "sha256": "dd7bf0ad5851120ad091a878e171463f425db9578a249908fbe71f8e001b0590"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/voice-nice_clear.wav",
+      "bytes": 68668,
+      "sha256": "ae9eb22ecca61d5004a591d6e5c0a239a617d0a9ef3a223a97828e5080da699c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/voice-one_target_left.wav",
+      "bytes": 172568,
+      "sha256": "8f05a168d47e95eecf20f51d7840d5f1681dd61745686f3e507ebb7ad96b5721"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/voice-stage_bonus.wav",
+      "bytes": 306592,
+      "sha256": "e0982249fabd917121d26d82981581018955a5ba9d79e91f9fb03498dd56204b"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/audio/voice-target_received.wav",
+      "bytes": 74430,
+      "sha256": "fdd23664db594aa9a791cd6db5e353a5d690e7592ad03a1224836ef65f616236"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/fonts/ArcadeDisplay.ttf",
+      "bytes": 1514968,
+      "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/fonts/OFL.txt",
+      "bytes": 4398,
+      "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/fonts/SOURCE.txt",
+      "bytes": 387,
+      "sha256": "78a8e35c4059d2613848fac84fe925c0784ede2f194cda3b9e789bb10da105a6"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/images/apparatus.png",
+      "bytes": 1300909,
+      "sha256": "1d58b3df69c9912174361093cc4788803eda25d283b10822c38a9becae577d63"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/images/dragon-parts.png",
+      "bytes": 1152918,
+      "sha256": "82374f3f2bc9b2687552f891d6d7ddae76391ce842c4fe7cae86152cb054c64a"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/images/mechanics.png",
+      "bytes": 1472249,
+      "sha256": "2654b7c758d76d3c71452afa62a64b3e6ab030e2a7bb2ddbe7946af5645b9477"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/images/neck-shoulders.png",
+      "bytes": 804240,
+      "sha256": "55cff1d8ec308f1105b56a4409733739900fc170b94ed31577a64cf4e77c4caa"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/images/orbs-refined.png",
+      "bytes": 1861652,
+      "sha256": "77e323dd77d8f36cae434a4050652714be11f9577c8d6693003a72e6966d2334"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/images/orbs.png",
+      "bytes": 1722394,
+      "sha256": "e8dc74a38cee67bb622bea5178cb2b07223c430a5891fc0ae6d3b50929414893"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/images/room-clean.png",
+      "bytes": 1973709,
+      "sha256": "f734826910268ac5353ec78cfb8e7a99f7ccb58279c024eee5e9779ca482cb30"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/licenses/arcade-announcer.txt",
+      "bytes": 1934,
+      "sha256": "d98aee5750252530713f56d85518c5406f283e8a9153cb9ea57204405c333591"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/licenses/audio-original-sources.json",
+      "bytes": 9013,
+      "sha256": "237030ab29381bf36b9a460387e0a93f8fc144ff6e9a112d21b26d79899e46f3"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/assets/licenses/pet-speech-original-manifest.json",
+      "bytes": 1751,
+      "sha256": "55144984ecebec0b7628de2c551a9a4717de395106771c641a0b956a9fdc7bb8"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/dev/mechanisms/mock-fixtures.mjs",
+      "bytes": 4293,
+      "sha256": "44452976e7f369011823246a1a0b37ed7ebcaf1297cf49bc81092dda84145e9d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/dev/mechanisms/preview.css",
+      "bytes": 1714,
+      "sha256": "23171c5c9082d34a19dfc3cbd2b2ef7208e31b50f680493e3e0c986314cb8e08"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/dev/mechanisms/preview.html",
+      "bytes": 3288,
+      "sha256": "a6ab4713a7155724ae482f130ccabbc34faa0769fb7a8cb507b72ad9af44939a"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/dev/mechanisms/preview.mjs",
+      "bytes": 17121,
+      "sha256": "19e7ba489ca89f0a2b49ecef23413872f4919f496fbb04c5011eeca06d81acee"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/dev/mechanisms/recorder.mjs",
+      "bytes": 2467,
+      "sha256": "b52772ccf72b7a9ee68df3568a350103b8d5aba14d93fdb0b8bdbfe4d636bd36"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/index.html",
+      "bytes": 5841,
+      "sha256": "5970f1d53e1e5fe4ce009fbe9ae856a2267bd4a7b1c09f4cae793071ba4b7bcb"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/package-lock.json",
+      "bytes": 1214,
+      "sha256": "e60075f77d502d0cd7ed426e444bced69d09ea9d3e07776e306ab50ff84bad80"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/package.json",
+      "bytes": 812,
+      "sha256": "3b311ffaac71b6e47c96fdef60f7612382c9711010c7e91d4fdea75b66bdfcca"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/README.md",
+      "bytes": 903,
+      "sha256": "35208a06c201369982913b05625ad2131299f6e91e5afa7a5aa465123ccd023f"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/client/aim-input.mjs",
+      "bytes": 776,
+      "sha256": "20b835075eabdb962e25abbcc61aaf35ca319744d7753744807782d7f31d4a3d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/client/app.mjs",
+      "bytes": 15551,
+      "sha256": "294a9ccdf7f5fc7ccf60a554d4df932178aded856c785019565a3a219527b8e3"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/client/debug-api.mjs",
+      "bytes": 3986,
+      "sha256": "622f73e8efc2d6f23be8fe52c87937301acfaf93d44c7de9f6a65f15fadca978"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/client/presentation-upgrade.mjs",
+      "bytes": 7692,
+      "sha256": "9b514875c9d3a781de24b6e3f2cbeff23b1f24bb2263e37751a218fb7a99c991"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/client/storage-keys.mjs",
+      "bytes": 294,
+      "sha256": "7c3bf88d8dbe07cae80370c0d4dca69c4787560bb2594dddc80e56f33e5cb6f8"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/ammo-bonus.mjs",
+      "bytes": 2215,
+      "sha256": "a958d0422bf674455f0243484bf1ef08591160a1130c15c8435f9d6c42be3d43"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/board-colors.mjs",
+      "bytes": 1490,
+      "sha256": "a49ebf227aa2c036add21c7845ab46b57586720801d4593fe3498200be951c67"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/board-policy.mjs",
+      "bytes": 11079,
+      "sha256": "e94c13aec0c879383cc23a548ecda46b57f44d38da5ba61c8227f90f2971f9fe"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/combo.mjs",
+      "bytes": 828,
+      "sha256": "b089326b4064aa1337ff9855aa346d9aa6ed7779fcd02eff93950d6d86667a0c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/config.mjs",
+      "bytes": 4227,
+      "sha256": "a52f43992751d86d717afcf2c712fc9312fc6d408de1921ac68ff66405fda28a"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/core.mjs",
+      "bytes": 13633,
+      "sha256": "60b37796696157e8bb57cb3c5d8699f240c9a5a92c6a859c4f66389ca565aa85"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/endless-flow.mjs",
+      "bytes": 5559,
+      "sha256": "c15fbe64e161ee31081579d5a28746d16fa5e0bcfe550078d1d12b2a05156834"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/geometry.mjs",
+      "bytes": 6376,
+      "sha256": "7a5a044599dfe0d5f14f237683ebada8a687db483385f37b9c69b7b2af7777d7"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/index.mjs",
+      "bytes": 279,
+      "sha256": "6fe2a4a22e6ad11f2fc9d82fe75892343fa00820b41d7b5dbf202e9c26aa153c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/ledger.mjs",
+      "bytes": 3902,
+      "sha256": "48c037918ecfe0f91138775f599803db93ee2fa7ab4e74b953dbfee0d25bcc91"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/low-opportunity.mjs",
+      "bytes": 12988,
+      "sha256": "f1a90947c4622673f4db50422b87eae88580c854403f849290242451737743df"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/mechanics.mjs",
+      "bytes": 13016,
+      "sha256": "061435ef8a84acc92d24475fbe6ff76ea9d935ee68f531041948f816d38ee2ac"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/migration.mjs",
+      "bytes": 1922,
+      "sha256": "344112f4e6a6fd0b2985c08af8cf154584c66460172129c3e8a9fc2caedfbae7"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/pet-chain.mjs",
+      "bytes": 2139,
+      "sha256": "320562e459f917b0a2dc5da6c1aa886920c7f7635ec10705bd3928be6aa9714c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/pet-slots.mjs",
+      "bytes": 14441,
+      "sha256": "28275c90c99fa96fe32168d75f080fa39c49d19fd5ca2827239ba34d6751b7bd"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/protection.mjs",
+      "bytes": 802,
+      "sha256": "e95f8eec364470b908fa4c65012e9ca34576d0c4219fc3b7178007e503f2927d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/settlement.mjs",
+      "bytes": 7115,
+      "sha256": "e3965b68d664f40470da98d8eccdf3efb5f92a758279a5e5312ab690cab7ed70"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/simulator.mjs",
+      "bytes": 2146,
+      "sha256": "7f4005f72cdfd6558d3adfed6dae0e92d07d26576f48bcda76357bd1a7535009"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/special-placement.mjs",
+      "bytes": 1451,
+      "sha256": "390b264a95c46bcc56e6c4fe874f6c108a298b5845adb57d502406e388386c6d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/special.mjs",
+      "bytes": 1880,
+      "sha256": "9d21524122a271bf9d2b0656bc042be2d5e6404f31e499b390bd2693a4053ff0"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/state-validation.mjs",
+      "bytes": 3945,
+      "sha256": "6ac7598b53b6b09de14941726590a23d38efa43f383b349fae022744e21a9a33"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/core/storage.mjs",
+      "bytes": 798,
+      "sha256": "6bf64772310794a770a39ce0cfe2d50fe59a618c52080cd26c6a2609547e6dc8"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/arcade/prize-burst.mjs",
+      "bytes": 2870,
+      "sha256": "46ba0c2f5f11b9c015e8f928d586e70cab37af2a12365db7528baa60310de4a4"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/audio/arcade-announcer.mjs",
+      "bytes": 5489,
+      "sha256": "47593acc1b546dcb5f45a3e37d95fc2d297a716374891e8c525879fd206eb368"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/audio/audio.mjs",
+      "bytes": 14405,
+      "sha256": "c8b06f236fc6a2c52a8ee8bc84ed0d58dbe349c10cc1562be6f4351a95794c8d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/audio/character.mjs",
+      "bytes": 1289,
+      "sha256": "0ad06f548408a134944041011c5162f4eb856d74f23422d189c468830fe15912"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/audio/cues.mjs",
+      "bytes": 3634,
+      "sha256": "a5db60337a06aba8b186c1f7283ab59f316c1d7f908b0e44da47540a28747923"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/audio/presentation-cues.mjs",
+      "bytes": 1482,
+      "sha256": "a96200b2dd4970b9da4688e85aaad221cab3c331cf1daa7d577873cd962faf3a"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/audio/score-tick.mjs",
+      "bytes": 1495,
+      "sha256": "46cb653182176b4359c6324d5dcbeca8b50dc5be59dee59f1f5ec97dfa8bd916"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/effects-ui/effects-ui.mjs",
+      "bytes": 35469,
+      "sha256": "cdd1f74b8582727a3d37d791503f61da059d274bf7da9fd5aeffbba9bd65439c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/effects-ui/reward-counter.mjs",
+      "bytes": 961,
+      "sha256": "4ad4ba78a0137f7776ff793d1033add7caf212034db8b7d00e23ac6f855fadce"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/effects-ui/reward-flights.mjs",
+      "bytes": 4932,
+      "sha256": "9b2466a73be3c23de4ebebebf7b4df242dbad7254b3b2b37c10d7e60af33d5aa"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/effects-ui/treasure.mjs",
+      "bytes": 3461,
+      "sha256": "09fc2735b5565532e1775cd6117145ea4a49002c45edfce8703cd0958949e183"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/environment/background.mjs",
+      "bytes": 7258,
+      "sha256": "4dd9d4aa1967b41ab97d77ee343b17cdf31e6cfa165fbb1b8c61e5d5fff13dad"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/environment/room-layer.mjs",
+      "bytes": 1863,
+      "sha256": "c4f592b0fcb5d9759ef671e64660b34e3611dc3f247240b56486ec98f51608eb"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/impact-vfx.mjs",
+      "bytes": 2169,
+      "sha256": "56489591c8ebae7a95f66a7c4c0279b56063af10aea41d253a64933ce46b7844"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/mechanisms/art.mjs",
+      "bytes": 3757,
+      "sha256": "413c55a4d5b6edb41307af20f7321f333013f4ff38cbddc25b97ad3bd64f6aac"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/mechanisms/core-bridge.mjs",
+      "bytes": 6803,
+      "sha256": "b80858ffd3a70af988071b21103af29ecc42154cf6cb5fdf0ed6656d3f919c05"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/mechanisms/director.mjs",
+      "bytes": 8745,
+      "sha256": "524877847542ee28094604d9495197511f53c510b1d6d0be66e14516bc756136"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/mechanisms/integration.mjs",
+      "bytes": 2660,
+      "sha256": "a22873c8f6a5e61c87c66de6cb8c09513af34d7f01cc22539efa3ebe7c33c63e"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/mechanisms/renderer.mjs",
+      "bytes": 8573,
+      "sha256": "ce85404fec7d214acead540416e5a4079ad5d89243062bc175d99b03e8057a60"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/orbs/opportunity-arrival.mjs",
+      "bytes": 2092,
+      "sha256": "190e8b53729bfcd7ba7899f09812990fc584e089b87ce6ed4054e5f06239e8f2"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/orbs/orb-material.mjs",
+      "bytes": 4273,
+      "sha256": "d687941063385363f170f98a0d438bb19d44307a489f78972533a5e96bf3baea"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/orbs/special-orbs.mjs",
+      "bytes": 3015,
+      "sha256": "cd43e8ee6439a3685e7f40352e4e68d744aca55bc1d8574b7ca0395bc60ee6d8"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/pet/babylon-adapter.mjs",
+      "bytes": 1933,
+      "sha256": "c1580bc2eef6251aba94aef20ebab0ca9d036fa13ac96434a76f3fdb429f202f"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/pet/controller.mjs",
+      "bytes": 8837,
+      "sha256": "5892d690ff11d309d59270fa526787ce150d61cd89414dd0b1b82ffdaa5eb9cc"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/pet/dragon.mjs",
+      "bytes": 9417,
+      "sha256": "37e52eee3f96bc670173f54a8b39e5eb93129f35c33e56b05797f58cfd4081c6"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/pet/lines.mjs",
+      "bytes": 2319,
+      "sha256": "f845d0612207cb47840f598717de87ebbda471db83b50b4b08be2c4cb2b5b0d1"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/pet-slots/art.mjs",
+      "bytes": 4029,
+      "sha256": "ddb8ab1e6b90c49f41756165b4a3f0c367469d288f49a1841fbca9439ea33a72"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/pet-slots/feedback.mjs",
+      "bytes": 14593,
+      "sha256": "9ecd1764dce0e5340da77cbc74788e64be3bb12bbb17f70d94fc3da9bcb5e96b"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/pet-slots/index.mjs",
+      "bytes": 50,
+      "sha256": "79c84a93e35932880e99a785976199ad65e57d890bc397ffbc3c479cecde1e56"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/pet-slots/layout.mjs",
+      "bytes": 346,
+      "sha256": "d2e6ea93f318d9da3dc9c22260782505745ac59dd402a5a72aff6a152a66aa13"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/rewards/progress-bridge.mjs",
+      "bytes": 5141,
+      "sha256": "e1bceaed3e05d4ee54899dacf5279aa39f2e0cfef9eee2462f8d8f5bf623c565"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/rewards/reward-voice.mjs",
+      "bytes": 5435,
+      "sha256": "66afffe55ed720a2e8cdd0598f720c1d3d85260324f5b82c1f02aef7e76fe0df"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/rewards/reward-words.mjs",
+      "bytes": 795,
+      "sha256": "f2a6463943cc52210847794084af29ea916c21963fed604e9231cb340c2c489c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/feedback/rewards/voice-library.mjs",
+      "bytes": 1812,
+      "sha256": "41b586e597baabfc9e9164f57ac032c2c2788bdbb1741143a3d14a6dfa9f7aec"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/presentation/event-view.mjs",
+      "bytes": 1155,
+      "sha256": "210cb530c8de73cbf743bb369e6134d57abee113f627c1539f2bd1c0d227aae6"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/presentation/guide.mjs",
+      "bytes": 6202,
+      "sha256": "37bb9386b021b93b104a8e675bf1353e3abb49dd8a69bee21e3a9ad908d51c2d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/presentation/scene-base.mjs",
+      "bytes": 19748,
+      "sha256": "2137917ada63dd0f0fb2056c218dc9bd6bc90d5190b88369278746c452b3ca9c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/presentation/scene.mjs",
+      "bytes": 14491,
+      "sha256": "584876e2a475dd8219c15e6fdb1a13f0ebf3cc89ef6097f232e41ecd79caec1e"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/src/presentation/sprite-layer.mjs",
+      "bytes": 21186,
+      "sha256": "4f4f69b771455882d8eb74697b911b4a54a8b36a1f6b7980f3abc52b62636c67"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/style.css",
+      "bytes": 5995,
+      "sha256": "75efd04372438d2dc7e12d82bbe743a6a146a901cd81bab4b27ebf734e7652a5"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/ammo-bonus.cjs",
+      "bytes": 4179,
+      "sha256": "4d4fff9b865fb80c5e2115fae8c6340e8fd932704aa4093edec207b5c7a06125"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/baseline.cjs",
+      "bytes": 5806,
+      "sha256": "df6b30df95143389004363aceebcd3445d1e8fd280ed4b119a7be6fdfa403baf"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/board-motion.cjs",
+      "bytes": 7982,
+      "sha256": "c46e3bce57e4570beae7255eaabac09fff1f01692d43bbcac7fee0bc00391acf"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/density.cjs",
+      "bytes": 7112,
+      "sha256": "dd2ecd6a2f97daee3bc01e4d386afa1522b7642069997d0f471908dd05c3c4f9"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/guide.cjs",
+      "bytes": 1821,
+      "sha256": "11c71185366dbac5026c6e3cb098fe247cc43b078392763da1b117d6fdfb050f"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/integration.cjs",
+      "bytes": 8949,
+      "sha256": "cbad147a6470604d7207d219f77359df407a84aa00d0bf1ea137ba6fc879e2fa"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/lightning.cjs",
+      "bytes": 4744,
+      "sha256": "347274315c4fed597cb43c9550ee1240384de5d0d3360adc06b74a061ee62b11"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/loader.cjs",
+      "bytes": 3862,
+      "sha256": "a21a052e91349d8a06a181b42aa03f5b36a875b64d4ba61191fede83bbbdbfda"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/opportunity-burst.cjs",
+      "bytes": 4096,
+      "sha256": "c9319a80498b84e6a5758856bb2e172b55de3c78dd34f60abd08a9bd4a57c08a"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/pet-slots.cjs",
+      "bytes": 10779,
+      "sha256": "60d0dd72d44c55f755be8cbda057d7ab294c48f0e37043ccf344a7a2cf7b1f5a"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/rhythm.cjs",
+      "bytes": 8201,
+      "sha256": "4d423a81b8e50fa6608fed7058769d1817f2177834c795cc2a664052e48f253d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/treasure.cjs",
+      "bytes": 8448,
+      "sha256": "f0122ed7c76f7279002a2a4fb337e3460ef8b3c1d23fc99e808aa5169e2c1598"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/upgrade.cjs",
+      "bytes": 12497,
+      "sha256": "33ba884df7bbad224ddfef3887945df1695a86713ff696c17ee080253cf0deab"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/browser/vfx.cjs",
+      "bytes": 3113,
+      "sha256": "d47d64af4e4e09b97109d5745fd701743309400c0c58d850820b34c690178755"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/ammo-bonus.test.mjs",
+      "bytes": 2720,
+      "sha256": "168e29b8719fd563ccffcd78ffa98969cd1497ee49d563baf9f49ed3e9500d69"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/board-colors.test.mjs",
+      "bytes": 2402,
+      "sha256": "64e43ff25bc3aabb54de17e4ac6017ab80b3fb24767cf30d4d2ebf2c7383db03"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/clearance.test.mjs",
+      "bytes": 706,
+      "sha256": "c1c414f3571a0763ea7a554e2093a342b36c717fe2a575671bd5ff41b92bf4f5"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/density.test.mjs",
+      "bytes": 6572,
+      "sha256": "282d8ed5e9f00468e0a8d0c461c083a45d2d7d7ff816ba6f588bac165c0e33e7"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/ledger.test.mjs",
+      "bytes": 1766,
+      "sha256": "d6116e8f63e515ad8ab932ace87c356e866bfc6b96d401d5a01b77a7d910fe30"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/lightning.test.mjs",
+      "bytes": 2065,
+      "sha256": "d55156b22e9a42071dc83089f967eeb0823ba3880472676f24932818a2623caa"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/low-opportunity.test.mjs",
+      "bytes": 21765,
+      "sha256": "adc0dcf11e27ae68440e148cfa63669d541bf21c1615c162cc7086349a8ecd40"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/mechanics.test.mjs",
+      "bytes": 18692,
+      "sha256": "30504fc77e735e4e60f468c9a9e822a013766079c4f8200db8f30df704c0d2ea"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/opportunity-placement.test.mjs",
+      "bytes": 6292,
+      "sha256": "7d3e55d54370bd0b5d60e30d3c398443e1fea46159565f715f18dbc61ccbc5d8"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/pet-chain.test.mjs",
+      "bytes": 4092,
+      "sha256": "550a1c2ca3f551ef37889fc08f9c94413f40ab8f3d8d232ff0fd3776bb77ed92"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/pet-slots-concurrent.test.mjs",
+      "bytes": 4520,
+      "sha256": "f7742e248294cc02348eb5c0494b9509b96b70d5fb2ee905d08eb7742cde7fda"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/pet-slots.test.mjs",
+      "bytes": 8656,
+      "sha256": "dbb51be47a8dc62e926ce93c13848b5b1db75634c0c1d38e277437aeba07f6fa"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/random.test.mjs",
+      "bytes": 854,
+      "sha256": "154bde3c996faf08c66b431730a82fd2d9f0224ce2380a64a59c2ba98ccdc46b"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/reward-counter.test.mjs",
+      "bytes": 1297,
+      "sha256": "4ce61f5a9e08f4d2d9c262b3c9b7dc272227aef7cbe7e8a6a031ff7aab061cad"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/reward-flights.test.mjs",
+      "bytes": 1533,
+      "sha256": "d52d4d1249f75ad60380bdd2effdb01dbba58312f0c30ffc861cffe2cff28c64"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/special-generation.test.mjs",
+      "bytes": 1937,
+      "sha256": "b2d14330ccbf8e8238b55b6047d48bfdeff512a0916b0606630421ca058582b2"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/core/special.test.mjs",
+      "bytes": 5091,
+      "sha256": "beb01ff199edd2e13c447b72c06ea02d562cd5f35ec130a29798df96f404599b"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/feedback/arcade-announcer.test.mjs",
+      "bytes": 2341,
+      "sha256": "03f77f4f3260569d69756a8feef88ccb7ba1ef58ac62ee785812392c85c0111b"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/feedback/assist-network.test.mjs",
+      "bytes": 7114,
+      "sha256": "70be5031e61f1cb1a136bf33d3c17eb8ba0a2f97287bbb98213f7c8841167f80"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/feedback/pet-slot-ticket-flights.test.mjs",
+      "bytes": 1786,
+      "sha256": "06220dabee3dab550e5fab4a762aff2a2581695e61d6c91de53b9413684c9531"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/feedback/pet-slots.test.mjs",
+      "bytes": 4862,
+      "sha256": "16d9c85345da0dc5b525bc117d26b617ff6a52ec4ed8e90091f8de89072c615e"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/feedback/score-tick.test.mjs",
+      "bytes": 1927,
+      "sha256": "37e004ef652de18f1a3b8114b20926cfee51853bb301e20e0f9e544ab2ce3a38"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/feedback/stage-polish.test.mjs",
+      "bytes": 5252,
+      "sha256": "8b2ae94adf5868c8cd872ecf61398e309b9813ac4b4a66b693c38500e6d0f234"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/fixtures/low-opportunity-comparison.json",
+      "bytes": 22681,
+      "sha256": "d74d32487dc9b4b6010e5a9dcda510e244e86139840ea30530808340db8d09c8"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/fixtures/low-opportunity-events.json",
+      "bytes": 5429852,
+      "sha256": "3ebccd89f1339633b9b8f620313d488d3a1c0d5afeb5cf5fdda3edda8441b872"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/fixtures/low-opportunity-example.json",
+      "bytes": 30192,
+      "sha256": "92818644af116d046a3bc6a2fcea1dd28c2404a38f33685f78fcca90a30ff58b"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/fixtures/low-opportunity-regression.txt",
+      "bytes": 3694,
+      "sha256": "ed508cfb9d1d29b074362f6531981832ec6b048cc6be8f9fc6a72ec2ca334acc"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/fixtures/low-opportunity-tests.txt",
+      "bytes": 6120,
+      "sha256": "d4e4a1809bff4efef32d43e0ed7acef132dd692238b224b07c8c764530ecf476"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/fixtures/mechanics-comparison.json",
+      "bytes": 8155,
+      "sha256": "7eaf0b5e110a9aeebaaa78ccef601ba1d02ac7e5815c647a26dcfd22a31834f0"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/fixtures/mechanics-events.json",
+      "bytes": 932272,
+      "sha256": "c188579d23f755d84544e14198e552cee6ac7d355ed08e89210167b10bce69ad"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/fixtures/mechanics-tests.txt",
+      "bytes": 3695,
+      "sha256": "3986d608e4e20511aa5f089037b3f9f73ac0bc690b3474283320fc413ad591d6"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/helpers/browser.cjs",
+      "bytes": 1145,
+      "sha256": "d3d7d505181b240ede4adaa5a01e42dd15f8f5419727439150f9b00d407579f7"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/helpers/low-opportunity-compare.mjs",
+      "bytes": 6041,
+      "sha256": "974800cae00fada3bf0878d405c5a7d0c187900401f3900249ee42fd912cdb4d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/helpers/low-opportunity-example.mjs",
+      "bytes": 1420,
+      "sha256": "a1c1221be5e452930228645309ac2307e6fb02d9395c7ed4de45f26244963f8d"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/helpers/mechanics-compare.mjs",
+      "bytes": 3019,
+      "sha256": "76a070a75575dc44181b6cd7511d9184a04018e4d7b101335bcd7f67da7df819"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/helpers/mechanics-sample.mjs",
+      "bytes": 1722,
+      "sha256": "20de243e03ec55ff9a8f4c0868ea778e1b86629f7545d6eef18133cdbbb39042"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tests/helpers/strategies.mjs",
+      "bytes": 2791,
+      "sha256": "ca3b2b22d1a6cd5ce09016c21b679f6a0f8c7d8b06e637e5718a16f6e68aa355"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tools/audit-project.mjs",
+      "bytes": 2461,
+      "sha256": "72ddc64f189c263de0cb399b0d607756d9da8c3deb39e94d663d439145f15e77"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tools/check-release.mjs",
+      "bytes": 1388,
+      "sha256": "c55c52db5fc659fb4a5d6fabc5794fb689553928269dd8e7353e769bec68b8e7"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tools/check.mjs",
+      "bytes": 1766,
+      "sha256": "06e9d227eb115f13e2949621f9954a51a3283cb3427a48f1e33df185fdb3821c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tools/package-release.ps1",
+      "bytes": 2512,
+      "sha256": "dd7201b61278fcadb5635743d0d3b0b82d089b82494f22c75974350683a29d9b"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tools/server.mjs",
+      "bytes": 2208,
+      "sha256": "1f4eece2b3ac4c3628ac239dbe5f69fc9253ee4a98ab6a02c07e33d6d6c58a6c"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tools/start.ps1",
+      "bytes": 1760,
+      "sha256": "b937b85c406dd79cc3aab61de4435159a3d477663bf1b3772671f02c7509d6d4"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tools/test-browser.cjs",
+      "bytes": 701,
+      "sha256": "c5f3fa181046770d25375ed8b2e914282261da380dcf91cee3f2379bd6842347"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/tools/verify-baseline.mjs",
+      "bytes": 4062,
+      "sha256": "d5088cf5e7b0fbc9d5cc04620d36abf84e998c06aa9224a31a441cdd39e87b5f"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/vendor/babylon/babylon.js",
+      "bytes": 8619713,
+      "sha256": "ff331103574d58a94e68353087721260628a4a6dd5521aa98949127bde73bbff"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/vendor/babylon/LICENSE.txt",
+      "bytes": 9226,
+      "sha256": "9362ea9ea17cb221a20cbbd63f404710834cc273d2a9a7b60314fd68ab702cd6"
+    },
+    {
+      "path": "output/refactor-baseline/v1.7.3/game/vendor/babylon/version.txt",
+      "bytes": 8,
+      "sha256": "cf28489769e9b2eb00171d4a669a28b20e19d40b75d33067df6e6bafe38605be"
+    },
+    {
+      "path": "output/releases/v1.8.0/bubble-arcade-v1.8.0.zip",
+      "bytes": 31887437,
+      "sha256": "c67629ce2a235d6a4c85bfa6e6e9962e1a847307d47cfc169879c1b9f49b3ce1"
+    },
+    {
+      "path": "output/releases/v1.8.0/manifest.json",
+      "bytes": 45512,
+      "sha256": "e903ec7c97616f2bc75d1dc7661aaf2885e38c709959817d3940833a513ff601"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/01-运行与操作.md",
+      "bytes": 3759,
+      "sha256": "83825f33b348d140430fd75a2137ab22658863cf9c00fe8e73f2816290c49a85"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/02-文件与代码结构.md",
+      "bytes": 6748,
+      "sha256": "b0913265b0463e62516e8d29b9eb96221a48bf676e33b5638a9d77d12c81e3a5"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/03-玩法与数值现状.md",
+      "bytes": 7118,
+      "sha256": "653f4c4800167c9fd4231af1b7e7a91d57a297368c4998abad10a4f16915254d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/04-状态账务与设备.md",
+      "bytes": 4676,
+      "sha256": "0883fbcf153d0eef81d649eaf9035e6e38178ab1c7195e18c46ec2c4e4b19e4f"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/05-美术声音与资源.md",
+      "bytes": 4401,
+      "sha256": "6fb72deaa3a02f6e3d7b55fc1bc17c55840065fe50c788184d05ebefa3f063b9"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/06-验证与发布.md",
+      "bytes": 4631,
+      "sha256": "7a34179a74b19aac14690928511a7e2c92ee629ed871b27e6917f3f8758a0b4d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/07-后续迭代规划.md",
+      "bytes": 7810,
+      "sha256": "2b7794e1e9e5ef6f82c786de42b917d44d57920074de0582fb768ce868b98cb0"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/08-协作与接手规范.md",
+      "bytes": 2246,
+      "sha256": "f816f96a20a2243690630ed16c664eadbd6b3483221a6efbdd09fb9adfeed023"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/09-整理记录与已知限制.md",
+      "bytes": 3534,
+      "sha256": "6737633794697a888fd7f91750558db00025fe2acb329d34bf4304b5ca2cab3e"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/1.5.1-project-inventory.json",
+      "bytes": 24631,
+      "sha256": "d793eac275d7ec17c7e1e326795c40c4e3a5f10d4587db758cd53e9d4b9af21b"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/1.6.0-project-inventory.json",
+      "bytes": 25609,
+      "sha256": "5bf96ff35c80efcec1d5704aa4b251f60d28d4d47b97a23cfb7c2390de6c7b5d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/1.8.0-project-inventory.json",
+      "bytes": 34064,
+      "sha256": "d7dd2cceb63addd05ca82c0366a606f21f9e209627b65b2bc92e0bb68a239ed1"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/10-1.1萌宠寻宝.md",
+      "bytes": 8985,
+      "sha256": "469a20da09a4e6d5a791199401ca0ab6729ec07b0bd256a1745faa12b08e3170"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/11-下一轮机制建议.md",
+      "bytes": 29958,
+      "sha256": "ec57be0525031314d8a9cde235aed106ce662e9d3fba5e2a673436e57b29ee14"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/12-双彩与导电网接口.md",
+      "bytes": 28927,
+      "sha256": "371320101f4c0196f8e203b5e75f3de2123d403109f6e123215a98408fa99a7e"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/13-双彩与导电网表现接入.md",
+      "bytes": 8987,
+      "sha256": "ec659ced593a755102e1c56a8afcde955ca41ffdea65a7afb30036a4166405d3"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/14-1.3整合交付.md",
+      "bytes": 6381,
+      "sha256": "1278b745ba996cd882c0f94a000b26c6699aec9e8d2449c4a2b29b7e4f8d0f7a"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/15-1.3.1密集盘面与机制可读性.md",
+      "bytes": 4543,
+      "sha256": "fa5a0b3af882fa696d04525e48e27a058de65a499105a244c4b3fa052566c67c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/16-1.3.2实际盘面与动态修正.md",
+      "bytes": 4160,
+      "sha256": "f4b1012e61669100415581443171b6bcfbc5ef433524f2166333f84a24e43099"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/17-1.4.0顶部波次与随机闪电.md",
+      "bytes": 5698,
+      "sha256": "1f133defce5945428fc550be56fbaed82430757de214f810bf512fa613671581"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/18-1.4.1盘面节奏与演出升级.md",
+      "bytes": 4170,
+      "sha256": "e754423c487fa9949feb061b05cd8b4893ef1a50b1ae7449f05ab533b07abcd6"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/19-1.4.2配色与连续得分音效.md",
+      "bytes": 3052,
+      "sha256": "65787cf26071ec486970d2ef953402448be48fda12be1516eb245f798b963d03"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/20-1.5完整产品规格与决策记录.md",
+      "bytes": 65445,
+      "sha256": "ea6e8d1b1241e05f7c386bea3f88b51ef1915f5b424cc07b5f7b7eb15f27833b"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/21-1.5.1工程结构与整理验收.md",
+      "bytes": 12575,
+      "sha256": "28022c8a82f13ff76af847d80760989f6d2ffea7d08a07e99b7145aceab28b26"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/22-1.5.2低余球登场位置与节奏.md",
+      "bytes": 2137,
+      "sha256": "ead6c513a291a49474ccf28faaa2ad68f1a0c5f6efb762a58999cc462e55c4ac"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/23-1.5.3低余球特殊球数量.md",
+      "bytes": 1700,
+      "sha256": "79e7bbab240f56d97eaa2629d176e15faddfff08fa978074133853485dabbcbe"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/24-1.5.4完整特殊球批次与表现.md",
+      "bytes": 2612,
+      "sha256": "96a1ca0480daea05877b323c9508596af7fe3ffd2bcdec324c82e45b01a8442c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/25-1.5.5分散机会球与消除赠球.md",
+      "bytes": 3196,
+      "sha256": "a95acb50953e9226b8d93b373695a0d8b09886d5c0178b9e02e6c89513fe92cc"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/26-1.6.0完整产品规格与决策记录.md",
+      "bytes": 72467,
+      "sha256": "e774558206be7fdff625389d194e8f36fd744995215d8a761e88da9acb908228"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/27-1.6.0封版与交付记录.md",
+      "bytes": 3593,
+      "sha256": "d9fb8ac1574768de7dd12c1447f3845797c3c0fbb45b0452b714cca2ca4e882c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/28-1.6.0-IP服务器部署.md",
+      "bytes": 3803,
+      "sha256": "eadeb97ea6f0ede3beb5cc1289972d609af909a7dcd8d49d63e4e3e43c07c712"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/29-1.6.1特殊球分布与自然生成.md",
+      "bytes": 2917,
+      "sha256": "cb324790f1cce20885cab033194bba2587c963e0f44a276ef2d9532de7ab3b52"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/30-宠物摇奖玩法交付.md",
+      "bytes": 7202,
+      "sha256": "e0d939bf3cc0ed217478e53069013ca0591512b30d0b0f07da18ef6427bbd4a9"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/31-宠物摇奖美术交付.md",
+      "bytes": 6361,
+      "sha256": "b2788eeaaa188e7207d6ef110f170dc501e1cdf7489f3eb697eada20e9c941f3"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/32-宠物摇奖验收报告.md",
+      "bytes": 7180,
+      "sha256": "3c4707fbedcaa14b8fa916b0f9650b14c1e374d1ac5cc7106f67fa849bddf1e6"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/33-1.7.0宠物摇奖整合说明.md",
+      "bytes": 4056,
+      "sha256": "25d343bff9a43f17adba2ca8f1581018569a09456f11f9b4850c14f3f23f0c86"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/34-1.7.1街机演出与常驻装置.md",
+      "bytes": 5204,
+      "sha256": "853069ede37e2296865a63ec66b15047a0b05fd65a58ec6d5d050009bcf71786"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/35-1.7.2宠物装置女声与并行摇奖.md",
+      "bytes": 5440,
+      "sha256": "10e227d9819b02ecbbff983df35b830a358e46b4c9df91513a4e3c6c2537883e"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/36-1.7.3清屏补球与限时连消.md",
+      "bytes": 4289,
+      "sha256": "340b29c0fa027f0cea887be8bb72a44117ef5cf08f8001077db5fa44139e726c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/37-1.8.0完整产品规格与决策记录.md",
+      "bytes": 84518,
+      "sha256": "7e0e7f87765bfcd6dde95c17f24a6f370d02713859d5c93a325fe8f3f4a93807"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/38-1.8.0工程结构与封版验收.md",
+      "bytes": 12101,
+      "sha256": "3485b51ee814cf5f0c5bfafbf51460c0e17a21401e41be8d7f389706f2880b3d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/archive-map.json",
+      "bytes": 3386,
+      "sha256": "279fb862cbdfd0e2b53eccce0b4878a1ec345a49ab3d1c5659344efba83bb246"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/assets-manifest.json",
+      "bytes": 8020,
+      "sha256": "c15a1632340a8d96a97bc8fbc7b3139c599605194194e972394e0189d8d78cdc"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/media/1.5.0-clear-reward.png",
+      "bytes": 904479,
+      "sha256": "86603c0404b40739a7d9102768d971520cebed04dc787af496adbe0f5a18e3c0"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/media/1.5.0-free.png",
+      "bytes": 884405,
+      "sha256": "2ae58dde2afd4d026bc22712b2f8a5cc9584253cd2b27828cfe4e843109cc2f2"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/media/1.5.0-paid.png",
+      "bytes": 885677,
+      "sha256": "59ebec9e0b93a7d80b3d67630f34b0417bda1e8f352a00438666870548328ebe"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/media/1.6.0-free.png",
+      "bytes": 884037,
+      "sha256": "20fbe9e3a2e4049a7d59aebebb83c03f917dfdcafd45f0c371489b251e3d6492"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/media/1.6.0-gift-award.png",
+      "bytes": 732922,
+      "sha256": "fd91b4c392700e4e6196caa7d6885637f5d257a6e7b48e667c9bb00fed8c9a9c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/media/1.6.0-paid.png",
+      "bytes": 885290,
+      "sha256": "d4c524c1b687f3f931bd3e3326eda91a472d95ff3b57d5ef401521ae388819b1"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/media/1.8.0-free.png",
+      "bytes": 907817,
+      "sha256": "9537a8474bd4b7678b5af49ea47424a7c5d9a6e016c763733dfbb47c9c2de2ed"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/docs/media/1.8.0-paid.png",
+      "bytes": 913722,
+      "sha256": "eb5299bd06bc4fc4bb719f8a9b7e5b5e5ed22c0cd08027b6fb128af06bdaaedd"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/.prettierrc.json",
+      "bytes": 73,
+      "sha256": "d7fa1c1dee12b930b45e1f8c465b07da95fa519cfd9e3e503c76dc762617b1fb"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/aimee-clear.wav",
+      "bytes": 63370,
+      "sha256": "8687f99f8050bb5ec358a5be2a1c3b37b4fcccab5bef28d4995996a68fe5b72c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/aimee-congratulations.wav",
+      "bytes": 137716,
+      "sha256": "12ec8b488f435b31f6a7510a289fa1a51754e94bf92fd021605258aad3125eb9"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/aimee-win.wav",
+      "bytes": 68330,
+      "sha256": "c6d031561adc03183d4dc02c1b924ddeb1c64acbdcef3a598b4bf22cfef87569"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/awesome.wav",
+      "bytes": 198970,
+      "sha256": "69fb2195546d2647882918d610b281802fc4d78374d77c94574185e4046ac7e3"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/congratulations.wav",
+      "bytes": 420226,
+      "sha256": "5d498a0cfd7d7fd9f0f6a8474433064de8475ad74e79081ec306adc0701775e1"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/female-wow.mp3",
+      "bytes": 18480,
+      "sha256": "4c34449cd6b75088c219f6a3caab6761f0f955feb7240df51ed26927fdc2ba1c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/kenney-congratulations.ogg",
+      "bytes": 13609,
+      "sha256": "a2a09925af456d0b20c017cf57d217a18ccf4d6c95beed245acc54aa63c92c98"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/kenney-correct.ogg",
+      "bytes": 8642,
+      "sha256": "1b365bf8b42c2ab6d1ba9baae123964cdc18661025734628432f59ea1d4e7c1d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/kenney-power-up.ogg",
+      "bytes": 9356,
+      "sha256": "badaeb219467b3ffadcd6a8a20761e81613820c16432813a38468488a14c4fe3"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/nice.wav",
+      "bytes": 378906,
+      "sha256": "0862072edee0fe91043f7f25e65c9e6e8b0e054ec435bf4c4f6b4b7e9368bba8"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/announcer/wow.mp3",
+      "bytes": 22127,
+      "sha256": "165a92e0dac6d5ca1893adc87770ea5f618c1a54e236cee7c378b869605be7cd"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/attach.wav",
+      "bytes": 30764,
+      "sha256": "12bee2b10825ea07ca5068f018e79d83a6cb2b9c3abf3325a4861f2a522d5748"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/bgm_base.wav",
+      "bytes": 3614160,
+      "sha256": "12ef39b6bf8be9fff7fbcadaec1b61a615f6382919086d962954cfbbe0dfe26e"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/bgm_drive.wav",
+      "bytes": 3614160,
+      "sha256": "d88600b29a811091c753cab97f7bba366473676a925b6a503e7388acda7d8a8e"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/bgm_goal.wav",
+      "bytes": 3614160,
+      "sha256": "fbb006abd29eca66b0a2764b739ec49acbbfcb387596863231d626982a8f7794"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/bounce.wav",
+      "bytes": 16684,
+      "sha256": "94ac75b671366690284c1abe17c604d5a22ca123bca0175b2f6ade88bb7fdfaf"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/chain.wav",
+      "bytes": 61484,
+      "sha256": "ef292e427c0aa9a608ba783a505ccdfb86c0141cc724050645aa507f92ea5516"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/clear.wav",
+      "bytes": 70444,
+      "sha256": "277815998c6c9e11251155a7c9bb65a1603cd3e03774a325514bbad7b5b5a97a"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/coin.wav",
+      "bytes": 64044,
+      "sha256": "44a2531aa5020a8a13349a2445cb80c0e0536f2ae81c4c43aaec5674300e0e9d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/confirmed.wav",
+      "bytes": 11564,
+      "sha256": "e6d67c186d77c8a2f67fb972dc2a521ada5cca181ff9012d0e893b95e87b7f37"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/drop.wav",
+      "bytes": 153644,
+      "sha256": "1b7ded1b7c943daf682ee822dbd2c6cf23261998d04b94ab1f48793291a82bb3"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/earned.wav",
+      "bytes": 38444,
+      "sha256": "bbd424d78305f0052f69ad6b00174d58e46fb9116687de2526001b68bbf325f3"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/explosion.wav",
+      "bytes": 147244,
+      "sha256": "7f5be9d80195774c3d58453f7b343cf8ce1c62212900780dffae8d92ac7f7da5"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/fire.wav",
+      "bytes": 25644,
+      "sha256": "2d486eff74b2236d94a613f61abe160f402cef63f39aa14c8fbde1e1eb9591f8"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/free_swap.wav",
+      "bytes": 38444,
+      "sha256": "59f6f2e79eb46d9fb35f0f2b80c456fe76cdda93be8d2720a5434f17e656e6e1"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/maintenance.wav",
+      "bytes": 89644,
+      "sha256": "af2d859296b212a6a8705159e827b9718ab3b1239ecf1ef0170cf1a09aef9bdb"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/refill.wav",
+      "bytes": 83244,
+      "sha256": "3176c30ed2739e057818f4078504545e7f4178936f0ab1fd7efb0de62c216c70"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/reposition.wav",
+      "bytes": 51244,
+      "sha256": "0376bfc80ef3bfcb3b0c623a4b0ae1a5460a25dce66a0a9715ee365dfb6b7b5c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/stage_complete.wav",
+      "bytes": 153644,
+      "sha256": "384d6bab3c785c0f4dfd596fbd4d953711129a1679a0137ef9ec17d58299365b"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/stage_reward.wav",
+      "bytes": 211244,
+      "sha256": "9a02552a3f3fa30697c988239c9599597f45293f304f7cbc9485edf8f6a85c2d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/target_1.wav",
+      "bytes": 70444,
+      "sha256": "18762aa7351f4e715d14192485e1ad5fba7724dbf75fac389273ab489b118d24"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/target_2.wav",
+      "bytes": 89644,
+      "sha256": "6e9ff380ffb28a0d7e24b269deca2849bd2e4edf21cd1da6bf9c82b35c33eee7"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/target_3.wav",
+      "bytes": 108844,
+      "sha256": "9bd8ef38e0378641ca2cbffab4924c084ecd0aff8a17fad42baa075ccac178e6"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/voice-big_drop.wav",
+      "bytes": 291648,
+      "sha256": "960405ec6ea2de5f280ed478d7e21e27b77d885bd4205d82eb5b256d79959e1d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/voice-dispenser_fault.wav",
+      "bytes": 123228,
+      "sha256": "25ba2c2d950b1d4fe839775792e01dc3e98652125a2481b9b8de206b6323cba3"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/voice-explosion.wav",
+      "bytes": 102152,
+      "sha256": "6e0bd5df5dbd53527cce7c2c46bc7cbb6e4c8096fedb1817c7b4aeb6ab65b89f"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/voice-free_swap.wav",
+      "bytes": 112912,
+      "sha256": "24b988b33177bec749bce812948c9cf2d99525fc6a19d88a414c65d902b9b66a"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/voice-maintenance.wav",
+      "bytes": 244876,
+      "sha256": "dfcb8caee361e45b989353c7eb8d82f9e71d9f9c2e78a7b9aedd4238a72a4792"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/voice-new_bubbles.wav",
+      "bytes": 152532,
+      "sha256": "dd7bf0ad5851120ad091a878e171463f425db9578a249908fbe71f8e001b0590"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/voice-nice_clear.wav",
+      "bytes": 68668,
+      "sha256": "ae9eb22ecca61d5004a591d6e5c0a239a617d0a9ef3a223a97828e5080da699c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/voice-one_target_left.wav",
+      "bytes": 172568,
+      "sha256": "8f05a168d47e95eecf20f51d7840d5f1681dd61745686f3e507ebb7ad96b5721"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/voice-stage_bonus.wav",
+      "bytes": 306592,
+      "sha256": "e0982249fabd917121d26d82981581018955a5ba9d79e91f9fb03498dd56204b"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/audio/voice-target_received.wav",
+      "bytes": 74430,
+      "sha256": "fdd23664db594aa9a791cd6db5e353a5d690e7592ad03a1224836ef65f616236"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/fonts/ArcadeDisplay.ttf",
+      "bytes": 1514968,
+      "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/fonts/OFL.txt",
+      "bytes": 4398,
+      "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/fonts/SOURCE.txt",
+      "bytes": 387,
+      "sha256": "78a8e35c4059d2613848fac84fe925c0784ede2f194cda3b9e789bb10da105a6"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/images/apparatus.png",
+      "bytes": 1300909,
+      "sha256": "1d58b3df69c9912174361093cc4788803eda25d283b10822c38a9becae577d63"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/images/dragon-parts.png",
+      "bytes": 1152918,
+      "sha256": "82374f3f2bc9b2687552f891d6d7ddae76391ce842c4fe7cae86152cb054c64a"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/images/mechanics.png",
+      "bytes": 1472249,
+      "sha256": "2654b7c758d76d3c71452afa62a64b3e6ab030e2a7bb2ddbe7946af5645b9477"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/images/neck-shoulders.png",
+      "bytes": 804240,
+      "sha256": "55cff1d8ec308f1105b56a4409733739900fc170b94ed31577a64cf4e77c4caa"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/images/orbs-refined.png",
+      "bytes": 1861652,
+      "sha256": "77e323dd77d8f36cae434a4050652714be11f9577c8d6693003a72e6966d2334"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/images/orbs.png",
+      "bytes": 1722394,
+      "sha256": "e8dc74a38cee67bb622bea5178cb2b07223c430a5891fc0ae6d3b50929414893"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/images/room-clean.png",
+      "bytes": 1973709,
+      "sha256": "f734826910268ac5353ec78cfb8e7a99f7ccb58279c024eee5e9779ca482cb30"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/licenses/arcade-announcer.txt",
+      "bytes": 1934,
+      "sha256": "d98aee5750252530713f56d85518c5406f283e8a9153cb9ea57204405c333591"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/licenses/audio-original-sources.json",
+      "bytes": 9013,
+      "sha256": "237030ab29381bf36b9a460387e0a93f8fc144ff6e9a112d21b26d79899e46f3"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/assets/licenses/pet-speech-original-manifest.json",
+      "bytes": 1751,
+      "sha256": "55144984ecebec0b7628de2c551a9a4717de395106771c641a0b956a9fdc7bb8"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/dev/mechanisms/mock-fixtures.mjs",
+      "bytes": 4293,
+      "sha256": "44452976e7f369011823246a1a0b37ed7ebcaf1297cf49bc81092dda84145e9d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/dev/mechanisms/preview.css",
+      "bytes": 1714,
+      "sha256": "23171c5c9082d34a19dfc3cbd2b2ef7208e31b50f680493e3e0c986314cb8e08"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/dev/mechanisms/preview.html",
+      "bytes": 3288,
+      "sha256": "a6ab4713a7155724ae482f130ccabbc34faa0769fb7a8cb507b72ad9af44939a"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/dev/mechanisms/preview.mjs",
+      "bytes": 17121,
+      "sha256": "19e7ba489ca89f0a2b49ecef23413872f4919f496fbb04c5011eeca06d81acee"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/dev/mechanisms/recorder.mjs",
+      "bytes": 2467,
+      "sha256": "b52772ccf72b7a9ee68df3568a350103b8d5aba14d93fdb0b8bdbfe4d636bd36"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/index.html",
+      "bytes": 5934,
+      "sha256": "6621e64645797b5a51e75a8b6641f0127ef12c2bfa5818199b941eb057892f6f"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/package-lock.json",
+      "bytes": 1259,
+      "sha256": "5f4fec66de645f9d54410b16e118b943879a35c8828150096daa3391ade6cdfb"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/package.json",
+      "bytes": 905,
+      "sha256": "9e45e85723ae25ffd40988ff160cadf51a23fbb63787fad2b31eefc02cd89931"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/README.md",
+      "bytes": 1150,
+      "sha256": "efc0a099c1df6014471bbf6567fa8f4f95ec7b9eae441026bca714cadd4e9cda"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/client/aim-input.mjs",
+      "bytes": 776,
+      "sha256": "20b835075eabdb962e25abbcc61aaf35ca319744d7753744807782d7f31d4a3d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/client/app.mjs",
+      "bytes": 15551,
+      "sha256": "294a9ccdf7f5fc7ccf60a554d4df932178aded856c785019565a3a219527b8e3"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/client/debug-api.mjs",
+      "bytes": 3986,
+      "sha256": "622f73e8efc2d6f23be8fe52c87937301acfaf93d44c7de9f6a65f15fadca978"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/client/presentation-upgrade.mjs",
+      "bytes": 7732,
+      "sha256": "a072cb1dce93281891d35f06f63a5783c8bd4d30ef3bbcc537a2d8638f64caf4"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/client/storage-keys.mjs",
+      "bytes": 294,
+      "sha256": "7c3bf88d8dbe07cae80370c0d4dca69c4787560bb2594dddc80e56f33e5cb6f8"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/ammo-bonus.mjs",
+      "bytes": 2279,
+      "sha256": "4eae45db3fa20f86501971b28a758e9e14cebcaee5d16269342637c52499b41a"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/board-colors.mjs",
+      "bytes": 1490,
+      "sha256": "a49ebf227aa2c036add21c7845ab46b57586720801d4593fe3498200be951c67"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/board-policy.mjs",
+      "bytes": 11079,
+      "sha256": "e94c13aec0c879383cc23a548ecda46b57f44d38da5ba61c8227f90f2971f9fe"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/combo.mjs",
+      "bytes": 914,
+      "sha256": "649a24e93154a4619d17079b4372313c7d85a53d2833ab6eef8d05565a8aad99"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/config.mjs",
+      "bytes": 4227,
+      "sha256": "a52f43992751d86d717afcf2c712fc9312fc6d408de1921ac68ff66405fda28a"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/core.mjs",
+      "bytes": 13697,
+      "sha256": "38df43fc842e3b5a99226cf1214bef6b0e39350b683e22832a76d73dab6a060d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/endless-flow.mjs",
+      "bytes": 5559,
+      "sha256": "c15fbe64e161ee31081579d5a28746d16fa5e0bcfe550078d1d12b2a05156834"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/geometry.mjs",
+      "bytes": 6376,
+      "sha256": "7a5a044599dfe0d5f14f237683ebada8a687db483385f37b9c69b7b2af7777d7"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/index.mjs",
+      "bytes": 279,
+      "sha256": "6fe2a4a22e6ad11f2fc9d82fe75892343fa00820b41d7b5dbf202e9c26aa153c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/ledger.mjs",
+      "bytes": 3902,
+      "sha256": "48c037918ecfe0f91138775f599803db93ee2fa7ab4e74b953dbfee0d25bcc91"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/low-opportunity.mjs",
+      "bytes": 12992,
+      "sha256": "26046f48bf622252fd9f2260caf7b3b04df477a9649e31868c0693073a1dd042"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/mechanics.mjs",
+      "bytes": 13020,
+      "sha256": "9934bd581bd468e9ee75106bb0640d6f7a7b46cd76b339e58a91a3b4b0bf5703"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/migration.mjs",
+      "bytes": 1922,
+      "sha256": "344112f4e6a6fd0b2985c08af8cf154584c66460172129c3e8a9fc2caedfbae7"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/pet-chain.mjs",
+      "bytes": 2416,
+      "sha256": "20b20439c9836be2bdac06078126a2a417ccf87f50f19b4bc949ba95779f7ed9"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/pet-slots/live-targets.mjs",
+      "bytes": 2510,
+      "sha256": "e7fa681a89bbda827218b4e631d1b3f0f369fd2e5636e61b67b39c6dbcb65462"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/pet-slots/plan.mjs",
+      "bytes": 3347,
+      "sha256": "82b397b234a2035b672a4f778b11790a9d7c980323fcb4c5f9e0e9aaff95aa23"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/pet-slots/rewards.mjs",
+      "bytes": 793,
+      "sha256": "22cfb6478104d4267d3142fb4310b46637c126a3215e37ab785d16d6ad6502dd"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/pet-slots/settlement.mjs",
+      "bytes": 5044,
+      "sha256": "fc2ea8abcba3895276d64c7b945cbcf1324a46e1c636be6717b889e81adf3d42"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/pet-slots/validation.mjs",
+      "bytes": 2605,
+      "sha256": "c03c8f6d3f55e8d2e4cb10ca2aef69f24185b2d9e7340e66e4417ab9ca3e0deb"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/pet-slots.mjs",
+      "bytes": 3931,
+      "sha256": "62df386e9e4d165a29dd33e4e10b9e671e2a8b4362c1f3155a0afe193a5604af"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/protection.mjs",
+      "bytes": 802,
+      "sha256": "e95f8eec364470b908fa4c65012e9ca34576d0c4219fc3b7178007e503f2927d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/settlement.mjs",
+      "bytes": 7115,
+      "sha256": "e3965b68d664f40470da98d8eccdf3efb5f92a758279a5e5312ab690cab7ed70"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/simulator.mjs",
+      "bytes": 2146,
+      "sha256": "7f4005f72cdfd6558d3adfed6dae0e92d07d26576f48bcda76357bd1a7535009"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/special-placement.mjs",
+      "bytes": 1451,
+      "sha256": "390b264a95c46bcc56e6c4fe874f6c108a298b5845adb57d502406e388386c6d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/special.mjs",
+      "bytes": 1880,
+      "sha256": "9d21524122a271bf9d2b0656bc042be2d5e6404f31e499b390bd2693a4053ff0"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/state-validation.mjs",
+      "bytes": 3945,
+      "sha256": "6ac7598b53b6b09de14941726590a23d38efa43f383b349fae022744e21a9a33"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/core/storage.mjs",
+      "bytes": 798,
+      "sha256": "6bf64772310794a770a39ce0cfe2d50fe59a618c52080cd26c6a2609547e6dc8"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/arcade/prize-burst.mjs",
+      "bytes": 3096,
+      "sha256": "a736b8ad8701400c240e2f35f5ec1b689595238667bbcc1b21611e9b35417233"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/audio/announcer-profiles.mjs",
+      "bytes": 1018,
+      "sha256": "ed671ff024029e302ca240e846a38bcadc517e48f189252331d3d1b4d576aa2f"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/audio/arcade-announcer.mjs",
+      "bytes": 5840,
+      "sha256": "3ce53e5ee50948c2c6acf0ecee6d54de0520b3a60c33866342a2db3177c98e26"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/audio/audio.mjs",
+      "bytes": 14405,
+      "sha256": "c8b06f236fc6a2c52a8ee8bc84ed0d58dbe349c10cc1562be6f4351a95794c8d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/audio/character.mjs",
+      "bytes": 1289,
+      "sha256": "0ad06f548408a134944041011c5162f4eb856d74f23422d189c468830fe15912"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/audio/cues.mjs",
+      "bytes": 3634,
+      "sha256": "a5db60337a06aba8b186c1f7283ab59f316c1d7f908b0e44da47540a28747923"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/audio/presentation-cues.mjs",
+      "bytes": 1482,
+      "sha256": "a96200b2dd4970b9da4688e85aaad221cab3c331cf1daa7d577873cd962faf3a"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/audio/score-tick.mjs",
+      "bytes": 1495,
+      "sha256": "46cb653182176b4359c6324d5dcbeca8b50dc5be59dee59f1f5ec97dfa8bd916"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/effects-ui/effects-ui.mjs",
+      "bytes": 35843,
+      "sha256": "b813a2262e51f7cc0709d0a8459375b11d08e948c1e1ed5582fa8f75ec3a362f"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/effects-ui/reward-counter.mjs",
+      "bytes": 961,
+      "sha256": "4ad4ba78a0137f7776ff793d1033add7caf212034db8b7d00e23ac6f855fadce"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/effects-ui/reward-flights.mjs",
+      "bytes": 4932,
+      "sha256": "9b2466a73be3c23de4ebebebf7b4df242dbad7254b3b2b37c10d7e60af33d5aa"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/effects-ui/treasure.mjs",
+      "bytes": 3461,
+      "sha256": "09fc2735b5565532e1775cd6117145ea4a49002c45edfce8703cd0958949e183"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/environment/background.mjs",
+      "bytes": 7258,
+      "sha256": "4dd9d4aa1967b41ab97d77ee343b17cdf31e6cfa165fbb1b8c61e5d5fff13dad"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/environment/room-layer.mjs",
+      "bytes": 1863,
+      "sha256": "c4f592b0fcb5d9759ef671e64660b34e3611dc3f247240b56486ec98f51608eb"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/impact-vfx.mjs",
+      "bytes": 2169,
+      "sha256": "56489591c8ebae7a95f66a7c4c0279b56063af10aea41d253a64933ce46b7844"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/mechanisms/art.mjs",
+      "bytes": 3757,
+      "sha256": "413c55a4d5b6edb41307af20f7321f333013f4ff38cbddc25b97ad3bd64f6aac"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/mechanisms/core-bridge.mjs",
+      "bytes": 6803,
+      "sha256": "b80858ffd3a70af988071b21103af29ecc42154cf6cb5fdf0ed6656d3f919c05"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/mechanisms/director.mjs",
+      "bytes": 8745,
+      "sha256": "524877847542ee28094604d9495197511f53c510b1d6d0be66e14516bc756136"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/mechanisms/integration.mjs",
+      "bytes": 2660,
+      "sha256": "a22873c8f6a5e61c87c66de6cb8c09513af34d7f01cc22539efa3ebe7c33c63e"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/mechanisms/renderer.mjs",
+      "bytes": 8573,
+      "sha256": "ce85404fec7d214acead540416e5a4079ad5d89243062bc175d99b03e8057a60"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/orbs/opportunity-arrival.mjs",
+      "bytes": 2092,
+      "sha256": "190e8b53729bfcd7ba7899f09812990fc584e089b87ce6ed4054e5f06239e8f2"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/orbs/orb-material.mjs",
+      "bytes": 4273,
+      "sha256": "d687941063385363f170f98a0d438bb19d44307a489f78972533a5e96bf3baea"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/orbs/special-orbs.mjs",
+      "bytes": 3015,
+      "sha256": "cd43e8ee6439a3685e7f40352e4e68d744aca55bc1d8574b7ca0395bc60ee6d8"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet/babylon-adapter.mjs",
+      "bytes": 1933,
+      "sha256": "c1580bc2eef6251aba94aef20ebab0ca9d036fa13ac96434a76f3fdb429f202f"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet/controller.mjs",
+      "bytes": 8837,
+      "sha256": "5892d690ff11d309d59270fa526787ce150d61cd89414dd0b1b82ffdaa5eb9cc"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet/dragon.mjs",
+      "bytes": 9534,
+      "sha256": "a28f9cea7d6ec5243dd9af340aca621c3ff937404fedc1d93e5547acdb1a1478"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet/lines.mjs",
+      "bytes": 2319,
+      "sha256": "f845d0612207cb47840f598717de87ebbda471db83b50b4b08be2c4cb2b5b0d1"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet-slots/art.mjs",
+      "bytes": 4337,
+      "sha256": "c685584a70191fe672a1e58d4497f7d1b443b0fec71d2bbd5b60633d1f37c808"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet-slots/combo.mjs",
+      "bytes": 962,
+      "sha256": "a039e49aff98d0abdac92ede563352bab98ca7aeb9d772073ee9d8bdffa39eb8"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet-slots/effects.mjs",
+      "bytes": 1997,
+      "sha256": "24103ec9286e226b4190fd5fa7f20a5cde63fb9b09b438ec0ced8e0196f81539"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet-slots/feedback.mjs",
+      "bytes": 8399,
+      "sha256": "208b0e9f8f9e57fc26e75adeb6897db541b402b45635aecd98c3310ffbada5f0"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet-slots/index.mjs",
+      "bytes": 50,
+      "sha256": "79c84a93e35932880e99a785976199ad65e57d890bc397ffbc3c479cecde1e56"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet-slots/layout.mjs",
+      "bytes": 381,
+      "sha256": "6c69e35c914710eaba372f832c1411ffc304fc6818aa60b896f399be8ffa4987"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/pet-slots/machine.mjs",
+      "bytes": 5116,
+      "sha256": "3f87562c059676e5ed0241e738f589480b62b0d5a09feada4e3e6955a8ef0cb2"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/rewards/progress-bridge.mjs",
+      "bytes": 5141,
+      "sha256": "e1bceaed3e05d4ee54899dacf5279aa39f2e0cfef9eee2462f8d8f5bf623c565"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/rewards/reward-voice.mjs",
+      "bytes": 5435,
+      "sha256": "66afffe55ed720a2e8cdd0598f720c1d3d85260324f5b82c1f02aef7e76fe0df"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/rewards/reward-words.mjs",
+      "bytes": 884,
+      "sha256": "3f87062ce50fb5d25f279098728f62f095164a779d83b851bc0ec4338f7265b0"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/feedback/rewards/voice-library.mjs",
+      "bytes": 1812,
+      "sha256": "41b586e597baabfc9e9164f57ac032c2c2788bdbb1741143a3d14a6dfa9f7aec"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/presentation/event-view.mjs",
+      "bytes": 1155,
+      "sha256": "210cb530c8de73cbf743bb369e6134d57abee113f627c1539f2bd1c0d227aae6"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/presentation/guide.mjs",
+      "bytes": 6202,
+      "sha256": "37bb9386b021b93b104a8e675bf1353e3abb49dd8a69bee21e3a9ad908d51c2d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/presentation/scene-base.mjs",
+      "bytes": 19748,
+      "sha256": "2137917ada63dd0f0fb2056c218dc9bd6bc90d5190b88369278746c452b3ca9c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/presentation/scene.mjs",
+      "bytes": 14491,
+      "sha256": "584876e2a475dd8219c15e6fdb1a13f0ebf3cc89ef6097f232e41ecd79caec1e"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/src/presentation/sprite-layer.mjs",
+      "bytes": 21186,
+      "sha256": "4f4f69b771455882d8eb74697b911b4a54a8b36a1f6b7980f3abc52b62636c67"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/style.css",
+      "bytes": 5995,
+      "sha256": "75efd04372438d2dc7e12d82bbe743a6a146a901cd81bab4b27ebf734e7652a5"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/ammo-bonus.cjs",
+      "bytes": 4179,
+      "sha256": "4d4fff9b865fb80c5e2115fae8c6340e8fd932704aa4093edec207b5c7a06125"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/baseline.cjs",
+      "bytes": 5984,
+      "sha256": "ef9078ccc425fa9c327aa690ab8d1a9edc78d5e8fa49f7012c5765b265ada8a6"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/board-motion.cjs",
+      "bytes": 7982,
+      "sha256": "c46e3bce57e4570beae7255eaabac09fff1f01692d43bbcac7fee0bc00391acf"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/density.cjs",
+      "bytes": 7112,
+      "sha256": "dd2ecd6a2f97daee3bc01e4d386afa1522b7642069997d0f471908dd05c3c4f9"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/guide.cjs",
+      "bytes": 1821,
+      "sha256": "11c71185366dbac5026c6e3cb098fe247cc43b078392763da1b117d6fdfb050f"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/integration.cjs",
+      "bytes": 8949,
+      "sha256": "cbad147a6470604d7207d219f77359df407a84aa00d0bf1ea137ba6fc879e2fa"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/lightning.cjs",
+      "bytes": 4744,
+      "sha256": "347274315c4fed597cb43c9550ee1240384de5d0d3360adc06b74a061ee62b11"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/loader.cjs",
+      "bytes": 3862,
+      "sha256": "a21a052e91349d8a06a181b42aa03f5b36a875b64d4ba61191fede83bbbdbfda"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/opportunity-burst.cjs",
+      "bytes": 4096,
+      "sha256": "c9319a80498b84e6a5758856bb2e172b55de3c78dd34f60abd08a9bd4a57c08a"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/pet-slots.cjs",
+      "bytes": 12034,
+      "sha256": "076c873b1924a6f344baefeb6c49216748001b2da9aa7bc096e4e5c0980f3e0e"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/rhythm.cjs",
+      "bytes": 8201,
+      "sha256": "4d423a81b8e50fa6608fed7058769d1817f2177834c795cc2a664052e48f253d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/treasure.cjs",
+      "bytes": 8448,
+      "sha256": "f0122ed7c76f7279002a2a4fb337e3460ef8b3c1d23fc99e808aa5169e2c1598"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/upgrade.cjs",
+      "bytes": 12497,
+      "sha256": "33ba884df7bbad224ddfef3887945df1695a86713ff696c17ee080253cf0deab"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/browser/vfx.cjs",
+      "bytes": 3113,
+      "sha256": "d47d64af4e4e09b97109d5745fd701743309400c0c58d850820b34c690178755"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/ammo-bonus.test.mjs",
+      "bytes": 2720,
+      "sha256": "168e29b8719fd563ccffcd78ffa98969cd1497ee49d563baf9f49ed3e9500d69"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/board-colors.test.mjs",
+      "bytes": 2402,
+      "sha256": "64e43ff25bc3aabb54de17e4ac6017ab80b3fb24767cf30d4d2ebf2c7383db03"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/clearance.test.mjs",
+      "bytes": 706,
+      "sha256": "c1c414f3571a0763ea7a554e2093a342b36c717fe2a575671bd5ff41b92bf4f5"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/density.test.mjs",
+      "bytes": 6572,
+      "sha256": "282d8ed5e9f00468e0a8d0c461c083a45d2d7d7ff816ba6f588bac165c0e33e7"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/ledger.test.mjs",
+      "bytes": 1766,
+      "sha256": "d6116e8f63e515ad8ab932ace87c356e866bfc6b96d401d5a01b77a7d910fe30"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/lightning.test.mjs",
+      "bytes": 2065,
+      "sha256": "d55156b22e9a42071dc83089f967eeb0823ba3880472676f24932818a2623caa"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/low-opportunity.test.mjs",
+      "bytes": 21765,
+      "sha256": "adc0dcf11e27ae68440e148cfa63669d541bf21c1615c162cc7086349a8ecd40"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/mechanics.test.mjs",
+      "bytes": 18692,
+      "sha256": "30504fc77e735e4e60f468c9a9e822a013766079c4f8200db8f30df704c0d2ea"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/opportunity-placement.test.mjs",
+      "bytes": 6292,
+      "sha256": "7d3e55d54370bd0b5d60e30d3c398443e1fea46159565f715f18dbc61ccbc5d8"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/pet-chain.test.mjs",
+      "bytes": 4092,
+      "sha256": "550a1c2ca3f551ef37889fc08f9c94413f40ab8f3d8d232ff0fd3776bb77ed92"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/pet-slots-concurrent.test.mjs",
+      "bytes": 4520,
+      "sha256": "f7742e248294cc02348eb5c0494b9509b96b70d5fb2ee905d08eb7742cde7fda"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/pet-slots.test.mjs",
+      "bytes": 8656,
+      "sha256": "dbb51be47a8dc62e926ce93c13848b5b1db75634c0c1d38e277437aeba07f6fa"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/random.test.mjs",
+      "bytes": 854,
+      "sha256": "154bde3c996faf08c66b431730a82fd2d9f0224ce2380a64a59c2ba98ccdc46b"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/reward-counter.test.mjs",
+      "bytes": 1297,
+      "sha256": "4ce61f5a9e08f4d2d9c262b3c9b7dc272227aef7cbe7e8a6a031ff7aab061cad"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/reward-flights.test.mjs",
+      "bytes": 1533,
+      "sha256": "d52d4d1249f75ad60380bdd2effdb01dbba58312f0c30ffc861cffe2cff28c64"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/special-generation.test.mjs",
+      "bytes": 1937,
+      "sha256": "b2d14330ccbf8e8238b55b6047d48bfdeff512a0916b0606630421ca058582b2"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/core/special.test.mjs",
+      "bytes": 5091,
+      "sha256": "beb01ff199edd2e13c447b72c06ea02d562cd5f35ec130a29798df96f404599b"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/feedback/arcade-announcer.test.mjs",
+      "bytes": 2341,
+      "sha256": "03f77f4f3260569d69756a8feef88ccb7ba1ef58ac62ee785812392c85c0111b"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/feedback/assist-network.test.mjs",
+      "bytes": 7114,
+      "sha256": "70be5031e61f1cb1a136bf33d3c17eb8ba0a2f97287bbb98213f7c8841167f80"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/feedback/pet-slot-ticket-flights.test.mjs",
+      "bytes": 1786,
+      "sha256": "06220dabee3dab550e5fab4a762aff2a2581695e61d6c91de53b9413684c9531"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/feedback/pet-slots.test.mjs",
+      "bytes": 4862,
+      "sha256": "16d9c85345da0dc5b525bc117d26b617ff6a52ec4ed8e90091f8de89072c615e"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/feedback/score-tick.test.mjs",
+      "bytes": 1927,
+      "sha256": "37e004ef652de18f1a3b8114b20926cfee51853bb301e20e0f9e544ab2ce3a38"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/feedback/stage-polish.test.mjs",
+      "bytes": 5252,
+      "sha256": "8b2ae94adf5868c8cd872ecf61398e309b9813ac4b4a66b693c38500e6d0f234"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/fixtures/low-opportunity-comparison.json",
+      "bytes": 22681,
+      "sha256": "d74d32487dc9b4b6010e5a9dcda510e244e86139840ea30530808340db8d09c8"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/fixtures/low-opportunity-events.json",
+      "bytes": 5429852,
+      "sha256": "3ebccd89f1339633b9b8f620313d488d3a1c0d5afeb5cf5fdda3edda8441b872"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/fixtures/low-opportunity-example.json",
+      "bytes": 30192,
+      "sha256": "92818644af116d046a3bc6a2fcea1dd28c2404a38f33685f78fcca90a30ff58b"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/fixtures/low-opportunity-regression.txt",
+      "bytes": 3694,
+      "sha256": "ed508cfb9d1d29b074362f6531981832ec6b048cc6be8f9fc6a72ec2ca334acc"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/fixtures/low-opportunity-tests.txt",
+      "bytes": 6120,
+      "sha256": "d4e4a1809bff4efef32d43e0ed7acef132dd692238b224b07c8c764530ecf476"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/fixtures/mechanics-comparison.json",
+      "bytes": 8155,
+      "sha256": "7eaf0b5e110a9aeebaaa78ccef601ba1d02ac7e5815c647a26dcfd22a31834f0"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/fixtures/mechanics-events.json",
+      "bytes": 932272,
+      "sha256": "c188579d23f755d84544e14198e552cee6ac7d355ed08e89210167b10bce69ad"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/fixtures/mechanics-tests.txt",
+      "bytes": 3695,
+      "sha256": "3986d608e4e20511aa5f089037b3f9f73ac0bc690b3474283320fc413ad591d6"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/helpers/browser.cjs",
+      "bytes": 1145,
+      "sha256": "d3d7d505181b240ede4adaa5a01e42dd15f8f5419727439150f9b00d407579f7"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/helpers/low-opportunity-compare.mjs",
+      "bytes": 6041,
+      "sha256": "974800cae00fada3bf0878d405c5a7d0c187900401f3900249ee42fd912cdb4d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/helpers/low-opportunity-example.mjs",
+      "bytes": 1420,
+      "sha256": "a1c1221be5e452930228645309ac2307e6fb02d9395c7ed4de45f26244963f8d"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/helpers/mechanics-compare.mjs",
+      "bytes": 3019,
+      "sha256": "76a070a75575dc44181b6cd7511d9184a04018e4d7b101335bcd7f67da7df819"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/helpers/mechanics-sample.mjs",
+      "bytes": 1722,
+      "sha256": "20de243e03ec55ff9a8f4c0868ea778e1b86629f7545d6eef18133cdbbb39042"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tests/helpers/strategies.mjs",
+      "bytes": 2791,
+      "sha256": "ca3b2b22d1a6cd5ce09016c21b679f6a0f8c7d8b06e637e5718a16f6e68aa355"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tools/audit-project.mjs",
+      "bytes": 2461,
+      "sha256": "72ddc64f189c263de0cb399b0d607756d9da8c3deb39e94d663d439145f15e77"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tools/check-release.mjs",
+      "bytes": 1388,
+      "sha256": "c55c52db5fc659fb4a5d6fabc5794fb689553928269dd8e7353e769bec68b8e7"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tools/check.mjs",
+      "bytes": 1766,
+      "sha256": "06e9d227eb115f13e2949621f9954a51a3283cb3427a48f1e33df185fdb3821c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tools/package-release.ps1",
+      "bytes": 2512,
+      "sha256": "dd7201b61278fcadb5635743d0d3b0b82d089b82494f22c75974350683a29d9b"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tools/prepare-deployment.mjs",
+      "bytes": 3527,
+      "sha256": "e032b8013d9095bb02a1d83063f3a450d9f01c9901ee4cae59a6fed43cb52164"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tools/server.mjs",
+      "bytes": 2208,
+      "sha256": "1f4eece2b3ac4c3628ac239dbe5f69fc9253ee4a98ab6a02c07e33d6d6c58a6c"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tools/start.ps1",
+      "bytes": 1760,
+      "sha256": "b937b85c406dd79cc3aab61de4435159a3d477663bf1b3772671f02c7509d6d4"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tools/test-browser.cjs",
+      "bytes": 816,
+      "sha256": "851596727a7004496b46bf50dcc37a94a2fad84e631ac789ef66124eb95cad25"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tools/verify-baseline.mjs",
+      "bytes": 4064,
+      "sha256": "639afe00473494fc310cbb5f04500b4851f3cd8ee2915c5fef7f868e0d771574"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/tools/verify-slot-baseline.mjs",
+      "bytes": 2872,
+      "sha256": "e0c79c621a4ff353a0dfe266400b2f76c6a86ccd8126ad88944b7bb64a89a4cf"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/vendor/babylon/babylon.js",
+      "bytes": 8619713,
+      "sha256": "ff331103574d58a94e68353087721260628a4a6dd5521aa98949127bde73bbff"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/vendor/babylon/LICENSE.txt",
+      "bytes": 9226,
+      "sha256": "9362ea9ea17cb221a20cbbd63f404710834cc273d2a9a7b60314fd68ab702cd6"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/game/vendor/babylon/version.txt",
+      "bytes": 8,
+      "sha256": "cf28489769e9b2eb00171d4a669a28b20e19d40b75d33067df6e6bafe38605be"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/README.md",
+      "bytes": 2412,
+      "sha256": "dd19bc3c5c7883803289c843131ba1af5af2a40d6527050a6fa6802c74adcce7"
+    },
+    {
+      "path": "output/releases/v1.8.0/source/启动游戏.cmd",
+      "bytes": 115,
+      "sha256": "fb5b94384eb36c2186ac72132ce628e6bebda001fb25458764280f12517fb4c9"
+    },
+    {
+      "path": "output/verification/handoff-extracted-browser.json",
+      "bytes": 211,
+      "sha256": "31d85da02b1885236eaeac41649d63bc2c194ec6ec186a5fd705c3ceffed2879"
+    },
+    {
+      "path": "output/verification/handoff-extracted-project-tests.txt",
+      "bytes": 13349,
+      "sha256": "6075856fab1547a3efab69d5421df63546b55e64d345450fd411ce30bfa229da"
+    },
+    {
+      "path": "output/verification/handoff-package-verification.json",
+      "bytes": 157,
+      "sha256": "1dbf1c81f14b11dbf6ea2030b3f36fa1ef72d8fd507a346ce1ef674d93073638"
+    },
+    {
+      "path": "output/verification/public/v1.8.0-browser-verification.json",
+      "bytes": 2068,
+      "sha256": "0fd71a82011bbebdb28ee9a20fa9ecd388d6e8b3c506196a7329365a591cf48a"
+    },
+    {
+      "path": "output/verification/public/v1.8.0-public-game.png",
+      "bytes": 921771,
+      "sha256": "b69e11ed9d962d91eddab110036b5d71316fb052e022165ac97c9cf92d8cc7c3"
+    },
+    {
+      "path": "output/verification/public/v1.8.0-public-verification.log",
+      "bytes": 2159,
+      "sha256": "81950cd2a514795f66aac8cf20f496a8e26fa6bd34bf4a3d07e6e4526d04dd62"
+    },
+    {
+      "path": "output/verification/v1.8.0/clear-reward-1.7.3.png",
+      "bytes": 936972,
+      "sha256": "316d2ad6a6f3092b72164a5a3637570724b5ad3ff7f21180f2befb51e8a967f0"
+    },
+    {
+      "path": "output/verification/v1.8.0/clear-reward-1.8.0.png",
+      "bytes": 936972,
+      "sha256": "316d2ad6a6f3092b72164a5a3637570724b5ad3ff7f21180f2befb51e8a967f0"
+    },
+    {
+      "path": "output/verification/v1.8.0/core-equivalence.json",
+      "bytes": 154,
+      "sha256": "75cfcbf66a75cfc92148c8a54545748ca89e8e2ed28ac7208b95f82ee30daa9a"
+    },
+    {
+      "path": "output/verification/v1.8.0/flight-loader-1.7.3.png",
+      "bytes": 910483,
+      "sha256": "96d6809c2678062c677dfe373fda02a1d458c21caf4a9ca4f3ba2a459e3b5222"
+    },
+    {
+      "path": "output/verification/v1.8.0/flight-loader-1.8.0.png",
+      "bytes": 910482,
+      "sha256": "a1f6135526a44c036f96ecc6a7d1478dbc539d7e1233aeef8b5ec5fcfa303c8e"
+    },
+    {
+      "path": "output/verification/v1.8.0/free-1.7.3.png",
+      "bytes": 907817,
+      "sha256": "9537a8474bd4b7678b5af49ea47424a7c5d9a6e016c763733dfbb47c9c2de2ed"
+    },
+    {
+      "path": "output/verification/v1.8.0/free-1.8.0.png",
+      "bytes": 907817,
+      "sha256": "9537a8474bd4b7678b5af49ea47424a7c5d9a6e016c763733dfbb47c9c2de2ed"
+    },
+    {
+      "path": "output/verification/v1.8.0/paid-1.7.3.png",
+      "bytes": 913722,
+      "sha256": "eb5299bd06bc4fc4bb719f8a9b7e5b5e5ed22c0cd08027b6fb128af06bdaaedd"
+    },
+    {
+      "path": "output/verification/v1.8.0/paid-1.8.0.png",
+      "bytes": 913722,
+      "sha256": "eb5299bd06bc4fc4bb719f8a9b7e5b5e5ed22c0cd08027b6fb128af06bdaaedd"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/ammo-resolved.png",
+      "bytes": 936835,
+      "sha256": "11954de4979e8c82574c55eeb38d09d4ba1cd3d2e10a986dd5dd9d45680d73bc"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/ammo-spinning.png",
+      "bytes": 914915,
+      "sha256": "5129932019180225e590d0aaec52b8ac2faec614f4172b383ee7be0107e1d8ae"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/dual-resolved.png",
+      "bytes": 938718,
+      "sha256": "6f278804113395be6f5cfa2197fcf2a6154f98f8b3cdaebab5a346a7d8dbe389"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/dual-spinning.png",
+      "bytes": 914307,
+      "sha256": "18701592d12b6c957566b71dac4f38c1913b78e765bd252b47338bb93413f9fc"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/fullClear-resolved.png",
+      "bytes": 865546,
+      "sha256": "045c2a0312bbd6f16889f82ad6fcabf909bfaedcaa15566e5ce3ab80fbe65f17"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/fullClear-spinning.png",
+      "bytes": 912807,
+      "sha256": "f70acc631a57bdfb379d7018fc6e8e9daeafa32fe0c532913997efefb8450c16"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/lightning-resolved.png",
+      "bytes": 936278,
+      "sha256": "bee60e79358831849907ee3dbeac69c1fdc059a5f46c29431aa343aa7af4c48e"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/lightning-spinning.png",
+      "bytes": 912965,
+      "sha256": "9990d960ded703c00e8b70fb38f425b2ecca8f870cefcdf437db87bee074acc7"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/report.json",
+      "bytes": 4602,
+      "sha256": "45a588b018126debf36679ea015cea290269fe1aab442d1fae9c95a51b884595"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/specials-resolved.png",
+      "bytes": 939968,
+      "sha256": "216716e04c9bf2e32bb8436396774036e8676589b7f6cd4386d85813ba3060c5"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/specials-spinning.png",
+      "bytes": 913844,
+      "sha256": "f46d80e2180fe60eccce52199d311af50ff2d1ce1eb752760d0647dca2630d85"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/third-clear-start.png",
+      "bytes": 919849,
+      "sha256": "f551d27fbed5dfdc512a86b05747d72c39a51ab2bec70489f29e598625f37e51"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/tickets-resolved.png",
+      "bytes": 940564,
+      "sha256": "71db0e840eb3e2f930890acc330e989f8ef6b1d6a81db26f0a21a32a21698b90"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/tickets-spinning.png",
+      "bytes": 912737,
+      "sha256": "6a665e9d0d87c6be595ca2ff41e0d71f679e136b2fa3ee279a7d2f8cecbd1879"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots/zero-ammo-spinning.png",
+      "bytes": 906482,
+      "sha256": "10f566f548a837be50e1af90530192b1f72efae2a5887021dd7ff2d42fdfaa15"
+    },
+    {
+      "path": "output/verification/v1.8.0/pet-slots-browser.log",
+      "bytes": 4822,
+      "sha256": "66616f06d421874d115a22a48ae37c4c1670733fff3d121a87220663ec4de0a6"
+    },
+    {
+      "path": "output/verification/v1.8.0/settled-1.7.3.png",
+      "bytes": 911002,
+      "sha256": "717fa4df7051e1a94ab2abad62a1d4df484fcc02a6e567a86b07855e240fd3f7"
+    },
+    {
+      "path": "output/verification/v1.8.0/settled-1.8.0.png",
+      "bytes": 911002,
+      "sha256": "717fa4df7051e1a94ab2abad62a1d4df484fcc02a6e567a86b07855e240fd3f7"
+    },
+    {
+      "path": "output/verification/v1.8.0/slot-equivalence.json",
+      "bytes": 728,
+      "sha256": "fa6438816f1be46e98ec62d6c08b66b9fa8c7d97b68fd632897fc83451465bb7"
+    },
+    {
+      "path": "output/verification/v1.8.0/visual-equivalence.json",
+      "bytes": 497,
+      "sha256": "87aefcd8bcbf56f7dba6c1a6ed29820b0461a3916cf2ec5fde8cd961d82fe755"
+    },
+    {
+      "path": "output/verification/v1.8.0-tests.txt",
+      "bytes": 13348,
+      "sha256": "c10c80889fffca1b4e90ebd8e21f87382245c6c054b9b9730574699b0abb8caf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2412,
+      "sha256": "dd19bc3c5c7883803289c843131ba1af5af2a40d6527050a6fa6802c74adcce7"
+    },
+    {
+      "path": "启动游戏.cmd",
+      "bytes": 115,
+      "sha256": "fb5b94384eb36c2186ac72132ce628e6bebda001fb25458764280f12517fb4c9"
+    },
+    {
+      "path": "接手说明/00-先读我.md",
+      "bytes": 896,
+      "sha256": "740b56fd0c405b8c285b60759690e13bd455296f22d40c5a7979ea60a014d221"
+    },
+    {
+      "path": "接手说明/01-工程启动构建与部署.md",
+      "bytes": 5361,
+      "sha256": "58ef34605ca8a4b8ffeed32eedfb79f1011c4d93d4634ce96f4948a73b19e0c7"
+    },
+    {
+      "path": "接手说明/02-Android机台封装与联调指南.md",
+      "bytes": 13261,
+      "sha256": "517587ae13592e7d9d4e7ea9d0ca525b2c443a8e41745376a45b8bf8aeb92c32"
+    },
+    {
+      "path": "接手说明/03-本次移交验收.md",
+      "bytes": 948,
+      "sha256": "97fb3742031a48371aeebdd954267af9064c66cba90d6408bbbd97205fd0680f"
+    }
+  ]
+}

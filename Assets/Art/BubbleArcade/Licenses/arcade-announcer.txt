@@ -1,0 +1,39 @@
+Human announcer recordings used in the 1.7.1 prototype
+
+nice.wav, awesome.wav, congratulations.wav
+Author: VoiceBosch
+Source: EL DUDE - Video Game Announcer
+https://opengameart.org/content/el-dude-video-game-announcer
+License: Creative Commons Attribution-ShareAlike 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Original files: 11._dude_nice.wav, 13._awesome.wav, 32._congratulations.wav
+Redistributed unchanged with local filenames. Playback rate of Nice may vary in-game.
+
+wow.mp3
+Wow Deep Voice by dersuperanton, freesound.org
+https://freesound.org/people/dersuperanton/sounds/437658/
+License: Creative Commons Attribution 4.0
+https://creativecommons.org/licenses/by/4.0/
+Source high-quality preview: https://cdn.freesound.org/previews/437/437658_1992856-hq.mp3
+Redistributed unchanged.
+
+These licenses apply to the attributed recordings, not to the game source code.
+No purchased announcer assets or recordings extracted from existing games are included.
+
+Additional female choices in 1.7.2:
+aimee-clear.wav, aimee-win.wav, aimee-congratulations.wav
+Recorded and performed by Aimee Smith; submitted by WinterWalrus.
+https://opengameart.org/content/announcer-voice-pack-general-phrases-ii-female
+License: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Original filenames clear.wav, you_win.wav, congratulations.wav; recordings unchanged.
+
+kenney-correct.ogg, kenney-power-up.ogg, kenney-congratulations.ogg
+Kenney Voiceover Pack, female recordings.
+https://opengameart.org/content/voiceover-pack-40-lines
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+Original filenames correct.ogg, power_up.ogg, congratulations.ogg; recordings unchanged.
+
+female-wow.mp3: WOW_SoundSmith.wav by Lunardrive
+https://freesound.org/people/Lunardrive/sounds/48981/
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+High-quality preview unchanged: https://cdn.freesound.org/previews/48/48981_120830-hq.mp3

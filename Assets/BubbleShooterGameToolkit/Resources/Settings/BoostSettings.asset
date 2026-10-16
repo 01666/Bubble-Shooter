@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40be2ca18245d2d4e8b14c7d0f799cc2, type: 3}
+  m_Name: BoostSettings
+  m_EditorClassIdentifier: 
+  boosts:
+  - title: Extra moves
+    boostResource: {fileID: 11400000, guid: 253b9682b7cc14d42af0286c29f97299, type: 2}
+    price: 10
+    purchasingAmount: 5
+    startCount: 1
+    countItems: 3
+    openLevel: 1
+    description: Gives extra moves
+    iconPrefab: {fileID: 6989816891432475929, guid: b8f3f7ff3053ffd40b9f1b9bf5e7068e, type: 3}
+    ballPrefab: {fileID: 0}
+  - title: Multicolor bubble
+    boostResource: {fileID: 11400000, guid: 31a9b4ea08a5743b09a9d0814254c5b3, type: 2}
+    price: 10
+    purchasingAmount: 5
+    startCount: 1
+    countItems: 3
+    openLevel: 1
+    description: Matches with any touched color
+    iconPrefab: {fileID: 6989816891432475929, guid: f81b234702f89cd4a8f996d0d7e257b8, type: 3}
+    ballPrefab: {fileID: 717833081356726858, guid: 90fa9e5e78ef84ac6b77600e06fbc454, type: 3}
+  - title: Super aim
+    boostResource: {fileID: 11400000, guid: 769f5efd419024822a38fdf6e2e034b0, type: 2}
+    price: 10
+    purchasingAmount: 5
+    startCount: 1
+    countItems: 3
+    openLevel: 1
+    description: Makes aim line longer
+    iconPrefab: {fileID: 6989816891432475929, guid: 45219f65e9fff8547930615335fca611, type: 3}
+    ballPrefab: {fileID: 0}
+  - title: Extra time
+    boostResource: {fileID: 11400000, guid: 0d1d71e40c3174cbea6128f13ba9d5c6, type: 2}
+    price: 10
+    purchasingAmount: 60
+    startCount: 1
+    countItems: 3
+    openLevel: 1
+    description: Gives extra time
+    iconPrefab: {fileID: 6989816891432475929, guid: 7c5e4235678274c8698a33843620de36, type: 3}
+    ballPrefab: {fileID: 0}

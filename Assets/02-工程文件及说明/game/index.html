@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>泡泡龙街机 · 1.8.0 限时连消 · 试玩候选</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="cabinet">
+        <canvas id="game"></canvas><canvas id="feedback" aria-label="目标进度与奖励反馈"></canvas>
+        <div id="device-fault" hidden role="alert"></div>
+        <div id="loading" hidden>装填中</div>
+        <div id="free" role="status">
+          <strong>免费试射，挑选颜色</strong><span>投币后，消泡泡赢票</span
+          ><small>空格试射 · C 投币 · 试射不消除、不赢票</small>
+        </div>
+        <div id="paused" hidden>已暂停 · 按 P 继续</div>
+      </section>
+      <aside>
+        <p class="eyebrow">BUBBLE ARCADE</p>
+        <h1>打泡泡 · 赢得彩票</h1>
+        <p>
+          左右 / A D 瞄准 · Shift 精细微调<br />短按慢移，长按加速 · 空格发射<br />C 投币 · P 暂停 ·
+          F 全屏
+        </p>
+        <p class="demo">本地试玩：模拟投币、模拟出票<br />1 币 10 球，奖励数值为原型配置</p>
+        <div class="buttons">
+          <button id="coin">投 1 币 · +10 球</button><button id="music">开启音乐</button
+          ><button id="mute">静音</button><button id="pause">暂停</button
+          ><button id="fullscreen">全屏</button>
+        </div>
+        <label
+          >音量 <input id="volume" type="range" min="0" max="1" step=".05" value=".72"
+        /></label>
+        <details>
+          <summary>声音设置</summary>
+          <label>真人播报
+            <select id="announcer-voice">
+              <option value="aimee">女声 A · 游戏播报</option>
+              <option value="kenney">女声 B · 简洁明亮</option>
+              <option value="male">男声 · 原版</option>
+              <option value="off">关闭真人播报</option>
+            </select>
+          </label>
+          <button id="preview-announcer">试听当前配音</button>
+          <p>连消与中奖采用真人英文播报；中文系统长句配音仍待补。音乐、音效、播报可分别调节。</p>
+          <label><input id="legacy-voice" type="checkbox" />试听旧系统配音草稿（非最终配音）</label>
+          <label
+            >音乐
+            <input id="bgm-volume" type="range" min="0" max="1" step=".05" value=".52" /></label
+          ><label
+            >音效
+            <input id="sfx-volume" type="range" min="0" max="1" step=".05" value=".72" /></label
+          ><label
+            >宠物语音 <input id="voice-volume" type="range" min="0" max="1" step=".05" value=".70"
+          /></label>
+        </details>
+        <p id="status" role="status">正在加载…</p>
+        <p id="ledger"></p>
+        <details>
+          <summary>玩法规则与概率</summary>
+          <p>
+            6秒内连续成功消除为宠物蓄力，每次成功重置6秒倒计时，满三格自动摇奖，每次都有奖励。失误或超时清空未完成蓄力，已获得的摇奖和彩票保留；暂停及机器强制补球不消耗倒计时。奖项包括彩票、连锁闪电、特殊泡泡、赠送泡泡、双彩助攻和全屏消除；双彩两色分别三消。连续成功消除升级演出，失误结束连消并清空未完成蓄力，但保留已得奖励；连消等级不是彩票倍率。菱形导电节点沿真实连接引发连锁。蓄力、节点和摇奖结果公共继承，免费试射不消耗。最后1–2球有资格时尝试把普通系统球变成炸弹；一次计划5颗20%、4颗20%、3颗30%、2颗30%，数量在资格成立时固定。不设炸弹总数量上限；可转化目标不足时整批等待，不减少抽中数量，不保证中奖。
+          </p>
+          <p>
+            三消触及带 ✹ 标记的球，引爆一圈邻接球，可连锁。★
+            是星星球，消除或击落都能收集。集齐3颗可获得额外彩票：4张60%，8张30%，16张10%。每轮星星收集开始时即固定奖励，刷新不重抽。消除1张/球，掉落2张/球。最近6发铺路球优先保护，堵塞时可应急整理。一发实际清除（含连锁和掉落）7/8/9/10颗及以上，另赠2/3/4/5颗可发射泡泡，最高5颗；免费试射不赠。宠物摇奖试验概率：彩票30%、闪电20%、特殊泡泡20%、赠球20%、双彩8%、全消2%。无可用目标的奖项在摇奖开始时转换为12张彩票，刷新不重抽、开奖不重复。全部为实验值。
+          </p>
+        </details>
+        <details>
+          <summary>维护</summary>
+          <button id="jam">模拟卡票</button><button id="reconcile">核对模拟出票</button
+          ><label><input id="reduce" type="checkbox" />减少动态</label>
+          <label
+            >画面质量
+            <select id="quality">
+              <option value="low">轻量</option>
+              <option value="medium" selected>标准</option>
+              <option value="high">高</option>
+            </select></label
+          >
+          <p>盘面、剩余球和待出票保存于本浏览器。刷新继续；维护操作不清空账务。</p>
+        </details>
+        <details><summary>语音素材署名</summary><p>女声A：Aimee Smith / WinterWalrus（CC BY 4.0）；女声B：Kenney（CC0）；女声Wow：Lunardrive（CC0）。原男声：VoiceBosch、dersuperanton。<a href="assets/licenses/arcade-announcer.txt" target="_blank">完整来源与授权</a></p></details>
+      </aside>
+    </main>
+    <script src="/vendor/babylon/babylon.js"></script>
+    <script type="module" src="src/client/app.mjs"></script>
+  </body>
+</html>

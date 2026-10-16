@@ -1,0 +1,8 @@
+﻿Bubble Shooter Game Toolkit
+
+Documentation you can find here https://candy-smith.gitbook.io/bubble-shooter-toolkit/getting-started/specification
+
+If you have a question please contact us here:
+
+    info@candy-smith.com
+    https://discord.gg/B4cakyg

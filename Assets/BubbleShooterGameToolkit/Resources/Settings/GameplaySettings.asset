@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53035355e4794762810baf092c3da0d9, type: 3}
+  m_Name: GameplaySettings
+  m_EditorClassIdentifier: 
+  ballSpeed: 25
+  ballWidth: 1.4
+  ballHeight: 1.2
+  cameraSize: 14
+  showScorePopup: 1
+  ScoreMultiplierCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 100
+      value: 100
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  popupTextElements:
+  - MinValue: 5
+    MaxValue: 100
+    popupTextPrefab: {fileID: 4973503240076381965, guid: 4ae2d578d83cc414083a15eaeeeb2240, type: 3}
+  - MinValue: 5
+    MaxValue: 100
+    popupTextPrefab: {fileID: 5265615381643862590, guid: d1e1e4b1a48ae4ecdb1052383d4fd620, type: 3}
+  - MinValue: 5
+    MaxValue: 100
+    popupTextPrefab: {fileID: 2510129642843064784, guid: 5c201fd8966a44faab4e0db6dd66bf8d, type: 3}
+  warningTimeThreshold: 10
+  warningMovesThreshold: 5
+  bouncingCount: 3
+  ballColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  - {r: 0, g: 0.7626443, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 0.9000001, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0.5, b: 0, a: 1}
+  holesScore: 3200000064000000c80000006400000032000000

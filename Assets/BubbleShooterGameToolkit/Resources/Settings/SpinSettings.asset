@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3a7fad003f41b9ac029425b4d01382, type: 3}
+  m_Name: SpinSettings
+  m_EditorClassIdentifier: 
+  costToSpin: 10
+  rewards:
+  - resource: {fileID: 11400000, guid: 31a9b4ea08a5743b09a9d0814254c5b3, type: 2}
+    rewardVisualPrefab: {fileID: -8402607285629886954, guid: d73e7f97c48684df9977a355f9902ce4, type: 3}
+    count: 1
+  - resource: {fileID: 11400000, guid: 05af233fe9cfa409abb37d57d2cceaea, type: 2}
+    rewardVisualPrefab: {fileID: 3991234150668915995, guid: d89501edb441e4a55b9bf4428dc7cb44, type: 3}
+    count: 60
+  - resource: {fileID: 11400000, guid: 253b9682b7cc14d42af0286c29f97299, type: 2}
+    rewardVisualPrefab: {fileID: -3689854862074230165, guid: 4482e51d3941f49d18bfc87f411592c9, type: 3}
+    count: 1
+  - resource: {fileID: 11400000, guid: 05af233fe9cfa409abb37d57d2cceaea, type: 2}
+    rewardVisualPrefab: {fileID: -3221684804697676271, guid: ecabd298c2f654406815252214f65b51, type: 3}
+    count: 30
+  - resource: {fileID: 11400000, guid: dba5017dba75c414abbab5cc5d6742b6, type: 2}
+    rewardVisualPrefab: {fileID: 8201739410225097326, guid: 866319e1fabef4f0e881e5ca7c55c470, type: 3}
+    count: 1
+  - resource: {fileID: 11400000, guid: 769f5efd419024822a38fdf6e2e034b0, type: 2}
+    rewardVisualPrefab: {fileID: -2293813952246124587, guid: 78b3684289fdc41e3a2f214c06c40759, type: 3}
+    count: 1
+  - resource: {fileID: 11400000, guid: dba5017dba75c414abbab5cc5d6742b6, type: 2}
+    rewardVisualPrefab: {fileID: 8201739410225097326, guid: 866319e1fabef4f0e881e5ca7c55c470, type: 3}
+    count: 5
+  - resource: {fileID: 11400000, guid: 0d1d71e40c3174cbea6128f13ba9d5c6, type: 2}
+    rewardVisualPrefab: {fileID: 3321195284317039287, guid: 233588b0dd349423bb5bfa1849c346f5, type: 3}
+    count: 1

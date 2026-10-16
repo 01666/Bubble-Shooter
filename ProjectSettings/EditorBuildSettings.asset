@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/BubbleShooterGameToolkit/Scenes/main.unity
+    guid: bb3ec8f25cf644c9384f3760373dce4d
+  - enabled: 1
+    path: Assets/BubbleShooterGameToolkit/Scenes/game.unity
+    guid: c3852f9d4e5589f4aadf8dc8d981b3a5
+  - enabled: 1
+    path: Assets/BubbleShooterGameToolkit/Scenes/map.unity
+    guid: 18b62d62d34119344b585c810c7eff53
+  m_configObjects: {}

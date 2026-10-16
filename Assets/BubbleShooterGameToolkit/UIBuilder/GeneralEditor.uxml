@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-items: stretch; justify-content: flex-start; align-self: auto; flex-direction: column;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+            <ui:EnumField type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" value="Center" name="levelMode" binding-path="levelMode" style="width: 136px;" />
+            <ui:IntegerField value="42" binding-path="moves" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:EnumField label="Level Type" type="BubbleShooterGameToolkit.Scripts.Enums.ELevelTypes, BubbleShooterRef" binding-path="levelType" name="LevelType" style="flex-direction: row; align-items: stretch; justify-content: flex-start; align-self: auto;" />
+        <ui:Toggle label="Holes" binding-path="holes" />
+        <ui:IntegerField label="Size Y" value="42" binding-path="sizeY" name="SizeY" />
+        <ui:VisualElement name="Stars" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 0; flex-basis: initial;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: flex-start; align-items: stretch; align-self: stretch; flex-shrink: 0; flex-basis: initial; min-width: auto; max-width: none;">
+                <ui:IntegerField label="Stars" value="42" name="Star1" style="flex-grow: 1;" />
+                <ui:IntegerField value="42" name="Star2" style="flex-grow: 1;" />
+                <ui:IntegerField value="42" name="Star3" style="flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <uie:ObjectField label="Tutorial" type="BubbleShooterGameToolkit.Scripts.CommonUI.Tutorials.TutorialSetup, BubbleShooterRef" binding-path="tutorial" name="Tutorial" />
+        <uie:ObjectField label="Background" type="UnityEngine.Sprite, UnityEngine.CoreModule" binding-path="background" name="Background" />
+        <ui:VisualElement name="RandomColors" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: stretch; justify-content: flex-start; align-self: stretch; flex-shrink: 0; flex-basis: initial;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-between; align-items: stretch; align-self: stretch; flex-shrink: 0; flex-basis: initial; min-width: auto; max-width: none;">
+                <ui:Toggle label="Colors Random ball" name="rnd0" />
+                <ui:Toggle name="rnd1" />
+                <ui:Toggle name="rnd2" />
+                <ui:Toggle name="rnd3" />
+                <ui:Toggle name="rnd4" />
+                <ui:Toggle name="rnd5" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <uie:PropertyField binding-path="targets" name="TargetsProperty" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,114 @@
+@font-face {
+  font-family: ArcadeDisplay;
+  src: url('/assets/fonts/ArcadeDisplay.ttf');
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #071628;
+  color: #e1edf5;
+  font-family: system-ui, 'Microsoft Yahei', sans-serif;
+}
+main {
+  display: flex;
+  gap: 28px;
+  padding: 20px;
+  max-width: 1320px;
+  margin: auto;
+  align-items: flex-start;
+}
+#cabinet {
+  position: relative;
+  flex: none;
+  width: min(52vw, calc((100vh - 40px) * 0.5625));
+  aspect-ratio: 9/16;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px #0006;
+}
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+}
+#effects {
+  pointer-events: none;
+}
+aside {
+  max-width: 490px;
+  padding: 12px 0;
+}
+h1 {
+  font-size: 26px;
+  color: #f6d995;
+}
+.eyebrow {
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: #7cd2ef;
+}
+.notice {
+  padding: 12px;
+  border-left: 3px solid #cba259;
+  background: #102b45;
+  line-height: 1.7;
+}
+button {
+  padding: 11px 13px;
+  background: #183f61;
+  color: #f6dfa8;
+  border: 1px solid #8f9d98;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+button:hover {
+  background: #23577f;
+}
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 20px 0;
+}
+label {
+  display: block;
+  margin: 12px 0;
+}
+input[type='range'] {
+  width: 95%;
+}
+output {
+  display: block;
+  line-height: 1.7;
+  color: #9cdbef;
+  min-height: 48px;
+}
+pre {
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+a {
+  color: #d7bc85;
+}
+p {
+  line-height: 1.7;
+}
+@media (max-width: 650px) {
+  main {
+    display: block;
+    padding: 10px;
+  }
+  #cabinet {
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+  }
+  aside {
+    margin: auto;
+    padding: 14px 8px;
+  }
+}

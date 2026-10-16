@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Blue Gold Sprint",
+  "bpm": 136,
+  "originalAssets": "Project-created music and effects; project may use and modify. No prior audio assets copied.",
+  "voice": "Installed Microsoft Yaoyao (zh-CN) system voice; draft output. Windows/Microsoft terms apply; commercial redistribution clearance not certified.",
+  "tools": [
+    "Node.js 24 built-in PCM WAV writer and synthesis",
+    "Windows PowerShell 5.1, SAPI COM SpVoice / Speech_OneCore readonly token",
+    "Browser Web Audio API",
+    "Unmodified gameplay-v4 MemoryStore offline event trace generation"
+  ],
+  "files": {
+    "attach.wav": {
+      "bytes": 30764,
+      "sha256": "12bee2b10825ea07ca5068f018e79d83a6cb2b9c3abf3325a4861f2a522d5748",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "bgm_base.wav": {
+      "bytes": 3614160,
+      "sha256": "12ef39b6bf8be9fff7fbcadaec1b61a615f6382919086d962954cfbbe0dfe26e",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "bgm_drive.wav": {
+      "bytes": 3614160,
+      "sha256": "d88600b29a811091c753cab97f7bba366473676a925b6a503e7388acda7d8a8e",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "bgm_goal.wav": {
+      "bytes": 3614160,
+      "sha256": "fbb006abd29eca66b0a2764b739ec49acbbfcb387596863231d626982a8f7794",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "bounce.wav": {
+      "bytes": 16684,
+      "sha256": "94ac75b671366690284c1abe17c604d5a22ca123bca0175b2f6ade88bb7fdfaf",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "chain.wav": {
+      "bytes": 61484,
+      "sha256": "ef292e427c0aa9a608ba783a505ccdfb86c0141cc724050645aa507f92ea5516",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "clear.wav": {
+      "bytes": 70444,
+      "sha256": "277815998c6c9e11251155a7c9bb65a1603cd3e03774a325514bbad7b5b5a97a",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "coin.wav": {
+      "bytes": 64044,
+      "sha256": "44a2531aa5020a8a13349a2445cb80c0e0536f2ae81c4c43aaec5674300e0e9d",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "confirmed.wav": {
+      "bytes": 11564,
+      "sha256": "e6d67c186d77c8a2f67fb972dc2a521ada5cca181ff9012d0e893b95e87b7f37",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "demo-explosion.wav": {
+      "bytes": 2048044,
+      "sha256": "94fdb9bdb9cc27b5474113856356b8171ee2bd315992d6e8cdf4a444128352d1",
+      "source": "Local original BGM/SFX plus Microsoft Yaoyao speech, compiled audition arrangement"
+    },
+    "demo-normal.wav": {
+      "bytes": 2048044,
+      "sha256": "117c15861eac6684d6787f1e4c7fbcb3078ee70d7e7761d6a7e6542d1e88d267",
+      "source": "Local original BGM/SFX plus Microsoft Yaoyao speech, compiled audition arrangement"
+    },
+    "demo-targets.wav": {
+      "bytes": 2048044,
+      "sha256": "7533bba5ab4ed43cad2834c3860566e03bb1accb7063062b2b35cc2f014d6f25",
+      "source": "Local original BGM/SFX plus Microsoft Yaoyao speech, compiled audition arrangement"
+    },
+    "drop.wav": {
+      "bytes": 153644,
+      "sha256": "1b7ded1b7c943daf682ee822dbd2c6cf23261998d04b94ab1f48793291a82bb3",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "earned.wav": {
+      "bytes": 38444,
+      "sha256": "bbd424d78305f0052f69ad6b00174d58e46fb9116687de2526001b68bbf325f3",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "explosion.wav": {
+      "bytes": 147244,
+      "sha256": "7f5be9d80195774c3d58453f7b343cf8ce1c62212900780dffae8d92ac7f7da5",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "fire.wav": {
+      "bytes": 25644,
+      "sha256": "2d486eff74b2236d94a613f61abe160f402cef63f39aa14c8fbde1e1eb9591f8",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "free_swap.wav": {
+      "bytes": 38444,
+      "sha256": "59f6f2e79eb46d9fb35f0f2b80c456fe76cdda93be8d2720a5434f17e656e6e1",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "maintenance.wav": {
+      "bytes": 89644,
+      "sha256": "af2d859296b212a6a8705159e827b9718ab3b1239ecf1ef0170cf1a09aef9bdb",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "refill.wav": {
+      "bytes": 83244,
+      "sha256": "3176c30ed2739e057818f4078504545e7f4178936f0ab1fd7efb0de62c216c70",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "reposition.wav": {
+      "bytes": 51244,
+      "sha256": "0376bfc80ef3bfcb3b0c623a4b0ae1a5460a25dce66a0a9715ee365dfb6b7b5c",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "stage_complete.wav": {
+      "bytes": 153644,
+      "sha256": "384d6bab3c785c0f4dfd596fbd4d953711129a1679a0137ef9ec17d58299365b",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "stage_reward.wav": {
+      "bytes": 211244,
+      "sha256": "9a02552a3f3fa30697c988239c9599597f45293f304f7cbc9485edf8f6a85c2d",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "target_1.wav": {
+      "bytes": 70444,
+      "sha256": "18762aa7351f4e715d14192485e1ad5fba7724dbf75fac389273ab489b118d24",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "target_2.wav": {
+      "bytes": 89644,
+      "sha256": "6e9ff380ffb28a0d7e24b269deca2849bd2e4edf21cd1da6bf9c82b35c33eee7",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "target_3.wav": {
+      "bytes": 108844,
+      "sha256": "9bd8ef38e0378641ca2cbffab4924c084ecd0aff8a17fad42baa075ccac178e6",
+      "source": "Original composition and deterministic procedural synthesis in build-audio.mjs, no external sample recordings"
+    },
+    "voice-big_drop.wav": {
+      "bytes": 291648,
+      "sha256": "960405ec6ea2de5f280ed478d7e21e27b77d885bd4205d82eb5b256d79959e1d",
+      "source": "Microsoft Yaoyao, installed Windows Chinese OneCore, offline SAPI COM; trimmed/resampled/normalized locally"
+    },
+    "voice-explosion.wav": {
+      "bytes": 102152,
+      "sha256": "6e0bd5df5dbd53527cce7c2c46bc7cbb6e4c8096fedb1817c7b4aeb6ab65b89f",
+      "source": "Microsoft Yaoyao, installed Windows Chinese OneCore, offline SAPI COM; trimmed/resampled/normalized locally"
+    },
+    "voice-free_swap.wav": {
+      "bytes": 189356,
+      "sha256": "49ffe125a6b16201b6b7f06bb58e0634b7090e2918c9a9fe850930cb921ce624",
+      "source": "Microsoft Yaoyao, installed Windows Chinese OneCore, offline SAPI COM; trimmed/resampled/normalized locally"
+    },
+    "voice-maintenance.wav": {
+      "bytes": 244876,
+      "sha256": "dfcb8caee361e45b989353c7eb8d82f9e71d9f9c2e78a7b9aedd4238a72a4792",
+      "source": "Microsoft Yaoyao, installed Windows Chinese OneCore, offline SAPI COM; trimmed/resampled/normalized locally"
+    },
+    "voice-new_bubbles.wav": {
+      "bytes": 152532,
+      "sha256": "dd7bf0ad5851120ad091a878e171463f425db9578a249908fbe71f8e001b0590",
+      "source": "Microsoft Yaoyao, installed Windows Chinese OneCore, offline SAPI COM; trimmed/resampled/normalized locally"
+    },
+    "voice-one_target_left.wav": {
+      "bytes": 172568,
+      "sha256": "8f05a168d47e95eecf20f51d7840d5f1681dd61745686f3e507ebb7ad96b5721",
+      "source": "Microsoft Yaoyao, installed Windows Chinese OneCore, offline SAPI COM; trimmed/resampled/normalized locally"
+    },
+    "voice-stage_bonus.wav": {
+      "bytes": 306592,
+      "sha256": "e0982249fabd917121d26d82981581018955a5ba9d79e91f9fb03498dd56204b",
+      "source": "Microsoft Yaoyao, installed Windows Chinese OneCore, offline SAPI COM; trimmed/resampled/normalized locally"
+    }
+  }
+}

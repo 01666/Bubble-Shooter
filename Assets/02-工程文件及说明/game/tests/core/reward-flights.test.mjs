@@ -1,0 +1,37 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { RewardFlights, REWARD_TIMING } from '../../src/feedback/effects-ui/reward-flights.mjs';
+test('flight must finish and settle before +1 and the number pulse start together', () => {
+  let pulses = 0;
+  const v = new RewardFlights(() => pulses++);
+  v.add('one', 1, [{ x: 200, y: 500 }], 0);
+  v.update(0);
+  v.update(REWARD_TIMING.upperFlight - 0.001);
+  assert.equal(v.stats().pops, 0);
+  assert.equal(pulses, 0);
+  v.update(REWARD_TIMING.upperFlight);
+  assert.equal(v.stats().pops, 0, 'visible landing precedes the +1');
+  v.update(REWARD_TIMING.upperFlight + REWARD_TIMING.landingPause - 0.001);
+  assert.equal(pulses, 0);
+  v.update(REWARD_TIMING.upperFlight + REWARD_TIMING.landingPause);
+  assert.equal(v.stats().pops, 1);
+  assert.equal(pulses, 1, 'the digit pulse shares the +1 start cue');
+  v.update(2);
+  assert.equal(pulses, 1);
+});
+test('earned ticket animations arrive once per unit, queue across bursts and deduplicate stages', () => {
+  let count = 0;
+  const v = new RewardFlights(() => count++);
+  const source = [{ x: 100, y: 200 }];
+  v.add('shot-1', 4, source, 0.3);
+  v.add('stage-1', 16, source, 0.9);
+  v.add('stage-1', 16, source, 1);
+  v.add('free', 0, source, 1);
+  for (let t = 0; t < 4; t += 0.025) v.update(t);
+  assert.equal(count, 20);
+  assert.deepEqual(v.stats(), { queued: 0, units: 20, arrivals: 20, flying: 0, pops: 0 });
+  v.clear();
+  v.update(5);
+  assert.equal(v.stats().units, 0);
+  assert.equal(count, 20);
+});

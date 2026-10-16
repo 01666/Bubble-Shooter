@@ -1,0 +1,155 @@
+{
+  "policy": "Move and retain original files; no recursive delete",
+  "mappings": [
+    {
+      "from": "demo",
+      "to": "archive/demos/demo",
+      "files": 44,
+      "bytes": 27820430
+    },
+    {
+      "from": "demo-v10",
+      "to": "archive/demos/demo-v10",
+      "files": 191,
+      "bytes": 69104239
+    },
+    {
+      "from": "demo-v11",
+      "to": "archive/demos/demo-v11",
+      "files": 195,
+      "bytes": 78222049
+    },
+    {
+      "from": "demo-v12",
+      "to": "archive/demos/demo-v12",
+      "files": 197,
+      "bytes": 78160998
+    },
+    {
+      "from": "demo-v13",
+      "to": "archive/demos/demo-v13",
+      "files": 202,
+      "bytes": 72197662
+    },
+    {
+      "from": "demo-v14",
+      "to": "archive/demos/demo-v14",
+      "files": 190,
+      "bytes": 66452769
+    },
+    {
+      "from": "demo-v15",
+      "to": "archive/demos/demo-v15",
+      "files": 197,
+      "bytes": 70096534
+    },
+    {
+      "from": "demo-v2",
+      "to": "archive/demos/demo-v2",
+      "files": 15,
+      "bytes": 1863230
+    },
+    {
+      "from": "demo-v3",
+      "to": "archive/demos/demo-v3",
+      "files": 17,
+      "bytes": 2488683
+    },
+    {
+      "from": "demo-v6",
+      "to": "archive/demos/demo-v6",
+      "files": 65,
+      "bytes": 26382163
+    },
+    {
+      "from": "demo-v7",
+      "to": "archive/demos/demo-v7",
+      "files": 14,
+      "bytes": 2029611
+    },
+    {
+      "from": "demo-v8",
+      "to": "archive/demos/demo-v8",
+      "files": 186,
+      "bytes": 67605960
+    },
+    {
+      "from": "demo-v9",
+      "to": "archive/demos/demo-v9",
+      "files": 186,
+      "bytes": 67526973
+    },
+    {
+      "from": "implementation",
+      "to": "archive/agent-deliveries",
+      "files": 588,
+      "bytes": 246549153
+    },
+    {
+      "from": "planning",
+      "to": "archive/planning",
+      "files": 21,
+      "bytes": 1837260
+    },
+    {
+      "from": "output/concepts-v1",
+      "to": "archive/design-output/concepts-v1",
+      "files": 7,
+      "bytes": 15024056
+    },
+    {
+      "from": "output/gameplay-3d-v3",
+      "to": "archive/design-output/gameplay-3d-v3",
+      "files": 2,
+      "bytes": 2451413
+    },
+    {
+      "from": "output/gameplay-3d-v4",
+      "to": "archive/design-output/gameplay-3d-v4",
+      "files": 4,
+      "bytes": 7773411
+    },
+    {
+      "from": "output/gameplay-v2",
+      "to": "archive/design-output/gameplay-v2",
+      "files": 7,
+      "bytes": 10616999
+    },
+    {
+      "from": "output/night-fever-demo-v0.1.zip",
+      "to": "archive/design-output/night-fever-demo-v0.1.zip",
+      "files": 1,
+      "bytes": 20836295
+    },
+    {
+      "from": "output/night-fever-refined",
+      "to": "archive/design-output/night-fever-refined",
+      "files": 5,
+      "bytes": 7755577
+    },
+    {
+      "from": "output/recordings/record-game.cjs",
+      "to": "archive/recording-tools/record-game.cjs",
+      "files": 1,
+      "bytes": 3867
+    },
+    {
+      "from": "output/recordings/verify-video.cjs",
+      "to": "archive/recording-tools/verify-video.cjs",
+      "files": 1,
+      "bytes": 1196
+    },
+    {
+      "from": "output/maintenance",
+      "to": "archive/maintenance-v1",
+      "files": 10,
+      "bytes": 5287334
+    },
+    {
+      "from": "game/tools/finalize-baseline.cjs",
+      "to": "archive/maintenance-scripts/finalize-1.0-baseline.cjs",
+      "files": 1,
+      "bytes": 3731
+    }
+  ]
+}

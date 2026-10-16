@@ -1,0 +1,1100 @@
+{
+  "version": "1.5.1",
+  "generatedUtc": "2026-10-11T15:44:19.283Z",
+  "areas": [
+    {
+      "area": "game",
+      "files": 159,
+      "bytes": 41443768
+    },
+    {
+      "area": "docs",
+      "files": 27,
+      "bytes": 2937522
+    },
+    {
+      "area": "archive",
+      "files": 2348,
+      "bytes": 948092474
+    },
+    {
+      "area": "output",
+      "files": 2295,
+      "bytes": 1025160448
+    }
+  ],
+  "activeFiles": [
+    {
+      "path": "game/.prettierrc.json",
+      "bytes": 73
+    },
+    {
+      "path": "game/assets/audio/attach.wav",
+      "bytes": 30764
+    },
+    {
+      "path": "game/assets/audio/bgm_base.wav",
+      "bytes": 3614160
+    },
+    {
+      "path": "game/assets/audio/bgm_drive.wav",
+      "bytes": 3614160
+    },
+    {
+      "path": "game/assets/audio/bgm_goal.wav",
+      "bytes": 3614160
+    },
+    {
+      "path": "game/assets/audio/bounce.wav",
+      "bytes": 16684
+    },
+    {
+      "path": "game/assets/audio/chain.wav",
+      "bytes": 61484
+    },
+    {
+      "path": "game/assets/audio/clear.wav",
+      "bytes": 70444
+    },
+    {
+      "path": "game/assets/audio/coin.wav",
+      "bytes": 64044
+    },
+    {
+      "path": "game/assets/audio/confirmed.wav",
+      "bytes": 11564
+    },
+    {
+      "path": "game/assets/audio/drop.wav",
+      "bytes": 153644
+    },
+    {
+      "path": "game/assets/audio/earned.wav",
+      "bytes": 38444
+    },
+    {
+      "path": "game/assets/audio/explosion.wav",
+      "bytes": 147244
+    },
+    {
+      "path": "game/assets/audio/fire.wav",
+      "bytes": 25644
+    },
+    {
+      "path": "game/assets/audio/free_swap.wav",
+      "bytes": 38444
+    },
+    {
+      "path": "game/assets/audio/maintenance.wav",
+      "bytes": 89644
+    },
+    {
+      "path": "game/assets/audio/refill.wav",
+      "bytes": 83244
+    },
+    {
+      "path": "game/assets/audio/reposition.wav",
+      "bytes": 51244
+    },
+    {
+      "path": "game/assets/audio/stage_complete.wav",
+      "bytes": 153644
+    },
+    {
+      "path": "game/assets/audio/stage_reward.wav",
+      "bytes": 211244
+    },
+    {
+      "path": "game/assets/audio/target_1.wav",
+      "bytes": 70444
+    },
+    {
+      "path": "game/assets/audio/target_2.wav",
+      "bytes": 89644
+    },
+    {
+      "path": "game/assets/audio/target_3.wav",
+      "bytes": 108844
+    },
+    {
+      "path": "game/assets/audio/voice-big_drop.wav",
+      "bytes": 291648
+    },
+    {
+      "path": "game/assets/audio/voice-dispenser_fault.wav",
+      "bytes": 123228
+    },
+    {
+      "path": "game/assets/audio/voice-explosion.wav",
+      "bytes": 102152
+    },
+    {
+      "path": "game/assets/audio/voice-free_swap.wav",
+      "bytes": 112912
+    },
+    {
+      "path": "game/assets/audio/voice-maintenance.wav",
+      "bytes": 244876
+    },
+    {
+      "path": "game/assets/audio/voice-new_bubbles.wav",
+      "bytes": 152532
+    },
+    {
+      "path": "game/assets/audio/voice-nice_clear.wav",
+      "bytes": 68668
+    },
+    {
+      "path": "game/assets/audio/voice-one_target_left.wav",
+      "bytes": 172568
+    },
+    {
+      "path": "game/assets/audio/voice-stage_bonus.wav",
+      "bytes": 306592
+    },
+    {
+      "path": "game/assets/audio/voice-target_received.wav",
+      "bytes": 74430
+    },
+    {
+      "path": "game/assets/fonts/ArcadeDisplay.ttf",
+      "bytes": 1514968
+    },
+    {
+      "path": "game/assets/fonts/OFL.txt",
+      "bytes": 4398
+    },
+    {
+      "path": "game/assets/fonts/SOURCE.txt",
+      "bytes": 387
+    },
+    {
+      "path": "game/assets/images/apparatus.png",
+      "bytes": 1300909
+    },
+    {
+      "path": "game/assets/images/dragon-parts.png",
+      "bytes": 1152918
+    },
+    {
+      "path": "game/assets/images/mechanics.png",
+      "bytes": 1472249
+    },
+    {
+      "path": "game/assets/images/neck-shoulders.png",
+      "bytes": 804240
+    },
+    {
+      "path": "game/assets/images/orbs-refined.png",
+      "bytes": 1861652
+    },
+    {
+      "path": "game/assets/images/orbs.png",
+      "bytes": 1722394
+    },
+    {
+      "path": "game/assets/images/room-clean.png",
+      "bytes": 1973709
+    },
+    {
+      "path": "game/assets/licenses/audio-original-sources.json",
+      "bytes": 9013
+    },
+    {
+      "path": "game/assets/licenses/pet-speech-original-manifest.json",
+      "bytes": 1751
+    },
+    {
+      "path": "game/dev/mechanisms/mock-fixtures.mjs",
+      "bytes": 4293
+    },
+    {
+      "path": "game/dev/mechanisms/preview.css",
+      "bytes": 1714
+    },
+    {
+      "path": "game/dev/mechanisms/preview.html",
+      "bytes": 3288
+    },
+    {
+      "path": "game/dev/mechanisms/preview.mjs",
+      "bytes": 17121
+    },
+    {
+      "path": "game/dev/mechanisms/recorder.mjs",
+      "bytes": 2467
+    },
+    {
+      "path": "game/index.html",
+      "bytes": 4186
+    },
+    {
+      "path": "game/package-lock.json",
+      "bytes": 1214
+    },
+    {
+      "path": "game/package.json",
+      "bytes": 812
+    },
+    {
+      "path": "game/README.md",
+      "bytes": 971
+    },
+    {
+      "path": "game/src/client/aim-input.mjs",
+      "bytes": 776
+    },
+    {
+      "path": "game/src/client/app.mjs",
+      "bytes": 14936
+    },
+    {
+      "path": "game/src/client/debug-api.mjs",
+      "bytes": 3986
+    },
+    {
+      "path": "game/src/client/presentation-upgrade.mjs",
+      "bytes": 5720
+    },
+    {
+      "path": "game/src/client/storage-keys.mjs",
+      "bytes": 294
+    },
+    {
+      "path": "game/src/core/board-colors.mjs",
+      "bytes": 1490
+    },
+    {
+      "path": "game/src/core/board-policy.mjs",
+      "bytes": 11079
+    },
+    {
+      "path": "game/src/core/config.mjs",
+      "bytes": 4151
+    },
+    {
+      "path": "game/src/core/core.mjs",
+      "bytes": 12718
+    },
+    {
+      "path": "game/src/core/endless-flow.mjs",
+      "bytes": 5287
+    },
+    {
+      "path": "game/src/core/geometry.mjs",
+      "bytes": 6376
+    },
+    {
+      "path": "game/src/core/index.mjs",
+      "bytes": 279
+    },
+    {
+      "path": "game/src/core/ledger.mjs",
+      "bytes": 3902
+    },
+    {
+      "path": "game/src/core/low-opportunity.mjs",
+      "bytes": 9997
+    },
+    {
+      "path": "game/src/core/mechanics.mjs",
+      "bytes": 12984
+    },
+    {
+      "path": "game/src/core/migration.mjs",
+      "bytes": 1922
+    },
+    {
+      "path": "game/src/core/protection.mjs",
+      "bytes": 802
+    },
+    {
+      "path": "game/src/core/settlement.mjs",
+      "bytes": 6774
+    },
+    {
+      "path": "game/src/core/simulator.mjs",
+      "bytes": 2146
+    },
+    {
+      "path": "game/src/core/special.mjs",
+      "bytes": 1641
+    },
+    {
+      "path": "game/src/core/state-validation.mjs",
+      "bytes": 3683
+    },
+    {
+      "path": "game/src/core/storage.mjs",
+      "bytes": 798
+    },
+    {
+      "path": "game/src/feedback/audio/audio.mjs",
+      "bytes": 14250
+    },
+    {
+      "path": "game/src/feedback/audio/character.mjs",
+      "bytes": 1289
+    },
+    {
+      "path": "game/src/feedback/audio/cues.mjs",
+      "bytes": 3501
+    },
+    {
+      "path": "game/src/feedback/audio/presentation-cues.mjs",
+      "bytes": 1482
+    },
+    {
+      "path": "game/src/feedback/audio/score-tick.mjs",
+      "bytes": 720
+    },
+    {
+      "path": "game/src/feedback/effects-ui/effects-ui.mjs",
+      "bytes": 37074
+    },
+    {
+      "path": "game/src/feedback/effects-ui/reward-counter.mjs",
+      "bytes": 961
+    },
+    {
+      "path": "game/src/feedback/effects-ui/reward-flights.mjs",
+      "bytes": 4933
+    },
+    {
+      "path": "game/src/feedback/effects-ui/treasure.mjs",
+      "bytes": 3461
+    },
+    {
+      "path": "game/src/feedback/environment/background.mjs",
+      "bytes": 6907
+    },
+    {
+      "path": "game/src/feedback/environment/room-layer.mjs",
+      "bytes": 1863
+    },
+    {
+      "path": "game/src/feedback/impact-vfx.mjs",
+      "bytes": 2169
+    },
+    {
+      "path": "game/src/feedback/mechanisms/art.mjs",
+      "bytes": 3757
+    },
+    {
+      "path": "game/src/feedback/mechanisms/core-bridge.mjs",
+      "bytes": 6803
+    },
+    {
+      "path": "game/src/feedback/mechanisms/director.mjs",
+      "bytes": 8745
+    },
+    {
+      "path": "game/src/feedback/mechanisms/integration.mjs",
+      "bytes": 2660
+    },
+    {
+      "path": "game/src/feedback/mechanisms/renderer.mjs",
+      "bytes": 8713
+    },
+    {
+      "path": "game/src/feedback/orbs/orb-material.mjs",
+      "bytes": 4273
+    },
+    {
+      "path": "game/src/feedback/orbs/special-orbs.mjs",
+      "bytes": 3015
+    },
+    {
+      "path": "game/src/feedback/pet/babylon-adapter.mjs",
+      "bytes": 1853
+    },
+    {
+      "path": "game/src/feedback/pet/controller.mjs",
+      "bytes": 8837
+    },
+    {
+      "path": "game/src/feedback/pet/dragon.mjs",
+      "bytes": 7943
+    },
+    {
+      "path": "game/src/feedback/pet/lines.mjs",
+      "bytes": 2319
+    },
+    {
+      "path": "game/src/feedback/rewards/progress-bridge.mjs",
+      "bytes": 4816
+    },
+    {
+      "path": "game/src/feedback/rewards/reward-voice.mjs",
+      "bytes": 5435
+    },
+    {
+      "path": "game/src/feedback/rewards/reward-words.mjs",
+      "bytes": 1708
+    },
+    {
+      "path": "game/src/feedback/rewards/voice-library.mjs",
+      "bytes": 1715
+    },
+    {
+      "path": "game/src/presentation/event-view.mjs",
+      "bytes": 1155
+    },
+    {
+      "path": "game/src/presentation/guide.mjs",
+      "bytes": 6202
+    },
+    {
+      "path": "game/src/presentation/scene-base.mjs",
+      "bytes": 21800
+    },
+    {
+      "path": "game/src/presentation/scene.mjs",
+      "bytes": 14490
+    },
+    {
+      "path": "game/src/presentation/sprite-layer.mjs",
+      "bytes": 21186
+    },
+    {
+      "path": "game/style.css",
+      "bytes": 5995
+    },
+    {
+      "path": "game/tests/browser/baseline.cjs",
+      "bytes": 5524
+    },
+    {
+      "path": "game/tests/browser/board-motion.cjs",
+      "bytes": 7982
+    },
+    {
+      "path": "game/tests/browser/density.cjs",
+      "bytes": 7112
+    },
+    {
+      "path": "game/tests/browser/guide.cjs",
+      "bytes": 1821
+    },
+    {
+      "path": "game/tests/browser/integration.cjs",
+      "bytes": 8949
+    },
+    {
+      "path": "game/tests/browser/lightning.cjs",
+      "bytes": 4744
+    },
+    {
+      "path": "game/tests/browser/loader.cjs",
+      "bytes": 3862
+    },
+    {
+      "path": "game/tests/browser/rhythm.cjs",
+      "bytes": 8201
+    },
+    {
+      "path": "game/tests/browser/treasure.cjs",
+      "bytes": 8448
+    },
+    {
+      "path": "game/tests/browser/upgrade.cjs",
+      "bytes": 12421
+    },
+    {
+      "path": "game/tests/browser/vfx.cjs",
+      "bytes": 3113
+    },
+    {
+      "path": "game/tests/core/board-colors.test.mjs",
+      "bytes": 2402
+    },
+    {
+      "path": "game/tests/core/clearance.test.mjs",
+      "bytes": 706
+    },
+    {
+      "path": "game/tests/core/density.test.mjs",
+      "bytes": 6469
+    },
+    {
+      "path": "game/tests/core/ledger.test.mjs",
+      "bytes": 1766
+    },
+    {
+      "path": "game/tests/core/lightning.test.mjs",
+      "bytes": 2065
+    },
+    {
+      "path": "game/tests/core/low-opportunity.test.mjs",
+      "bytes": 21880
+    },
+    {
+      "path": "game/tests/core/mechanics.test.mjs",
+      "bytes": 18158
+    },
+    {
+      "path": "game/tests/core/random.test.mjs",
+      "bytes": 854
+    },
+    {
+      "path": "game/tests/core/reward-counter.test.mjs",
+      "bytes": 1297
+    },
+    {
+      "path": "game/tests/core/reward-flights.test.mjs",
+      "bytes": 1533
+    },
+    {
+      "path": "game/tests/core/special.test.mjs",
+      "bytes": 5039
+    },
+    {
+      "path": "game/tests/feedback/assist-network.test.mjs",
+      "bytes": 7114
+    },
+    {
+      "path": "game/tests/feedback/score-tick.test.mjs",
+      "bytes": 1927
+    },
+    {
+      "path": "game/tests/feedback/stage-polish.test.mjs",
+      "bytes": 5252
+    },
+    {
+      "path": "game/tests/fixtures/low-opportunity-comparison.json",
+      "bytes": 22681
+    },
+    {
+      "path": "game/tests/fixtures/low-opportunity-events.json",
+      "bytes": 5429852
+    },
+    {
+      "path": "game/tests/fixtures/low-opportunity-example.json",
+      "bytes": 30192
+    },
+    {
+      "path": "game/tests/fixtures/low-opportunity-regression.txt",
+      "bytes": 3694
+    },
+    {
+      "path": "game/tests/fixtures/low-opportunity-tests.txt",
+      "bytes": 6120
+    },
+    {
+      "path": "game/tests/fixtures/mechanics-comparison.json",
+      "bytes": 8155
+    },
+    {
+      "path": "game/tests/fixtures/mechanics-events.json",
+      "bytes": 932272
+    },
+    {
+      "path": "game/tests/fixtures/mechanics-tests.txt",
+      "bytes": 3695
+    },
+    {
+      "path": "game/tests/helpers/browser.cjs",
+      "bytes": 1145
+    },
+    {
+      "path": "game/tests/helpers/low-opportunity-compare.mjs",
+      "bytes": 6041
+    },
+    {
+      "path": "game/tests/helpers/low-opportunity-example.mjs",
+      "bytes": 1420
+    },
+    {
+      "path": "game/tests/helpers/mechanics-compare.mjs",
+      "bytes": 3019
+    },
+    {
+      "path": "game/tests/helpers/mechanics-sample.mjs",
+      "bytes": 1722
+    },
+    {
+      "path": "game/tests/helpers/strategies.mjs",
+      "bytes": 2791
+    },
+    {
+      "path": "game/tools/audit-project.mjs",
+      "bytes": 2370
+    },
+    {
+      "path": "game/tools/check-release.mjs",
+      "bytes": 1314
+    },
+    {
+      "path": "game/tools/check.mjs",
+      "bytes": 1766
+    },
+    {
+      "path": "game/tools/package-release.ps1",
+      "bytes": 2512
+    },
+    {
+      "path": "game/tools/server.mjs",
+      "bytes": 2161
+    },
+    {
+      "path": "game/tools/start.ps1",
+      "bytes": 1760
+    },
+    {
+      "path": "game/tools/test-browser.cjs",
+      "bytes": 654
+    },
+    {
+      "path": "game/tools/verify-baseline.mjs",
+      "bytes": 3906
+    },
+    {
+      "path": "game/vendor/babylon/babylon.js",
+      "bytes": 8619713
+    },
+    {
+      "path": "game/vendor/babylon/LICENSE.txt",
+      "bytes": 9226
+    },
+    {
+      "path": "game/vendor/babylon/version.txt",
+      "bytes": 8
+    }
+  ],
+  "runtimeModules": [
+    {
+      "path": "game/src/client/aim-input.mjs",
+      "bytes": 776,
+      "lines": 28,
+      "imports": []
+    },
+    {
+      "path": "game/src/client/app.mjs",
+      "bytes": 14936,
+      "lines": 429,
+      "imports": [
+        "game/src/feedback/audio/presentation-cues.mjs",
+        "game/src/client/storage-keys.mjs",
+        "game/src/client/aim-input.mjs",
+        "game/src/feedback/audio/character.mjs",
+        "game/src/core/index.mjs",
+        "game/src/presentation/event-view.mjs",
+        "game/src/presentation/scene.mjs",
+        "game/src/feedback/effects-ui/effects-ui.mjs",
+        "game/src/feedback/effects-ui/reward-counter.mjs",
+        "game/src/feedback/pet/babylon-adapter.mjs",
+        "game/src/feedback/audio/audio.mjs",
+        "game/src/client/presentation-upgrade.mjs",
+        "game/src/client/debug-api.mjs"
+      ]
+    },
+    {
+      "path": "game/src/client/debug-api.mjs",
+      "bytes": 3986,
+      "lines": 121,
+      "imports": []
+    },
+    {
+      "path": "game/src/client/presentation-upgrade.mjs",
+      "bytes": 5720,
+      "lines": 152,
+      "imports": [
+        "game/src/feedback/mechanisms/integration.mjs",
+        "game/src/feedback/environment/background.mjs",
+        "game/src/feedback/environment/room-layer.mjs",
+        "game/src/feedback/orbs/orb-material.mjs",
+        "game/src/feedback/rewards/reward-voice.mjs",
+        "game/src/feedback/rewards/reward-words.mjs",
+        "game/src/feedback/rewards/progress-bridge.mjs",
+        "game/src/feedback/orbs/special-orbs.mjs"
+      ]
+    },
+    {
+      "path": "game/src/client/storage-keys.mjs",
+      "bytes": 294,
+      "lines": 7,
+      "imports": []
+    },
+    {
+      "path": "game/src/core/board-colors.mjs",
+      "bytes": 1490,
+      "lines": 37,
+      "imports": [
+        "game/src/core/geometry.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/board-policy.mjs",
+      "bytes": 11079,
+      "lines": 321,
+      "imports": [
+        "game/src/core/protection.mjs",
+        "game/src/core/geometry.mjs",
+        "game/src/core/endless-flow.mjs",
+        "game/src/core/board-colors.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/config.mjs",
+      "bytes": 4151,
+      "lines": 134,
+      "imports": []
+    },
+    {
+      "path": "game/src/core/core.mjs",
+      "bytes": 12718,
+      "lines": 394,
+      "imports": [
+        "game/src/core/state-validation.mjs",
+        "game/src/core/settlement.mjs",
+        "game/src/core/special.mjs",
+        "game/src/core/config.mjs",
+        "game/src/core/storage.mjs",
+        "game/src/core/ledger.mjs",
+        "game/src/core/board-policy.mjs",
+        "game/src/core/endless-flow.mjs",
+        "game/src/core/geometry.mjs",
+        "game/src/core/mechanics.mjs",
+        "game/src/core/low-opportunity.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/endless-flow.mjs",
+      "bytes": 5287,
+      "lines": 162,
+      "imports": [
+        "game/src/core/geometry.mjs",
+        "game/src/core/board-colors.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/geometry.mjs",
+      "bytes": 6376,
+      "lines": 193,
+      "imports": [
+        "game/src/core/mechanics.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/index.mjs",
+      "bytes": 279,
+      "lines": 6,
+      "imports": [
+        "game/src/core/core.mjs",
+        "game/src/core/config.mjs",
+        "game/src/core/storage.mjs",
+        "game/src/core/simulator.mjs",
+        "game/src/core/migration.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/ledger.mjs",
+      "bytes": 3902,
+      "lines": 101,
+      "imports": []
+    },
+    {
+      "path": "game/src/core/low-opportunity.mjs",
+      "bytes": 9997,
+      "lines": 295,
+      "imports": [
+        "game/src/core/geometry.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/mechanics.mjs",
+      "bytes": 12984,
+      "lines": 403,
+      "imports": []
+    },
+    {
+      "path": "game/src/core/migration.mjs",
+      "bytes": 1922,
+      "lines": 61,
+      "imports": [
+        "game/src/core/config.mjs",
+        "game/src/core/core.mjs",
+        "game/src/core/storage.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/protection.mjs",
+      "bytes": 802,
+      "lines": 31,
+      "imports": []
+    },
+    {
+      "path": "game/src/core/settlement.mjs",
+      "bytes": 6774,
+      "lines": 204,
+      "imports": [
+        "game/src/core/special.mjs",
+        "game/src/core/ledger.mjs",
+        "game/src/core/board-policy.mjs",
+        "game/src/core/mechanics.mjs",
+        "game/src/core/low-opportunity.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/simulator.mjs",
+      "bytes": 2146,
+      "lines": 63,
+      "imports": [
+        "game/src/core/storage.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/special.mjs",
+      "bytes": 1641,
+      "lines": 43,
+      "imports": [
+        "game/src/core/mechanics.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/state-validation.mjs",
+      "bytes": 3683,
+      "lines": 103,
+      "imports": [
+        "game/src/core/endless-flow.mjs",
+        "game/src/core/mechanics.mjs",
+        "game/src/core/low-opportunity.mjs",
+        "game/src/core/ledger.mjs"
+      ]
+    },
+    {
+      "path": "game/src/core/storage.mjs",
+      "bytes": 798,
+      "lines": 29,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/audio/audio.mjs",
+      "bytes": 14250,
+      "lines": 450,
+      "imports": [
+        "game/src/feedback/audio/cues.mjs",
+        "game/src/feedback/audio/score-tick.mjs"
+      ]
+    },
+    {
+      "path": "game/src/feedback/audio/character.mjs",
+      "bytes": 1289,
+      "lines": 37,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/audio/cues.mjs",
+      "bytes": 3501,
+      "lines": 100,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/audio/presentation-cues.mjs",
+      "bytes": 1482,
+      "lines": 37,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/audio/score-tick.mjs",
+      "bytes": 720,
+      "lines": 16,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/effects-ui/effects-ui.mjs",
+      "bytes": 37074,
+      "lines": 1043,
+      "imports": [
+        "game/src/feedback/effects-ui/treasure.mjs",
+        "game/src/feedback/effects-ui/reward-flights.mjs",
+        "game/src/feedback/impact-vfx.mjs"
+      ]
+    },
+    {
+      "path": "game/src/feedback/effects-ui/reward-counter.mjs",
+      "bytes": 961,
+      "lines": 30,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/effects-ui/reward-flights.mjs",
+      "bytes": 4933,
+      "lines": 154,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/effects-ui/treasure.mjs",
+      "bytes": 3461,
+      "lines": 122,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/environment/background.mjs",
+      "bytes": 6907,
+      "lines": 193,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/environment/room-layer.mjs",
+      "bytes": 1863,
+      "lines": 61,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/impact-vfx.mjs",
+      "bytes": 2169,
+      "lines": 62,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/mechanisms/art.mjs",
+      "bytes": 3757,
+      "lines": 124,
+      "imports": [
+        "game/src/feedback/orbs/special-orbs.mjs"
+      ]
+    },
+    {
+      "path": "game/src/feedback/mechanisms/core-bridge.mjs",
+      "bytes": 6803,
+      "lines": 183,
+      "imports": [
+        "game/src/feedback/mechanisms/art.mjs"
+      ]
+    },
+    {
+      "path": "game/src/feedback/mechanisms/director.mjs",
+      "bytes": 8745,
+      "lines": 241,
+      "imports": [
+        "game/src/feedback/mechanisms/art.mjs"
+      ]
+    },
+    {
+      "path": "game/src/feedback/mechanisms/integration.mjs",
+      "bytes": 2660,
+      "lines": 83,
+      "imports": [
+        "game/src/feedback/mechanisms/director.mjs",
+        "game/src/feedback/mechanisms/renderer.mjs",
+        "game/src/feedback/mechanisms/core-bridge.mjs"
+      ]
+    },
+    {
+      "path": "game/src/feedback/mechanisms/renderer.mjs",
+      "bytes": 8713,
+      "lines": 262,
+      "imports": [
+        "game/src/feedback/mechanisms/art.mjs"
+      ]
+    },
+    {
+      "path": "game/src/feedback/orbs/orb-material.mjs",
+      "bytes": 4273,
+      "lines": 102,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/orbs/special-orbs.mjs",
+      "bytes": 3015,
+      "lines": 96,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/pet/babylon-adapter.mjs",
+      "bytes": 1853,
+      "lines": 59,
+      "imports": [
+        "game/src/feedback/pet/controller.mjs",
+        "game/src/feedback/pet/dragon.mjs"
+      ]
+    },
+    {
+      "path": "game/src/feedback/pet/controller.mjs",
+      "bytes": 8837,
+      "lines": 263,
+      "imports": [
+        "game/src/feedback/pet/lines.mjs"
+      ]
+    },
+    {
+      "path": "game/src/feedback/pet/dragon.mjs",
+      "bytes": 7943,
+      "lines": 250,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/pet/lines.mjs",
+      "bytes": 2319,
+      "lines": 92,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/rewards/progress-bridge.mjs",
+      "bytes": 4816,
+      "lines": 145,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/rewards/reward-voice.mjs",
+      "bytes": 5435,
+      "lines": 162,
+      "imports": [
+        "game/src/feedback/rewards/voice-library.mjs"
+      ]
+    },
+    {
+      "path": "game/src/feedback/rewards/reward-words.mjs",
+      "bytes": 1708,
+      "lines": 59,
+      "imports": []
+    },
+    {
+      "path": "game/src/feedback/rewards/voice-library.mjs",
+      "bytes": 1715,
+      "lines": 50,
+      "imports": []
+    },
+    {
+      "path": "game/src/presentation/event-view.mjs",
+      "bytes": 1155,
+      "lines": 34,
+      "imports": []
+    },
+    {
+      "path": "game/src/presentation/guide.mjs",
+      "bytes": 6202,
+      "lines": 180,
+      "imports": [
+        "game/src/presentation/scene-base.mjs"
+      ]
+    },
+    {
+      "path": "game/src/presentation/scene-base.mjs",
+      "bytes": 21800,
+      "lines": 680,
+      "imports": [
+        "game/src/presentation/sprite-layer.mjs"
+      ]
+    },
+    {
+      "path": "game/src/presentation/scene.mjs",
+      "bytes": 14490,
+      "lines": 407,
+      "imports": [
+        "game/src/presentation/scene-base.mjs",
+        "game/src/presentation/guide.mjs"
+      ]
+    },
+    {
+      "path": "game/src/presentation/sprite-layer.mjs",
+      "bytes": 21186,
+      "lines": 577,
+      "imports": []
+    }
+  ],
+  "reachableRuntimeModules": 54,
+  "unreachableRuntimeModules": [],
+  "runtimeBoundaryPassed": true
+}

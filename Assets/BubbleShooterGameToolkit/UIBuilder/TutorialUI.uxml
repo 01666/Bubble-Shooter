@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <uie:ObjectField label="Target" binding-path="target" type="BubbleShooterGameToolkit.Scripts.Gameplay.Targets.TargetScriptable, BubbleShooterRef" allow-scene-objects="false" />
+        <ui:TextField picking-mode="Ignore" label="Text" value="filler text" binding-path="text" />
+        <ui:Toggle label="Hightlight target" binding-path="highlightTarget" />
+    </ui:VisualElement>
+</ui:UXML>

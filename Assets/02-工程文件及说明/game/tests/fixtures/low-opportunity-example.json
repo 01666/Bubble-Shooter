@@ -1,0 +1,1222 @@
+{
+  "interfaceVersion": 2,
+  "status": "excerpt-of-actual-core-run-not-human-play",
+  "opportunityId": "low-opportunity-22",
+  "checkpoints": [
+    {
+      "paidAttempt": 218,
+      "snapshot": {
+        "mechanicsVersion": 1,
+        "assist": {
+          "charge": 0,
+          "threshold": 3,
+          "state": "charging",
+          "boostId": null,
+          "secondaryColor": null,
+          "primaryColor": 1,
+          "enabled": true
+        },
+        "network": {
+          "id": "network-3",
+          "nodes": [
+            {
+              "id": "bubble-262",
+              "source": "system",
+              "bornShot": 215,
+              "r": 2,
+              "c": 0,
+              "color": 3,
+              "x": -3.9949999999999997,
+              "y": 5.372,
+              "kind": "conductor",
+              "networkId": "network-3"
+            },
+            {
+              "id": "bubble-264",
+              "source": "system",
+              "bornShot": 215,
+              "r": 3,
+              "c": 0,
+              "color": 4,
+              "x": -3.525,
+              "y": 4.558,
+              "kind": "conductor",
+              "networkId": "network-3"
+            },
+            {
+              "id": "bubble-265",
+              "source": "system",
+              "bornShot": 215,
+              "r": 3,
+              "c": 1,
+              "color": 4,
+              "x": -2.5849999999999995,
+              "y": 4.558,
+              "kind": "conductor",
+              "networkId": "network-3"
+            }
+          ],
+          "edges": [
+            {
+              "id": "bubble-262:bubble-264",
+              "fromId": "bubble-262",
+              "toId": "bubble-264",
+              "from": {
+                "x": -3.9949999999999997,
+                "y": 5.372
+              },
+              "to": {
+                "x": -3.525,
+                "y": 4.558
+              }
+            },
+            {
+              "id": "bubble-264:bubble-265",
+              "fromId": "bubble-264",
+              "toId": "bubble-265",
+              "from": {
+                "x": -3.525,
+                "y": 4.558
+              },
+              "to": {
+                "x": -2.5849999999999995,
+                "y": 4.558
+              }
+            }
+          ],
+          "reserveNodeIds": [],
+          "enabled": true
+        },
+        "lowOpportunity": {
+          "version": 2,
+          "interval": 10,
+          "purchaseBaseline": 0,
+          "consumeBaseline": 0,
+          "usedSlots": 22,
+          "sequence": 22,
+          "nextEligibleConsumed": 228,
+          "episodeActive": true,
+          "episodeQualified": true,
+          "pending": null,
+          "last": {
+            "opportunityId": "low-opportunity-22",
+            "requestedShotId": "shot-264",
+            "status": "appeared",
+            "specialType": "bomb",
+            "remainingAtQualification": 2,
+            "remainingAmmo": 2,
+            "ballId": "bubble-272",
+            "reason": null,
+            "access": "preview"
+          },
+          "enabled": true,
+          "fundedSlots": 22,
+          "consumed": 218,
+          "remainingAmmo": 2,
+          "targets": [
+            {
+              "id": "bubble-272",
+              "source": "system",
+              "bornShot": 218,
+              "r": 2,
+              "c": 6,
+              "color": 4,
+              "x": 1.645,
+              "y": 5.372,
+              "kind": "bomb",
+              "lowOpportunityId": "low-opportunity-22",
+              "location": "board"
+            }
+          ]
+        },
+        "stage": {
+          "id": 6,
+          "collected": 1,
+          "total": 3,
+          "award": 8,
+          "available": 2
+        },
+        "loading": false,
+        "boardPolicy": "pockets",
+        "refundedShots": 0,
+        "content": {
+          "credit": 8,
+          "serial": 9,
+          "reserve": [],
+          "refills": 6,
+          "maintenances": 17,
+          "retiredPlayer": 32,
+          "retiredSystem": 0,
+          "initialSystemCount": 21
+        },
+        "schemaVersion": 1,
+        "revision": 1916,
+        "state": "ready",
+        "storageFault": null,
+        "configVersion": "experimental-special-v4-1",
+        "paidAmmo": 2,
+        "loadedColor": 1,
+        "nextColor": 4,
+        "angle": -0.7346666666666666,
+        "paidShots": 218,
+        "board": [
+          {
+            "id": "bubble-9",
+            "source": "system",
+            "bornShot": 1,
+            "r": 0,
+            "c": 4,
+            "color": 2,
+            "x": -0.235,
+            "y": 7
+          },
+          {
+            "id": "bubble-44",
+            "source": "system",
+            "bornShot": 17,
+            "r": 0,
+            "c": 0,
+            "color": 2,
+            "x": -3.9949999999999997,
+            "y": 7,
+            "kind": "target",
+            "stageId": 6
+          },
+          {
+            "id": "bubble-57",
+            "source": "system",
+            "bornShot": 22,
+            "r": 1,
+            "c": 0,
+            "color": 0,
+            "x": -3.525,
+            "y": 6.186,
+            "kind": "target",
+            "stageId": 6
+          },
+          {
+            "id": "bubble-93",
+            "source": "player",
+            "bornShot": 53,
+            "r": 0,
+            "c": 5,
+            "color": 0,
+            "x": 0.705,
+            "y": 7
+          },
+          {
+            "id": "bubble-131",
+            "source": "player",
+            "bornShot": 91,
+            "r": 0,
+            "c": 7,
+            "color": 0,
+            "x": 2.585,
+            "y": 7
+          },
+          {
+            "id": "bubble-143",
+            "source": "player",
+            "bornShot": 103,
+            "r": 0,
+            "c": 8,
+            "color": 4,
+            "x": 3.525,
+            "y": 7
+          },
+          {
+            "id": "bubble-163",
+            "source": "player",
+            "bornShot": 123,
+            "r": 1,
+            "c": 4,
+            "color": 4,
+            "x": 0.235,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-217",
+            "source": "player",
+            "bornShot": 177,
+            "r": 1,
+            "c": 8,
+            "color": 4,
+            "x": 3.9949999999999997,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-246",
+            "source": "system",
+            "bornShot": 205,
+            "r": 1,
+            "c": 3,
+            "color": 1,
+            "x": -0.705,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-261",
+            "source": "system",
+            "bornShot": 215,
+            "r": 0,
+            "c": 1,
+            "color": 1,
+            "x": -3.0549999999999997,
+            "y": 7
+          },
+          {
+            "id": "bubble-262",
+            "source": "system",
+            "bornShot": 215,
+            "r": 2,
+            "c": 0,
+            "color": 3,
+            "x": -3.9949999999999997,
+            "y": 5.372,
+            "kind": "conductor",
+            "networkId": "network-3"
+          },
+          {
+            "id": "bubble-263",
+            "source": "system",
+            "bornShot": 215,
+            "r": 2,
+            "c": 1,
+            "color": 3,
+            "x": -3.0549999999999997,
+            "y": 5.372
+          },
+          {
+            "id": "bubble-264",
+            "source": "system",
+            "bornShot": 215,
+            "r": 3,
+            "c": 0,
+            "color": 4,
+            "x": -3.525,
+            "y": 4.558,
+            "kind": "conductor",
+            "networkId": "network-3"
+          },
+          {
+            "id": "bubble-265",
+            "source": "system",
+            "bornShot": 215,
+            "r": 3,
+            "c": 1,
+            "color": 4,
+            "x": -2.5849999999999995,
+            "y": 4.558,
+            "kind": "conductor",
+            "networkId": "network-3"
+          },
+          {
+            "id": "bubble-269",
+            "source": "system",
+            "bornShot": 218,
+            "r": 0,
+            "c": 6,
+            "color": 1,
+            "x": 1.645,
+            "y": 7
+          },
+          {
+            "id": "bubble-270",
+            "source": "system",
+            "bornShot": 218,
+            "r": 1,
+            "c": 6,
+            "color": 3,
+            "x": 2.1149999999999998,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-271",
+            "source": "system",
+            "bornShot": 218,
+            "r": 1,
+            "c": 7,
+            "color": 3,
+            "x": 3.055,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-272",
+            "source": "system",
+            "bornShot": 218,
+            "r": 2,
+            "c": 6,
+            "color": 4,
+            "x": 1.645,
+            "y": 5.372,
+            "kind": "bomb",
+            "lowOpportunityId": "low-opportunity-22"
+          }
+        ],
+        "projectile": null,
+        "tickets": {
+          "earned": 353,
+          "confirmed": 0,
+          "pending": 353,
+          "uncertain": 0
+        },
+        "dispenserState": "idle",
+        "durability": false
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "shotAccepted",
+      "payload": {
+        "shotId": "shot-264",
+        "mode": "paid",
+        "shot": {
+          "shotId": "shot-264",
+          "mode": "paid",
+          "color": 0,
+          "x": -0.4692378890288883,
+          "y": -5.730562031133926,
+          "vx": -12.73645698792697,
+          "vy": 14.099030583507728,
+          "deflected": false
+        },
+        "ammoAfter": 2,
+        "loadedAfter": 1,
+        "nextAfter": 1
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1874",
+      "revision": 1912,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "assistShotAccepted",
+      "payload": {
+        "interfaceVersion": 1,
+        "shotId": "shot-264",
+        "boostId": "assist-17",
+        "primaryColor": 0,
+        "secondaryColor": 1,
+        "shot": {
+          "shotId": "shot-264",
+          "mode": "paid",
+          "color": 0,
+          "x": -0.4692378890288883,
+          "y": -5.730562031133926,
+          "vx": -12.73645698792697,
+          "vy": 14.099030583507728,
+          "deflected": false,
+          "assist": {
+            "boostId": "assist-17",
+            "primaryColor": 0,
+            "secondaryColor": 1
+          }
+        }
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1875",
+      "revision": 1912,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "bounce",
+      "payload": {
+        "shotId": "shot-264",
+        "x": -4.109999999999999,
+        "y": -1.7003033494208541
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1876",
+      "revision": 1914,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "dualMatchResolved",
+      "payload": {
+        "interfaceVersion": 1,
+        "shotId": "shot-264",
+        "boostId": "assist-17",
+        "primaryColor": 0,
+        "secondaryColor": 1,
+        "groups": [
+          {
+            "color": 0,
+            "size": 5,
+            "matched": true,
+            "ids": ["bubble-276", "bubble-204", "bubble-274", "bubble-275", "bubble-209"]
+          },
+          {
+            "color": 1,
+            "size": 1,
+            "matched": false,
+            "ids": ["bubble-276"]
+          }
+        ],
+        "matchedColors": [0],
+        "removedIds": ["bubble-204", "bubble-209", "bubble-274", "bubble-275", "bubble-276"],
+        "attached": {
+          "id": "bubble-276",
+          "source": "player",
+          "bornShot": 218,
+          "r": 3,
+          "c": 5,
+          "color": 0,
+          "x": 1.1749999999999998,
+          "y": 4.558
+        }
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1877",
+      "revision": 1915,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "explosionResolved",
+      "payload": {
+        "shotId": "shot-264",
+        "triggers": [
+          {
+            "id": "bubble-275",
+            "source": "system",
+            "bornShot": 218,
+            "r": 3,
+            "c": 7,
+            "color": 0,
+            "x": 3.055,
+            "y": 4.558,
+            "kind": "bomb"
+          }
+        ],
+        "removed": [
+          {
+            "id": "bubble-204",
+            "source": "player",
+            "bornShot": 164,
+            "r": 2,
+            "c": 5,
+            "color": 0,
+            "x": 0.705,
+            "y": 5.372
+          },
+          {
+            "id": "bubble-209",
+            "source": "player",
+            "bornShot": 169,
+            "r": 2,
+            "c": 8,
+            "color": 0,
+            "x": 3.525,
+            "y": 5.372
+          },
+          {
+            "id": "bubble-273",
+            "source": "system",
+            "bornShot": 218,
+            "r": 2,
+            "c": 7,
+            "color": 4,
+            "x": 2.585,
+            "y": 5.372
+          },
+          {
+            "id": "bubble-274",
+            "source": "system",
+            "bornShot": 218,
+            "r": 3,
+            "c": 6,
+            "color": 0,
+            "x": 2.1149999999999998,
+            "y": 4.558
+          },
+          {
+            "id": "bubble-275",
+            "source": "system",
+            "bornShot": 218,
+            "r": 3,
+            "c": 7,
+            "color": 0,
+            "x": 3.055,
+            "y": 4.558,
+            "kind": "bomb"
+          },
+          {
+            "id": "bubble-276",
+            "source": "player",
+            "bornShot": 218,
+            "r": 3,
+            "c": 5,
+            "color": 0,
+            "x": 1.1749999999999998,
+            "y": 4.558
+          }
+        ],
+        "triggerCount": 1,
+        "removedCount": 6
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1878",
+      "revision": 1915,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "ticketsEarned",
+      "payload": {
+        "rewardId": "shot-264:basic",
+        "count": 6,
+        "pending": 353
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1879",
+      "revision": 1915,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "paidShotResolved",
+      "payload": {
+        "shotId": "shot-264",
+        "attached": {
+          "id": "bubble-276",
+          "source": "player",
+          "bornShot": 218,
+          "r": 3,
+          "c": 5,
+          "color": 0,
+          "x": 1.1749999999999998,
+          "y": 4.558
+        },
+        "direct": [
+          {
+            "id": "bubble-204",
+            "source": "player",
+            "bornShot": 164,
+            "r": 2,
+            "c": 5,
+            "color": 0,
+            "x": 0.705,
+            "y": 5.372
+          },
+          {
+            "id": "bubble-209",
+            "source": "player",
+            "bornShot": 169,
+            "r": 2,
+            "c": 8,
+            "color": 0,
+            "x": 3.525,
+            "y": 5.372
+          },
+          {
+            "id": "bubble-273",
+            "source": "system",
+            "bornShot": 218,
+            "r": 2,
+            "c": 7,
+            "color": 4,
+            "x": 2.585,
+            "y": 5.372
+          },
+          {
+            "id": "bubble-274",
+            "source": "system",
+            "bornShot": 218,
+            "r": 3,
+            "c": 6,
+            "color": 0,
+            "x": 2.1149999999999998,
+            "y": 4.558
+          },
+          {
+            "id": "bubble-275",
+            "source": "system",
+            "bornShot": 218,
+            "r": 3,
+            "c": 7,
+            "color": 0,
+            "x": 3.055,
+            "y": 4.558,
+            "kind": "bomb"
+          },
+          {
+            "id": "bubble-276",
+            "source": "player",
+            "bornShot": 218,
+            "r": 3,
+            "c": 5,
+            "color": 0,
+            "x": 1.1749999999999998,
+            "y": 4.558
+          }
+        ],
+        "dropped": [],
+        "bonus": 0,
+        "gain": 6,
+        "rewardId": "shot-264:basic",
+        "assist": {
+          "boostId": "assist-17",
+          "primaryColor": 0,
+          "secondaryColor": 1
+        },
+        "matchedColors": [0],
+        "electricIds": [],
+        "directCount": 6,
+        "dropCount": 0,
+        "explosionCount": 1,
+        "electricCount": 0,
+        "earnedDelta": 6,
+        "pendingTickets": 353,
+        "remainingAmmo": 2,
+        "stageId": 6,
+        "stageAward": 8,
+        "lowOpportunityIds": []
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1880",
+      "revision": 1915,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "boardOpportunity",
+      "payload": {
+        "height": 4,
+        "count": 18,
+        "density": 0.5,
+        "legalCells": 14,
+        "immediate": 0,
+        "dropMoves": 0,
+        "paving": 4,
+        "colorsWithClear": 2,
+        "allColorClearMoves": 11,
+        "maxDrop": 0,
+        "policy": "pockets",
+        "reserve": 0,
+        "credit": 8
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1881",
+      "revision": 1915,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "previewLoaded",
+      "payload": {
+        "color": 4,
+        "eligibleColors": [2, 0, 4, 1, 3]
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1882",
+      "revision": 1915,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "assistConsumed",
+      "payload": {
+        "interfaceVersion": 1,
+        "shotId": "shot-264",
+        "boostId": "assist-17",
+        "result": "clear"
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1883",
+      "revision": 1915,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "lowOpportunityQualified",
+      "payload": {
+        "interfaceVersion": 2,
+        "opportunityId": "low-opportunity-22",
+        "ballId": null,
+        "specialType": "bomb",
+        "remainingAmmo": 2,
+        "shotId": "shot-264",
+        "interval": 10,
+        "usedSlots": 22,
+        "nextEligibleConsumed": 228
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1884",
+      "revision": 1915,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "lowOpportunityAppeared",
+      "payload": {
+        "interfaceVersion": 2,
+        "opportunityId": "low-opportunity-22",
+        "ballId": "bubble-272",
+        "specialType": "bomb",
+        "remainingAmmo": 2,
+        "shotId": "shot-264",
+        "ball": {
+          "id": "bubble-272",
+          "source": "system",
+          "bornShot": 218,
+          "r": 2,
+          "c": 6,
+          "color": 4,
+          "x": 1.645,
+          "y": 5.372,
+          "kind": "bomb",
+          "lowOpportunityId": "low-opportunity-22"
+        },
+        "access": "preview"
+      },
+      "causeId": "shot-264",
+      "eventId": "event-1885",
+      "revision": 1915,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "shotAccepted",
+      "payload": {
+        "shotId": "shot-266",
+        "mode": "paid",
+        "shot": {
+          "shotId": "shot-266",
+          "mode": "paid",
+          "color": 4,
+          "x": 0.5760977616542768,
+          "y": -5.852367796805978,
+          "vx": 15.6369392449018,
+          "vy": 10.792874086694885,
+          "deflected": false
+        },
+        "ammoAfter": 0,
+        "loadedAfter": 3,
+        "nextAfter": 3
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1893",
+      "revision": 1927,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "bounce",
+      "payload": {
+        "shotId": "shot-266",
+        "x": 4.109999999999999,
+        "y": -3.4132100245718733
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1894",
+      "revision": 1928,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "bounce",
+      "payload": {
+        "shotId": "shot-266",
+        "x": -4.109999999999999,
+        "y": 2.2603699262843624
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1895",
+      "revision": 1931,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "explosionResolved",
+      "payload": {
+        "shotId": "shot-266",
+        "triggers": [
+          {
+            "id": "bubble-272",
+            "source": "system",
+            "bornShot": 218,
+            "r": 2,
+            "c": 6,
+            "color": 4,
+            "x": 1.645,
+            "y": 5.372,
+            "kind": "bomb",
+            "lowOpportunityId": "low-opportunity-22"
+          }
+        ],
+        "removed": [
+          {
+            "id": "bubble-163",
+            "source": "player",
+            "bornShot": 123,
+            "r": 1,
+            "c": 4,
+            "color": 4,
+            "x": 0.235,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-270",
+            "source": "system",
+            "bornShot": 218,
+            "r": 1,
+            "c": 6,
+            "color": 3,
+            "x": 2.1149999999999998,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-272",
+            "source": "system",
+            "bornShot": 218,
+            "r": 2,
+            "c": 6,
+            "color": 4,
+            "x": 1.645,
+            "y": 5.372,
+            "kind": "bomb",
+            "lowOpportunityId": "low-opportunity-22"
+          },
+          {
+            "id": "bubble-277",
+            "source": "player",
+            "bornShot": 219,
+            "r": 3,
+            "c": 5,
+            "color": 1,
+            "x": 1.1749999999999998,
+            "y": 4.558
+          },
+          {
+            "id": "bubble-278",
+            "source": "player",
+            "bornShot": 220,
+            "r": 2,
+            "c": 5,
+            "color": 4,
+            "x": 0.705,
+            "y": 5.372
+          }
+        ],
+        "triggerCount": 1,
+        "removedCount": 5
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1896",
+      "revision": 1932,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "lowOpportunityFinished",
+      "payload": {
+        "interfaceVersion": 2,
+        "opportunityId": "low-opportunity-22",
+        "ballId": "bubble-272",
+        "specialType": "bomb",
+        "remainingAmmo": 0,
+        "shotId": "shot-266",
+        "status": "consumed",
+        "reason": "direct",
+        "ball": {
+          "id": "bubble-272",
+          "source": "system",
+          "bornShot": 218,
+          "r": 2,
+          "c": 6,
+          "color": 4,
+          "x": 1.645,
+          "y": 5.372,
+          "kind": "bomb",
+          "lowOpportunityId": "low-opportunity-22"
+        }
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1897",
+      "revision": 1932,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "ticketsEarned",
+      "payload": {
+        "rewardId": "shot-266:basic",
+        "count": 5,
+        "pending": 358
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1898",
+      "revision": 1932,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "paidShotResolved",
+      "payload": {
+        "shotId": "shot-266",
+        "attached": {
+          "id": "bubble-278",
+          "source": "player",
+          "bornShot": 220,
+          "r": 2,
+          "c": 5,
+          "color": 4,
+          "x": 0.705,
+          "y": 5.372
+        },
+        "direct": [
+          {
+            "id": "bubble-163",
+            "source": "player",
+            "bornShot": 123,
+            "r": 1,
+            "c": 4,
+            "color": 4,
+            "x": 0.235,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-270",
+            "source": "system",
+            "bornShot": 218,
+            "r": 1,
+            "c": 6,
+            "color": 3,
+            "x": 2.1149999999999998,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-272",
+            "source": "system",
+            "bornShot": 218,
+            "r": 2,
+            "c": 6,
+            "color": 4,
+            "x": 1.645,
+            "y": 5.372,
+            "kind": "bomb",
+            "lowOpportunityId": "low-opportunity-22"
+          },
+          {
+            "id": "bubble-277",
+            "source": "player",
+            "bornShot": 219,
+            "r": 3,
+            "c": 5,
+            "color": 1,
+            "x": 1.1749999999999998,
+            "y": 4.558
+          },
+          {
+            "id": "bubble-278",
+            "source": "player",
+            "bornShot": 220,
+            "r": 2,
+            "c": 5,
+            "color": 4,
+            "x": 0.705,
+            "y": 5.372
+          }
+        ],
+        "dropped": [],
+        "bonus": 0,
+        "gain": 5,
+        "rewardId": "shot-266:basic",
+        "assist": null,
+        "matchedColors": [4],
+        "electricIds": [],
+        "directCount": 5,
+        "dropCount": 0,
+        "explosionCount": 1,
+        "electricCount": 0,
+        "earnedDelta": 5,
+        "pendingTickets": 358,
+        "remainingAmmo": 0,
+        "stageId": 6,
+        "stageAward": 8,
+        "lowOpportunityIds": ["low-opportunity-22"]
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1899",
+      "revision": 1932,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "boardRefilled",
+      "payload": {
+        "cause": "vacantPocket",
+        "added": [
+          {
+            "id": "bubble-279",
+            "source": "system",
+            "bornShot": 221,
+            "r": 0,
+            "c": 3,
+            "color": 2,
+            "x": -1.1749999999999998,
+            "y": 7
+          },
+          {
+            "id": "bubble-280",
+            "source": "system",
+            "bornShot": 221,
+            "r": 2,
+            "c": 3,
+            "color": 0,
+            "x": -1.1749999999999998,
+            "y": 5.372
+          },
+          {
+            "id": "bubble-281",
+            "source": "system",
+            "bornShot": 221,
+            "r": 2,
+            "c": 4,
+            "color": 0,
+            "x": -0.235,
+            "y": 5.372
+          },
+          {
+            "id": "bubble-282",
+            "source": "system",
+            "bornShot": 221,
+            "r": 3,
+            "c": 3,
+            "color": 1,
+            "x": -0.705,
+            "y": 4.558
+          },
+          {
+            "id": "bubble-283",
+            "source": "system",
+            "bornShot": 221,
+            "r": 3,
+            "c": 4,
+            "color": 1,
+            "x": 0.235,
+            "y": 4.558
+          }
+        ],
+        "creditAfter": 5
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1900",
+      "revision": 1932,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "boardOpportunity",
+      "payload": {
+        "height": 4,
+        "count": 20,
+        "density": 0.5555555555555556,
+        "legalCells": 13,
+        "immediate": 0,
+        "dropMoves": 0,
+        "paving": 3,
+        "colorsWithClear": 3,
+        "allColorClearMoves": 13,
+        "maxDrop": 0,
+        "policy": "pockets",
+        "reserve": 0,
+        "credit": 5
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1901",
+      "revision": 1932,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "previewLoaded",
+      "payload": {
+        "color": 4,
+        "eligibleColors": [2, 0, 4, 1, 3]
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1902",
+      "revision": 1932,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "assistChargeChanged",
+      "payload": {
+        "interfaceVersion": 1,
+        "shotId": "shot-266",
+        "before": 0,
+        "after": 1,
+        "threshold": 3,
+        "remainingAmmo": 0,
+        "sourcePoints": [
+          {
+            "id": "bubble-163",
+            "x": 0.235,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-270",
+            "x": 2.1149999999999998,
+            "y": 6.186
+          },
+          {
+            "id": "bubble-272",
+            "x": 1.645,
+            "y": 5.372
+          },
+          {
+            "id": "bubble-277",
+            "x": 1.1749999999999998,
+            "y": 4.558
+          },
+          {
+            "id": "bubble-278",
+            "x": 0.705,
+            "y": 5.372
+          }
+        ]
+      },
+      "causeId": "shot-266",
+      "eventId": "event-1903",
+      "revision": 1932,
+      "configVersion": "experimental-special-v4-1"
+    }
+  ],
+  "deferralExample": [
+    {
+      "type": "lowOpportunityQualified",
+      "payload": {
+        "interfaceVersion": 2,
+        "opportunityId": "low-opportunity-1",
+        "ballId": null,
+        "specialType": "bomb",
+        "remainingAmmo": 2,
+        "shotId": "shot-11",
+        "interval": 10,
+        "usedSlots": 1,
+        "nextEligibleConsumed": 18
+      },
+      "causeId": "shot-11",
+      "eventId": "event-84",
+      "revision": 86,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "lowOpportunityDeferred",
+      "payload": {
+        "interfaceVersion": 2,
+        "opportunityId": "low-opportunity-1",
+        "ballId": null,
+        "specialType": "bomb",
+        "remainingAmmo": 2,
+        "shotId": "shot-11",
+        "reason": "noUsableTarget"
+      },
+      "causeId": "shot-11",
+      "eventId": "event-85",
+      "revision": 86,
+      "configVersion": "experimental-special-v4-1"
+    },
+    {
+      "type": "lowOpportunityFinished",
+      "payload": {
+        "interfaceVersion": 2,
+        "opportunityId": "low-opportunity-1",
+        "ballId": null,
+        "specialType": "bomb",
+        "remainingAmmo": 0,
+        "shotId": "shot-13",
+        "status": "skipped",
+        "reason": "noPaidShots"
+      },
+      "causeId": "shot-13",
+      "eventId": "event-100",
+      "revision": 104,
+      "configVersion": "experimental-special-v4-1"
+    }
+  ]
+}

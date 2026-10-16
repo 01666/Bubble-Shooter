@@ -1,0 +1,13 @@
+POP Blast is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+A. DOTween
+    - MIT license 
+    - License details available in http://dotween.demigiant.com/license.php
+
+B. TextMesh Pro asset 
+    - Asset Store EULA
+    - License details available here: https://unity3d.com/es/legal/as_terms
+
+C. Fredoka font (BubbleShooterGameToolkit/Fonts folder)
+    - SIL OPEN FONT LICENSE Version 1.1
+    - License details available here: https://www.1001fonts.com/fredoka-one-font.html#license

@@ -1,0 +1,45 @@
+90发连续铺球均未越过器具安全线，暂存守恒与账务校验通过
+✔ tests\core\clearance.test.mjs (467.985ms)
+✔ reward and confirmation IDs are idempotent and totals reconcile (1.391ms)
+✔ uncertainty retains obligations and does not prepare a second command (0.2333ms)
+✔ malformed accounting and unsafe ticket counts are rejected (0.1688ms)
+✔ dual matching requires independent triples, union counts projectile once, identical/null colors once (8.6889ms)
+✔ ordinary success adds one, a miss retains charge, free play and refill never add charge (11.8362ms)
+✔ third ordinary success fixes a separate-stream secondary; ready survives snapshot restore (4.6167ms)
+✔ single-color qualification is explicit null; same-color partner does not get redrawn (3.6819ms)
+✔ dual paid settlement consumes once, preserves physical trace and does not self-charge (2.7963ms)
+✔ failed dual attachment leaves a plain primary player ball and earns nothing (1.9903ms)
+✔ bomb/electric mutual propagation closes once, collecting three stars and keeping base/bonus distinct (3.6951ms)
+✔ conductor only dropping does not propagate and its network ends without a new one (2.0767ms)
+✔ free color selection, idle, coin during free flight and last paid ball preserve public qualification (16.6655ms)
+✔ blocked dual refunds identical qualification once across in-flight and settled recovery (4.0832ms)
+✔ maintenance moves nodes without reward, edges reflect visible adjacency; no free network top-up (2.2707ms)
+✔ network creation requires real refill and cooldown, never coin or loading (1.6903ms)
+✔ 1.2 legacy saves upgrade additively including paid flight, pending and uncertain device evidence (7.1627ms)
+✔ transaction failure cannot consume qualification or publish uncommitted assistance (2.1949ms)
+✔ bomb first activates a conductive seed, then remote connected node ignites a second bomb (0.5548ms)
+✔ ready qualification can become one color through free selection, with partner and random stream locked (5.6034ms)
+✔ actual trajectory settlement matches shared dual/bomb/electric opportunity projection (8.3514ms)
+✔ cross-color bridges cannot traverse an opposite color and electric edges never cross empty gaps (1.0395ms)
+✔ 1000 mixed history preserves qualification, bounded network, colors, tickets and in-flight reloads (17537.5254ms)
+50个种子均有21个连通球；同种子可重放，刷新恢复不重抽；不同布局 50
+✔ tests\core\random.test.mjs (136.7247ms)
+✔ counter waits for each landing even when the dispenser has already confirmed tickets (0.7874ms)
+✔ restore shows existing pending balance without replaying awards; jammed tickets remain (0.1355ms)
+✔ flight must finish and settle before +1 and the number pulse start together (0.909ms)
+✔ earned ticket animations arrive once per unit, queue across bursts and deduplicate stages (2.0979ms)
+✔ explosion crosses colors and chained bombs trigger once, preserving distinct ids (4.763ms)
+✔ three targets complete one fixed bonus, ordinary award counted independently and restore cannot duplicate (10.1304ms)
+✔ bomb merely dropping does not activate its neighborhood (3.0599ms)
+✔ free play freezes targets, fixed bonus, board, payout and preview even during coin (7.4279ms)
+✔ preview chosen after settlement belongs to visible colors; in-flight draw stays locked (7.8919ms)
+✔ recent paving keeps its actual top support path, old paving expires (0.9874ms)
+✔ random long history restores special identity, obligations and paid credits (1550.8258ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17763.7438

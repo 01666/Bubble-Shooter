@@ -1,0 +1,6 @@
+字体：站酷快乐体 ZCOOL KuaiLe Regular
+来源：https://github.com/google/fonts/tree/main/ofl/zcoolkuaile
+上游：https://github.com/googlefonts/zcool-kuaile
+授权：SIL Open Font License 1.1，见 OFL.txt。
+文件未修改。ArcadeDisplay 是 CSS 字体族别名，字体文件内部名称保持原样。
+本地完整字体随游戏打包，不依赖运行时联网加载。

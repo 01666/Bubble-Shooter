@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb97b100f284f3db258fa4932562962, type: 3}
+  m_Name: Score
+  m_EditorClassIdentifier: 
+  countFromField: 0
+  textForMenu: Collect stars
+  prefab: {fileID: 1623408344799697062, guid: 64eb3c695b615441ab4df8701245ea4c, type: 3}
+  prefabAnimation: {fileID: 0}
+  uiIcon: {fileID: 21300000, guid: dfeafb525150f4bfd826c4250b44aabe, type: 3}
+  defaultCount: 1

@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "unit": "seconds from reaction start",
+  "delivery": "offline files; no runtime TTS",
+  "lines": [
+    {
+      "id": "pet.free.v1",
+      "text": "先试射选颜色，投币消泡泡赢票",
+      "priority": 20,
+      "cooldown": 25,
+      "start": 0.25,
+      "end": 2.7
+    },
+    {
+      "id": "pet.blast.v1",
+      "text": "连锁引爆！",
+      "priority": 65,
+      "cooldown": 6,
+      "start": 0.5,
+      "end": 2.3
+    },
+    {
+      "id": "pet.target.v1",
+      "text": "星星收到啦",
+      "priority": 70,
+      "cooldown": 6,
+      "start": 0.3,
+      "end": 2.2
+    },
+    {
+      "id": "pet.one-left.v1",
+      "text": "再收一颗星星就加奖",
+      "priority": 70,
+      "cooldown": 8,
+      "start": 0.3,
+      "end": 2.5
+    },
+    {
+      "id": "pet.refill.v1",
+      "text": "新泡泡来啦",
+      "priority": 30,
+      "cooldown": 15,
+      "start": 0.3,
+      "end": 2.3
+    },
+    {
+      "id": "pet.tidy.v1",
+      "text": "整理一下，继续玩",
+      "priority": 35,
+      "cooldown": 18,
+      "start": 0.3,
+      "end": 2.8
+    },
+    {
+      "id": "pet.stage.v1",
+      "text": "星星集齐！",
+      "priority": 85,
+      "cooldown": 4,
+      "start": 0.4,
+      "end": 2.8
+    },
+    {
+      "id": "pet.drop.v1",
+      "text": "哇，落下好多！",
+      "priority": 60,
+      "cooldown": 8,
+      "start": 0.35,
+      "end": 2.5
+    },
+    {
+      "id": "pet.dispenser-fault.v1",
+      "text": "出票待检查，彩票保留",
+      "priority": 100,
+      "cooldown": 30,
+      "start": 0.25,
+      "end": 3.4
+    },
+    {
+      "id": "pet.clear.v1",
+      "text": "消得漂亮",
+      "priority": 40,
+      "cooldown": 10,
+      "start": 0.25,
+      "end": 1.9
+    }
+  ]
+}
